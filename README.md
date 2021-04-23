@@ -1,2 +1,2 @@
 # DPDS
-A Embedded Query Engine for Text Retrieval
+An Embedded Query Engine for Text Retrieval
