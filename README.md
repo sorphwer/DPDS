@@ -1,8 +1,13 @@
 # DPDS
 An Embedded Query Engine for Text Retrieval
 
+[TOC]
 
-## DB
+-------
+
+## INSTALLATION 
+
+### DB
 
 1. (If run in local machine)Install neo4j 4.2.1 with APOC
 
@@ -29,7 +34,7 @@ An Embedded Query Engine for Text Retrieval
 
     
 
-## Backend
+### Backend
 
 1. Run neo4j
 
@@ -47,9 +52,7 @@ An Embedded Query Engine for Text Retrieval
    **Notes: If use confidential data in `.env` , please DO NOT commit directly to github.**
 
 
-## Frontend
-
-### Install via Chocolatey(recommended)
+### Frontend(Riinosite3)
 
 1. Install  [Chocolatey](https://chocolatey.org/packages/jekyll)
 
@@ -77,9 +80,68 @@ An Embedded Query Engine for Text Retrieval
    bundle exec jekyll serve
    ```
 
-6. http://localhost:4000/
+------
 
-### Official Install
+## ROADMAPS
 
-1. See how to Install all [prerequisites](https://jekyllrb.com/docs/installation/).
+### Script
 
+#### DB Script(dev-to demo)
+
+- [x] Create csv file from given URL (S1)
+- [x] Translate csv from S1 into Nodes, while creating corresponding relation for tag and author info (S2)
+- [x] Build knowledge graph based on given knowledge graph service (default: wikidata) (S3)
+- [x] Save post from given url as valid markdown for riinosite3 (S4)
+
+#### DB Script(Production)
+
+- [ ] Read all files in `_posts`, save yaml info into csv file (P1)
+- [x] Translate csv from S1 into Nodes, while creating corresponding relation for tag and author info (P2)
+- [ ] Convert file path into jekyll path(if using jekyll) when create nodes (P3)
+- [x] Build knowledge graph based on given knowledge graph service (default: wikidata) (P4)
+
+#### API Script (Test)
+
+- [ ] User Register/Login control (T0)
+- [ ] Single user : use index query (T1)
+- [ ] Single user: use full-text query (T2)
+- [ ] Multi user: use index query (T3)
+- [ ] Multi user: use full-text query (T4)
+
+### API
+
+#### Admin
+
+- [x] Config post source url
+- [x] Config DB url
+- [ ] Add new posts, while updating knowledge graph automatically
+- [ ] User management
+
+#### User
+
+- [x] Login/Register/Logout
+- [ ] Praise a search result
+- [ ] View query history/Delete query history
+- [ ] Recommended posts 
+
+#### Buffer
+
+- [ ] Global buffer : recent used nodes
+- [ ] User buffer(experimental) : recent used nodes
+
+#### Index-only query mode
+
+- [ ] Match title/author/tag
+
+#### Full-text query mode
+
+- [ ] Traversal All post file to match sentence (Order: Buffer - User Buffer - Knowledge Graph Traversal Chain)
+
+### Frontend (riinosite3 template engine)
+
+- [ ] Recommend Page (Home page)
+- [ ] Search Page(Main search page)
+- [ ] Embedded Search Plugin(Same as Search Page)
+- [x] Archive Browser Page(Experimental)
+- [ ] Login/Register/Logout panel
+- [ ] About page (static)
