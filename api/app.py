@@ -18,6 +18,8 @@ from flask_json import FlaskJSON, json_response
 from neo4j import GraphDatabase, basic_auth
 from neo4j.exceptions import Neo4jError
 import neo4j.time
+from api.modules import *
+import api.void as _
 
 load_dotenv(find_dotenv())
 
@@ -110,182 +112,10 @@ def login_required(f):
     return wrapped
 
 
-class GenreModel(Schema):
-    type = 'object'
-    properties = {
-        'id': {
-            'type': 'integer',
-        },
-        'name': {
-            'type': 'string',
-        }
-    }
-class MovieModel(Schema):
-    type = 'object'
-    properties = {
-        'id': {
-            'type': 'string',
-        },
-        'title': {
-            'type': 'string',
-        },
-        'summary': {
-            'type': 'string',
-        },
-        'released': {
-            'type': 'string',
-        },
-        'duration': {
-            'type': 'integer',
-        },
-        'rated': {
-            'type': 'string',
-        },
-        'tagline': {
-            'type': 'string',
-        },
-        'poster_image': {
-            'type': 'string',
-        },
-        'my_rating': {
-            'type': 'integer',
-        }
-    }
-class PersonModel(Schema):
-    type = 'object'
-    properties = {
-        'id': {
-            'type': 'integer',
-        },
-        'name': {
-            'type': 'string',
-        },
-        'poster_image': {
-            'type': 'string',
-        }
-    }
-class UserModel(Schema):
-    type = 'object'
-    properties = {
-        'id': {
-            'type': 'string',
-        },
-        'username': {
-            'type': 'string',
-        },
-        'avatar': {
-            'type': 'object',
-        }
-    }
 
-class ArticleModel(Schema):
-    type = 'object'
-    properties = {
-        'id': {
-            'type': 'string',
-        },
-        'title': {
-            'type': 'string',
-        },
-        'url': {
-            'type': 'string',
-        },
-        'main_image_url': {
-            'type': 'string',
-        },
-        'reading_time': {
-            'type': 'integer',
-        },
-        'tag_names': {
-            'type': 'string',
-        },
-        'published_at': {
-            'type': 'string',
-        },
-        'public_reactions_count':{
-            'type': 'integer',
-        },
-        'source_site':{
-            'type': 'string',
-        }
-    }
-class AuthorModel(Schema):
-    type = 'object'
-    properties = {
-        'id':{
-            'type': 'string',
-        },
-        'username':{
-            'type': 'string',
-        },
-        'name':{
-            'type': 'string',
-        }
-    }
-class TagModel(Schema):
-    type = 'object'
-    properties = {
-        'name':{
-            'type': 'string',
-        },
-        'keywords_for_search':{
-            'type': 'string',
-        }
-    }
 
-def serialize_article(article):
-    return {
-        'id': article['id'],
-        'title': article['title'],
-        'url': article['url'],
-        'main_image_url': article['main_image_url'],
-        'reading_time': article['reading_time'],
-        'tag_names': article['tag_names'],
-        'published_at': article['published_at'],
-        'source_site': article['source_site'],
-    }
-def serialize_author(author):
-    return {
-        'id': author['id'],
-        'username': author['username'],
-        'name': author['name'],
-    }
-def serialize_tag(tag):
-    return{
-        'name':tag['name'],
-        'keywords_for_search':tag['keywords_for_search']
-    }
-def serialize_genre(genre):
-    return {
-        'id': genre['id'],
-        'name': genre['name'],
-    }
-def serialize_movie(movie, my_rating=None):
-    return {
-        'id': movie['tmdbId'],
-        'title': movie['title'],
-        'summary': movie['plot'],
-        'released': movie['released'],
-        'duration': movie['runtime'],
-        'rated': movie['imdbRating'],
-        'tagline': movie['plot'],
-        'poster_image': movie['poster'],
-        'my_rating': my_rating,
-    }
-def serialize_person(person):
-    return {
-        'id': person['tmdbId'],
-        'name': person['name'],
-        'poster_image': person['poster'],
-    }
-def serialize_user(user):
-    return {
-        'id': user['id'],
-        'username': user['username'],
-        'avatar': {
-            'full_size': 'https://www.gravatar.com/avatar/{}?d=retro'.format(hash_avatar(user['username']))
-        }
-    }
+
+
 def hash_password(username, password):
     if sys.version[0] == 2:
         s = '{}:{}'.format(username, password)
@@ -294,12 +124,6 @@ def hash_password(username, password):
     return hashlib.sha256(s).hexdigest()
 
 
-def hash_avatar(username):
-    if sys.version[0] == 2:
-        s = username
-    else:
-        s = username.encode('utf-8')
-    return hashlib.md5(s).hexdigest()
 
 
 class ApiDocs(Resource):
@@ -330,17 +154,20 @@ class GenreList(Resource):
 
 class TestSwagger(Resource):
     @swagger.doc({
-        'tags': ['test'],
-        'summary': 'Test API',
-        'description': 'Return Hello World',
+        'tags': ['Check'],
+        'summary': 'Check if api service is available',
+        'description': 'Return api info,if status code is not 200, API is not available',
         'responses': {
             '200': {
                 'description': 'Success',
+            },
+            '404':{
+                
             }
         }
     })
     def get(self):
-        return 'Hello World'
+        return ''
         
 class Movie(Resource):
     @swagger.doc({
@@ -1437,4 +1264,4 @@ api.add_resource(UserMe, '/api/v0/users/me')
 
 
 #TEST
-api.add_resource(TestSwagger,'/api/v0/test')
+api.add_resource(TestSwagger,'/api/v0/check')
