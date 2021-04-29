@@ -40,7 +40,7 @@ An Embedded Query Engine for Text Retrieval
 
 2. Init flask
     ```
-    cd flask-api
+    cd api
     python3 -m venv venv
     source venv/bin/activate
     pip3 install -r requirements.txt
