@@ -115,14 +115,14 @@ An Embedded Query Engine for Text Retrieval
 - [x] Config post source url
 - [x] Config DB url
 - [ ] Add new posts, while updating knowledge graph automatically
-- [ ] User management
+- [x] Check user info
 
 #### User
 
 - [x] Login/Register/Logout
-- [ ] Praise a search result
-- [ ] View query history/Delete query history
-- [ ] Recommended posts 
+- [x] Praise a search result
+- [x] View ranked source
+- [x] Recommended posts 
 
 #### Buffer
 
@@ -131,17 +131,30 @@ An Embedded Query Engine for Text Retrieval
 
 #### Index-only query mode
 
-- [ ] Match title/author/tag
+- [x] Match type : Article contains input text
+- [x] Match type : Authors contains input text
+- [x] Path Track : Article contains input text, and has Tags that contains that taxt
+- [ ] Path Track : Article contains input text, and related Article
 
 #### Full-text query mode
 
-- [ ] Traversal All post file to match sentence (Order: Buffer - User Buffer - Knowledge Graph Traversal Chain)
+- [ ] Match type : Article contains input text
+
+### Free-Safari & Get Resource Functions
+
+- [ ] Extand from an Article
+- [ ] Extand from a Tag
+
 
 ### Frontend (riinosite3 template engine)
 
-- [ ] Recommend Page (Home page)
-- [ ] Search Page(Main search page)
-- [ ] Embedded Search Plugin(Same as Search Page)
-- [x] Archive Browser Page(Experimental)
-- [ ] Login/Register/Logout panel
-- [ ] About page (static)
+- [x] Home page for recommended articles UI
+- [ ] Home page for recommended articles API
+- [ ] Search Page(Main search page) UI
+- [ ] Search Page(Main search page) API
+- [X] Floating Search Plugin UI
+- [ ] Floating Search Plugin API
+- [x] Jekyll Archive Browser Page(Experimental)
+- [ ] Login/Register/Logout panel UI
+- [ ] Login/Register/Logout panel API
+- [x] About page (static)

@@ -1,4 +1,6 @@
 from flask_restful_swagger_2 import Schema
+import sys
+import hashlib
 class UserModel(Schema):
     type = 'object'
     properties = {

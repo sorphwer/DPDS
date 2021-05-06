@@ -5,7 +5,14 @@ from modules import *
 from void import *
 #import with name
 import void as _
-print(_.helloworld())
-print(helloworld())
-print(TagModel)
-print(TagModel.type)
+
+#import db script
+import db 
+import db.read as dbr
+# print(_.helloworld())
+# print(helloworld())
+# print(TagModel)
+# print(TagModel.type)
+print(dbr.description_read())
+# print(db.__description_write())
+print(db.description_read())

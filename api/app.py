@@ -18,8 +18,11 @@ from flask_json import FlaskJSON, json_response
 from neo4j import GraphDatabase, basic_auth
 from neo4j.exceptions import Neo4jError
 import neo4j.time
+
+#Custom modules👇
 from api.modules import *
 import api.void as _
+import api.db as db
 
 load_dotenv(find_dotenv())
 
@@ -36,32 +39,21 @@ def output_json(data, code, headers=None):
     return json_response(data_=data, headers_=headers, status_=code)
 
 
-def env(key, default=None, required=True):
-    """
-    Retrieves environment variables and returns Python natives. The (optional)
-    default will be returned if the environment variable does not exist.
-    """
-    try:
-        value = os.environ[key]
-        return ast.literal_eval(value)
-    except (SyntaxError, ValueError):
-        return value
-    except KeyError:
-        if default or not required:
-            return default
-        raise RuntimeError("Missing required environment variable '%s'" % key)
 
 
-DATABASE_USERNAME = env('DATABASE_USERNAME')
-DATABASE_PASSWORD = env('DATABASE_PASSWORD')
-DATABASE_URL = env('DATABASE_URL')
+DATABASE_USERNAME = _.env('DATABASE_USERNAME')
+DATABASE_PASSWORD = _.env('DATABASE_PASSWORD')
+DATABASE_URL = _.env('DATABASE_URL')
 
 driver = GraphDatabase.driver(DATABASE_URL, auth=basic_auth(DATABASE_USERNAME, str(DATABASE_PASSWORD)))
 
-app.config['SECRET_KEY'] = env('SECRET_KEY')
+app.config['SECRET_KEY'] = _.env('SECRET_KEY')
 
 
 def get_db():
+    """
+    get a db session
+    """
     if not hasattr(g, 'neo4j_db'):
         g.neo4j_db = driver.session()
     print('Connected to DB :',DATABASE_URL)
@@ -111,11 +103,6 @@ def login_required(f):
         return f(*args, **kwargs)
     return wrapped
 
-
-
-
-
-
 def hash_password(username, password):
     if sys.version[0] == 2:
         s = '{}:{}'.format(username, password)
@@ -123,16 +110,13 @@ def hash_password(username, password):
         s = '{}:{}'.format(username, password).encode('utf-8')
     return hashlib.sha256(s).hexdigest()
 
-
-
-
 class ApiDocs(Resource):
     def get(self, path=None):
         if not path:
             path = 'index.html'
         return send_from_directory('swaggerui', path)
 
-
+#NOT IN USE
 class GenreList(Resource):
     @swagger.doc({
         'tags': ['genres'],
@@ -151,7 +135,7 @@ class GenreList(Resource):
         db = get_db()
         result = db.write_transaction(get_genres)
         return [serialize_genre(record['genre']) for record in result]
-
+#CHECK API
 class TestSwagger(Resource):
     @swagger.doc({
         'tags': ['Check'],
@@ -162,13 +146,13 @@ class TestSwagger(Resource):
                 'description': 'Success',
             },
             '404':{
-                
+                'description': 'API is not available',
             }
         }
     })
     def get(self):
-        return ''
-        
+        return 'ok'
+#NOT IN USE     
 class Movie(Resource):
     @swagger.doc({
         'tags': ['movies'],
@@ -257,33 +241,7 @@ class Movie(Resource):
         return {'message': 'movie not found'}, 404
 
 
-class MovieList(Resource):
-    @swagger.doc({
-        'tags': ['movies'],
-        'summary': 'Find all movies',
-        'description': 'Returns a list of movies',
-        'responses': {
-            '200': {
-                'description': 'A list of movies',
-                'schema': {
-                    'type': 'array',
-                    'items': MovieModel,
-                }
-            }
-        }
-    })
-    def get(self):
-        def get_movies(tx):
-            return list(tx.run(
-                '''
-                MATCH (movie:Movie) RETURN movie
-                '''
-            ))
-        db = get_db()
-        result = db.read_transaction(get_movies)
-        return [serialize_movie(record['movie']) for record in result]
-
-
+#NOT IN USE
 class MovieListByGenre(Resource):
     @swagger.doc({
         'tags': ['movies'],
@@ -374,7 +332,7 @@ class MovieListByDateRange(Resource):
         result = db.read_transaction(get_movies_list_by_date_range, params)
         return [serialize_movie(record['movie']) for record in result]
 
-
+#NOT IN USE
 class MovieListByPersonActedIn(Resource):
     @swagger.doc({
         'tags': ['movies'],
@@ -411,7 +369,7 @@ class MovieListByPersonActedIn(Resource):
         result = db.read_transaction(get_movies_by_acted_in, person_id)
         return [serialize_movie(record['movie']) for record in result]
 
-
+#NOT IN USE
 class MovieListByWrittenBy(Resource):
     @swagger.doc({
         'tags': ['movies'],
@@ -448,7 +406,7 @@ class MovieListByWrittenBy(Resource):
         result = db.read_transaction(get_movies_list_written_by, person_id)
         return [serialize_movie(record['movie']) for record in result]
 
-
+#NOT IN USE
 class MovieListByDirectedBy(Resource):
     @swagger.doc({
         'tags': ['movies'],
@@ -485,7 +443,7 @@ class MovieListByDirectedBy(Resource):
         result = db.read_transaction(get_mmovies_list_directed_by, person_id)
         return [serialize_movie(record['movie']) for record in result]
 
-
+#NOT IN USE
 class MovieListRatedByMe(Resource):
     @swagger.doc({
         'tags': ['movies'],
@@ -523,7 +481,7 @@ class MovieListRatedByMe(Resource):
         result = db.read_transaction(get_movies_rated_by_me, g.user['id'])
         return [serialize_movie(record['movie'], record['my_rating']) for record in result]
 
-
+#NOT IN USE
 class MovieListRecommended(Resource):
     @swagger.doc({
         'tags': ['movies'],
@@ -569,7 +527,7 @@ class MovieListRecommended(Resource):
         db = get_db()
         result = db.read_transaction(get_movies_list_recommended, g.user['id'])
         return [serialize_movie(record['movie']) for record in result]
-
+#NOT IN USE
 class Person(Resource):
     @swagger.doc({
         'tags': ['people'],
@@ -659,7 +617,7 @@ class Person(Resource):
             }
         return {'message': 'person not found'}, 404
 
-
+#NOT IN USE
 class PersonList(Resource):
     @swagger.doc({
         'tags': ['people'],
@@ -686,7 +644,7 @@ class PersonList(Resource):
         results = db.read_transaction(get_persons_list)
         return [serialize_person(record['person']) for record in results]
 
-
+#NOT IN USE
 class PersonBacon(Resource):
     @swagger.doc({
         'tags': ['people'],
@@ -737,7 +695,7 @@ class PersonBacon(Resource):
 
 class Register(Resource):
     @swagger.doc({
-        'tags': ['users'],
+        'tags': ['Users'],
         'summary': 'Register a new user',
         'description': 'Register a new user',
         'parameters': [
@@ -808,7 +766,7 @@ class Register(Resource):
 
 class Login(Resource):
     @swagger.doc({
-        'tags': ['users'],
+        'tags': ['Users'],
         'summary': 'Login',
         'description': 'Login',
         'parameters': [
@@ -859,6 +817,8 @@ class Login(Resource):
             user = result['user']
         except KeyError:
             return {'username': 'username does not exist'}, 400
+        except TypeError:
+            return {'username': 'username does not exist'}, 400
 
         expected_password = hash_password(user['username'], password)
         if user['password'] != expected_password:
@@ -870,7 +830,7 @@ class Login(Resource):
 
 class UserMe(Resource):
     @swagger.doc({
-        'tags': ['users'],
+        'tags': ['Users'],
         'summary': 'Get your user',
         'description': 'Get your user',
         'parameters': [{
@@ -894,7 +854,7 @@ class UserMe(Resource):
     def get(self):
         return serialize_user(g.user)
 
-
+#NOT IN USE
 class RateMovie(Resource):
     @swagger.doc({
         'tags': ['movies'],
@@ -997,12 +957,22 @@ class RateMovie(Resource):
         db.write_transaction(delete_rating, g.user['id'], id)
         return {}, 204
 
-#NEED UPDATE
+
 class ArticleList(Resource):
     @swagger.doc({
-        'tags':['articles'],
-        'summary':'Return articles randomly ',
+        'tags':['Archive'],
+        'summary':'Return all articles',
         'description':'Return a list of articles',
+        'parameters': [
+            {
+                'name': 'page',
+                'description': 'page number',
+                'in': 'path',
+                'type': 'string',
+                'required': True,
+                'default' : 1
+            }
+        ],
         'responses':{
             '200':{
                 'description':'a list of articles',
@@ -1013,31 +983,31 @@ class ArticleList(Resource):
             }
         }
     })
-    def get(self):
-        def get_articles(tx):
+    def get(self,page):
+        def get_articles(tx,page):
             return list(tx.run(
                 '''
-                MATCH (article:Article) RETURN article LIMIT 20
+                MATCH (article:Article) RETURN article SKIP $page LIMIT 50 
                 '''
-            ))
+            )),{'page':(page-1)*50}
         db = get_db()
-        result = db.read_transaction(get_articles)
+        result = db.read_transaction(get_articles,page)
         return [serialize_article(record['article']) for record in result]
 
 
-#NEED RATED OPERATION
+#HOME ARTICLE LIST (IF LOGGED IN)
 class RankedArticles(Resource):
     @swagger.doc({
-        'tags':['articles'],
-        'summary':'articles with most rate score',
+        'tags':['HomePage'],
+        'summary':'HOME ARTICLE LIST (IF LOGGED IN)',
         'description':'Return a list of most popular articles',
         'parameters': [
             {
                 'name': 'Authorization',
                 'in': 'header',
                 'type': 'string',
-                'default': 'Token <token goes here>',
-                'required': True
+                'default': 'Token 1a6221b3d04651b09ee96373d1a179c4cb958037',
+                'required': False
             },
         ],
         'responses':{
@@ -1074,9 +1044,18 @@ class RankedArticles(Resource):
 
 class ArticleByTag(Resource):
     @swagger.doc({
-        'tags':['articles'],
+        'tags':['GetResource'],
         'summary':'find articles by tag',
         'description':'return all articles with this tag',
+        'parameters': [
+            {
+                'name': 'tag',
+                'description': 'tag name',
+                'in': 'path',
+                'type': 'string',
+                'required': True
+            }
+        ],
         'responses':{
             '200':{
                 'description':'a list of articles',
@@ -1101,9 +1080,18 @@ class ArticleByTag(Resource):
 
 class ArticleById(Resource):
     @swagger.doc({
-        'tags':['articles'],
+        'tags':['GetResource'],
         'summary':'find articles by id',
         'description':'return all articles with this id',
+        'parameters': [
+            {
+                'name': 'id',
+                'description': 'id number',
+                'in': 'path',
+                'type': 'integer',
+                'required': True
+            }
+        ],
         'responses':{
             '200':{
                 'description':'target article',
@@ -1114,7 +1102,7 @@ class ArticleById(Resource):
             }
         }
     })
-    def get(self,tag):
+    def get(self,id):
         def get_articles_by_id(tx,id):
                     return list(tx.run(
                 '''
@@ -1125,15 +1113,24 @@ class ArticleById(Resource):
         db = get_db()
         result = db.read_transaction(get_articles_by_id,id)
         if result:
-            return result
+             return [serialize_article(record['article']) for record in result] 
         else:
-            return {'message': 'person not found'}, 404
+            return {'message': 'article not found'}, 404
 
-class ArticleByTag(Resource):
+class ArticleRelated(Resource):
     @swagger.doc({
-        'tags':['articles'],
-        'summary':'find articles by tag',
-        'description':'return all articles with this tag',
+        'tags':['GetResource'],
+        'summary':'find related article',
+        'description':'return all articles related with current article',
+        'parameters': [
+            {
+                'name': 'id',
+                'description': 'article id',
+                'in': 'path',
+                'type': 'interger',
+                'required': True
+            }
+        ],
         'responses':{
             '200':{
                 'description':'a list of articles',
@@ -1144,11 +1141,12 @@ class ArticleByTag(Resource):
             }
         }
     })
-    def get(self,tag):
-        def get_articles_by_tag(tx,tag):
+    def get(self,id):
+        def get_articles_by_tag(tx,id):
                     return list(tx.run(
                 '''
-                MATCH (:Tag {name: $name})<-[:HAS_TAG]-(article:Article)
+                MATCH (n:Article{id : $id })
+                MATCH (:Tag {name: $name})<-[r:SHIP*1..3]-(article:Article)
                 RETURN article
                 ''',{'name':tag}
             ))
@@ -1159,7 +1157,7 @@ class ArticleByTag(Resource):
 
 class ArticleTouched(Resource):
     @swagger.doc({
-        'tags':['users'],
+        'tags':['Users'],
         'summary':'rate an article',
         'description':'create relationship between user and target',
         'parameters': [
@@ -1167,12 +1165,12 @@ class ArticleTouched(Resource):
                 'name': 'Authorization',
                 'in': 'header',
                 'type': 'string',
-                'required': True,
-                'default': 'Token <token goes here>',
+                'required': False,
+                'default': 'Token 1a6221b3d04651b09ee96373d1a179c4cb958037',
             },
             {
                 'name': 'id',
-                'description': 'movie tmdbId',
+                'description': 'article id',
                 'in': 'path',
                 'type': 'string',
             },
@@ -1191,7 +1189,7 @@ class ArticleTouched(Resource):
         ],
         'responses': {
             '200': {
-                'description': 'movie rating saved'
+                'description': 'rating saved'
             },
             '401': {
                 'description': 'invalid / missing authentication'
@@ -1205,19 +1203,146 @@ class ArticleTouched(Resource):
         args = parser.parse_args()
         rating = args['rating']
 
-        def rate_movie(tx, user_id, movie_id, rating):
+        def _cypher(tx, user_id, article_id, rating):
             return tx.run(
                 '''
-                MATCH (u:User {id: $user_id}),(m:Movie {tmdbId: $movie_id})
+                MATCH (u:User {id: $user_id}),(m:Movie {tmdbId: $article_id})
                 MERGE (u)-[r:RATED]->(m)
                 SET r.rating = $rating
                 RETURN m
-                ''', {'user_id': user_id, 'movie_id': movie_id, 'rating': rating}
+                ''', {'user_id': user_id, 'movie_id': article_id, 'rating': rating}
             )
 
         db = get_db()
-        results = db.write_transaction(rate_movie, g.user['id'], id, rating)
+        results = db.write_transaction(_cypher, g.user['id'], id, rating)
         return {}
+
+class QueryTitle(Resource):
+    @swagger.doc({
+        'tags':['Search'],
+        'summary':'[INDEX-ONLY]search with title',
+        'description':'Return a list of articles',
+        'parameters': [
+            {
+                'name': 'text',
+                'description': 'query text',
+                'in': 'path',
+                'type': 'string',
+                'required': True
+            },
+            {
+                'name': 'Authorization',
+                'in': 'header',
+                'type': 'string',
+                'required': False,
+                'default': 'Token 1a6221b3d04651b09ee96373d1a179c4cb958037',
+            }
+        ],
+        'responses':{
+            '200':{
+                'description':'a list of articles',
+                'schema':{
+                    'type':'array',
+                    'items': ArticleModel,
+                }
+            }
+        }
+    })
+    def get(self,text):
+        def search_articles(tx,text):
+            return list(tx.run(
+                '''
+                MATCH (n:Article) WHERE n.title CONTAINS $text RETURN n 
+                ''',{'text':text}
+            ))
+        db = get_db()
+        result = db.read_transaction(search_articles,text)
+        return [serialize_article(record['n']) for record in result]
+
+class QueryAuthor(Resource):
+    @swagger.doc({
+        'tags':['Search'],
+        'summary':'[INDEX-ONLY]search author name',
+        'description':'Return a list of author',
+        'parameters': [
+            {
+                'name': 'text',
+                'description': 'query text',
+                'in': 'path',
+                'type': 'string',
+                'required': True
+            },
+            {
+                'name': 'Authorization',
+                'in': 'header',
+                'type': 'string',
+                'required': False,
+                'default': 'Token 1a6221b3d04651b09ee96373d1a179c4cb958037',
+            }
+        ],
+        'responses':{
+            '200':{
+                'description':'a list of authors',
+                'schema':{
+                    'type':'array',
+                    'items': AuthorModel,
+                }
+            }
+        }
+    })
+    def get(self,text):
+        def search_authors(tx,text):
+            return list(tx.run(
+                '''
+                MATCH (n:Author) WHERE n.name CONTAINS $text OR n.username CONTAINS $text RETURN DISTINCT n 
+                ''',{'text':text,'text':text}
+            ))
+        db = get_db()
+        result = db.read_transaction(search_authors,text)
+        return [serialize_author(record['n']) for record in result]
+
+class QueryTitleAndTags(Resource):
+    @swagger.doc({
+        'tags':['Search'],
+        'summary':'[INDEX-ONLY]search from all titles and tags',
+        'description':'Return a list of article',
+        'parameters': [
+            {
+                'name': 'text',
+                'description': 'query text',
+                'in': 'path',
+                'type': 'string',
+                'required': True
+            },
+            {
+                'name': 'Authorization',
+                'in': 'header',
+                'type': 'string',
+                'required': False,
+                'default': 'Token 1a6221b3d04651b09ee96373d1a179c4cb958037',
+            }
+        ],
+        'responses':{
+            '200':{
+                'description':'a list of authors',
+                'schema':{
+                    'type':'array',
+                    'items': ArticleModel,
+                }
+            }
+        }
+    })
+    def get(self,text):
+        def search_authors(tx,text):
+            return list(tx.run(
+                '''
+                MATCH (n:Article) WHERE n.title CONTAINS $text OR n.tag_names CONTAINS $text RETURN DISTINCT n 
+                ''',{'text':text,'text':text}
+            ))
+        db = get_db()
+        result = db.read_transaction(search_authors,text)
+        return [serialize_article(record['n']) for record in result]
+
 
 
 
@@ -1242,26 +1367,30 @@ api.add_resource(GenreList, '/api/v0/genres')
 #GET CACHE
 #api.add_resource(Cache,'/api/v0/query/page/<int:start>/')
 
-#DB GET SAMPLE(MAY NOT BE USED)
-api.add_resource(ArticleList,'/api/v0/query/articles/')
-
-#DB GET RECOMMEND
-api.add_resource(RankedArticles,'/api/v0/query/articles/recommended/')
-
-#DB QUERY
-api.add_resource(ArticleByTag,'/api/v0/query/articles/with_tag/<string:tag>')
-api.add_resource(ArticleById,'/api/v0/query/articles/with_id/<string:id>')
-# api.add_resource(ArticleByAuthor,'/api/v0/query/articles/by/<string:author>')
+#HomePage
+api.add_resource(RankedArticles,'/api/v1/articles/recommended/')
 
 
-#USER MANAGEMENT
-api.add_resource(Register, '/api/v0/register')
-api.add_resource(Login, '/api/v0/login')
-api.add_resource(UserMe, '/api/v0/users/me')
+#Archive
+api.add_resource(ArticleList,'/api/v1/articles/page=<string:page>')
 
+
+#GetResource
+api.add_resource(ArticleByTag,'/api/v1/query/articles/with_tag/<string:tag>')
+api.add_resource(ArticleById,'/api/v1/query/articles/with_id/<string:id>')
+
+#USER
+api.add_resource(Register, '/api/v1/register')
+api.add_resource(Login, '/api/v1/login')
+api.add_resource(UserMe, '/api/v1/users/me')
 #USER ACTIONS
-#api.add_resource(ArticleTouched,'/api/v0/query/user/rated/<int:id>)
+api.add_resource(ArticleTouched,'/api/v0/query/user/rated/<int:id>')
 
 
-#TEST
-api.add_resource(TestSwagger,'/api/v0/check')
+#Check
+api.add_resource(TestSwagger,'/api/v1/check')
+
+#Search
+api.add_resource(QueryTitle,'/api/v1/search/index_only/article_title_contains/<string:text>')
+api.add_resource(QueryAuthor,'/api/v1/search/index_only/author_name_contains/<string:text>')
+api.add_resource(QueryTitleAndTags,'/api/v1/search/index_only/titleOrTag_name_contains/<string:text>')
