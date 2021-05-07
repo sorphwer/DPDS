@@ -102,7 +102,7 @@ An Embedded Query Engine for Text Retrieval
 
 #### API Script (Test)
 
-- [ ] User Register/Login control (T0)
+- [x] User Register/Login control (T0)
 - [ ] Single user : use index query (T1)
 - [ ] Single user: use full-text query (T2)
 - [ ] Multi user: use index query (T3)
@@ -140,10 +140,10 @@ An Embedded Query Engine for Text Retrieval
 
 - [ ] Match type : Article contains input text
 
-### Free-Safari & Get Resource Functions
+#### Free-Safari & Get Resource Functions
 
 - [ ] Extand from an Article
-- [ ] Extand from a Tag
+- [x] Extand from a Tag
 
 
 ### Frontend (riinosite3 template engine)
