@@ -28,6 +28,12 @@ class ArticleModel(Schema):
         },
         'source_site':{
             'type': 'string',
+        },
+        'author':{
+            'type': 'string',
+        },
+        'count':{
+            'type': 'integer',
         }
     }
 
@@ -41,4 +47,6 @@ def serialize_article(article):
         'tag_names': article['tag_names'],
         'published_at': article['published_at'],
         'source_site': article['source_site'],
+        'author': article['author'],
+        'count': article['count']
     }

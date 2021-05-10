@@ -36,7 +36,7 @@ plugins:
  # - jekyll-sitemap
   - jemoji
 paginate: 10
-
+permalink: /:title/
 toc:
   min_level: 1 # default: 1
   max_level: 4 # default: 6
@@ -61,7 +61,7 @@ navigation:
   url: /search.html
   layout: search
 - text: Archive
-  url: /archive.html
+  url: /archive/
   layout: forarchive
-- text: About
-  url: /about/
+- text: Policy
+  url: /policy/

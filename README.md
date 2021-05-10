@@ -97,7 +97,7 @@ An Embedded Query Engine for Text Retrieval
 
 - [ ] Read all files in `_posts`, save yaml info into csv file (P1)
 - [x] Translate csv from S1 into Nodes, while creating corresponding relation for tag and author info (P2)
-- [ ] Convert file path into jekyll path(if using jekyll) when create nodes (P3)
+- [ ] **Convert file path into jekyll path(if using jekyll) when create nodes (P3)**
 - [x] Build knowledge graph based on given knowledge graph service (default: wikidata) (P4)
 
 #### API Script (Test)
@@ -124,17 +124,17 @@ An Embedded Query Engine for Text Retrieval
 - [x] View ranked source
 - [x] Recommended posts 
 
-#### Buffer
+#### ~~Buffer~~
 
-- [ ] Global buffer : recent used nodes
-- [ ] User buffer(experimental) : recent used nodes
+- [ ] ~~Global buffer : recent used nodes~~
+- [ ] ~~User buffer(experimental) : recent used nodes~~
 
 #### Index-only query mode
 
 - [x] Match type : Article contains input text
 - [x] Match type : Authors contains input text
 - [x] Path Track : Article contains input text, and has Tags that contains that taxt
-- [ ] Path Track : Article contains input text, and related Article
+- [x] Path Track : Article contains input text, and related Article, **Provide related article**
 
 #### Full-text query mode
 
@@ -142,7 +142,7 @@ An Embedded Query Engine for Text Retrieval
 
 #### Free-Safari & Get Resource Functions
 
-- [ ] Extand from an Article
+- [x] Extand from an Article
 - [x] Extand from a Tag
 
 

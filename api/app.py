@@ -1145,9 +1145,13 @@ class ArticleRelated(Resource):
         def get_articles_by_tag(tx,id):
                     return list(tx.run(
                 '''
-                MATCH (n:Article{id : $id })
-                MATCH (:Tag {name: $name})<-[r:SHIP*1..3]-(article:Article)
-                RETURN article
+                MATCH(article:Article{id:$id}) 
+                OPTIONAL MATCH (article)-[r:HAS_TAG]-(n:Tag)
+                UNWIND n as tag
+                OPTIONAL MATCH (tag)-[:SUBSUME*1..2]-(p:Tag)
+                OPTIONAL MATCH (p)<-[:HAS_TAG]-(res:Article)
+                RETURN DISTINCT res
+
                 ''',{'name':tag}
             ))
         db = get_db()
@@ -1343,6 +1347,59 @@ class QueryTitleAndTags(Resource):
         result = db.read_transaction(search_authors,text)
         return [serialize_article(record['n']) for record in result]
 
+class QueryTitleAndTagsAndAuthors(Resource):
+        @swagger.doc({
+        'tags':['Search'],
+        'summary':'[INDEX-ONLY]search from all titles and tags and authors',
+        'description':'Return a list of article',
+        'parameters': [
+            {
+                'name': 'text',
+                'description': 'query text',
+                'in': 'path',
+                'type': 'string',
+                'required': True
+            },
+            {
+                'name': 'Authorization',
+                'in': 'header',
+                'type': 'string',
+                'required': False,
+                'default': 'Token 1a6221b3d04651b09ee96373d1a179c4cb958037',
+            }
+        ],
+        'responses':{
+            '200':{
+                'description':'a list of articles',
+                'schema':{
+                    'type':'array',
+                    'items': ArticleModel,
+                }
+            }
+        }
+    })
+    def get(self,text):
+        def search(tx,text):
+            return list(tx.run(
+                '''
+                MATCH (n:Article) WHERE n.title CONTAINS $text RETURN DISTINCT n
+                UNION ALL
+                MATCH (t:Tag) WHERE t.name CONTAINS $text
+                UNWIND t as tags
+                OPTIONAL MATCH (t)<-[:HAS_TAG]-(article:Article)
+                RETURN DISTINCT  article AS n
+                UNION ALL 
+                MATCH (a:Author) WHERE a.name CONTAINS $text
+                UNWIND a as authors
+                OPTIONAL MATCH (authors)<-[:WRITTEN_BY]-(article:Article)
+                RETURN DISTINCT  article AS n
+                ''',{'text':text,'text':text}
+            ))
+        db = get_db()
+        result = db.read_transaction(search,text)
+        return [serialize_article(record['n']) for record in result]
+
+
 
 
 
@@ -1394,3 +1451,5 @@ api.add_resource(TestSwagger,'/api/v1/check')
 api.add_resource(QueryTitle,'/api/v1/search/index_only/article_title_contains/<string:text>')
 api.add_resource(QueryAuthor,'/api/v1/search/index_only/author_name_contains/<string:text>')
 api.add_resource(QueryTitleAndTags,'/api/v1/search/index_only/titleOrTag_name_contains/<string:text>')
+
+
