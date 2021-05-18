@@ -45,6 +45,10 @@
   <script type="text/javascript" src='{{ "/js/script.js" | prepend: site.baseurl }}'></script>
 
 
+  <!-- React -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
 
 <link rel='dns-prefetch' href='//s.w.org' />
 <script type="text/javascript">
@@ -67,6 +71,14 @@
         }
         $(function () {
         loadCSS();
+        var token = localStorage.getItem('token');
+        if(!token || token === '1a6221b3d04651b09ee96373d1a179c4cb958037' ){
+          localStorage.setItem('isLoggedIn',false);
+          token = localStorage.setItem('token', '1a6221b3d04651b09ee96373d1a179c4cb958037');
+        }
+        else{
+          localStorage.setItem('isLoggedIn',true);
+        }
         console.log('[↑]END');
       });
 </script>

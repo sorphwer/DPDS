@@ -31,7 +31,7 @@ app = Flask(__name__)
 CORS(app)
 FlaskJSON(app)
 
-api = Api(app, title='Neo4j Demo API', api_version='0.0.10')
+api = Api(app, title='DPDS文本搜索系统', api_version='0.1.10')
 
 
 @api.representation('application/json')
@@ -987,9 +987,9 @@ class ArticleList(Resource):
         def get_articles(tx,page):
             return list(tx.run(
                 '''
-                MATCH (article:Article) RETURN article SKIP $page LIMIT 50 
-                '''
-            )),{'page':(page-1)*50}
+                MATCH (article:Article) RETURN article SKIP $page LIMIT 15
+                ''',{'page':(int(page)-1)*15}
+            ))
         db = get_db()
         result = db.read_transaction(get_articles,page)
         return [serialize_article(record['article']) for record in result]
@@ -1348,7 +1348,7 @@ class QueryTitleAndTags(Resource):
         return [serialize_article(record['n']) for record in result]
 
 class QueryTitleAndTagsAndAuthors(Resource):
-        @swagger.doc({
+    @swagger.doc({
         'tags':['Search'],
         'summary':'[INDEX-ONLY]search from all titles and tags and authors',
         'description':'Return a list of article',

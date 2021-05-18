@@ -1,0 +1,219 @@
+---
+layout: default
+title: Profile
+permalink: /profile/
+---
+<script type="text/javascript">
+    function logout() {
+        localStorage.setItem('isLoggedIn', false);
+        localStorage.setItem('token', '1a6221b3d04651b09ee96373d1a179c4cb958037')
+        initProfile();
+        alert('log out successfully!')
+    }
+    function initProfile() {
+        //logged in status
+        $('#registerForm').hide();
+        getUser();
+        let isLoggedIn = localStorage.getItem('isLoggedIn')
+        if (isLoggedIn === 'true') {
+            console.log('logged in');
+            $('#loginForm').hide();
+            $('#loggedInPanel').show();
+            $('#loggedInContent').show();
+        }//logged out status
+        else {
+            console.log('not logged in');
+            $('#loginForm').show();
+            $('#loggedInPanel').hide();
+            $('#loggedInContent').hide();
+        }
+    };
+    function openRegisterForm() {
+        console.log('open register');
+        $('#registerForm').show();
+        $('#loginForm').hide();
+        $('#loggedInPanel').hide();
+    }
+    function getUser(){
+        $.ajax({
+            type:"GET",
+            headers:{
+                'Accept':'application/json',
+                'Authorization':'Token '+localStorage.getItem('token'),
+            },
+            url:"http://localhost:5000/api/v1/users/me",
+            success: function (result) {
+                    $('#username').text(result.username);
+                },
+            error: function (xhr, state, errorThrown) {
+                    // requesFail(xhr);
+                }
+        })
+    }
+    function assembleArtilce(articleProps){
+        return `<section class="js-fadein js-fadein-anime">
+                <div class="home-message__ttl"><a href="/${articleProps.id}/">
+                    <h2> +${articleProps.title}</h2>
+                    <!--<div class="post-content-preview">
+                        <p class="u-txt__label"></p>'
+                    </div>-->
+                </a>
+                </div>
+                <p class="post-meta">
+                    Posted by ${articleProps.author} on ${articleProps.published_at}, reading times: ${articleProps.reading_time} min.
+                </p>
+            </section>`
+        
+    }
+    function getRecommended(page){
+        $.ajax({
+            type:"GET",
+            headers:{
+                'Accept':'application/json',
+                'Authorization':'Token '+localStorage.getItem('token'),
+            },
+            url:"http://localhost:5000/api/v1/articles/page="+page,
+            success: function (result) {
+                for (let i =0;i<result.length;++i){
+                    $('#userArticleList').append(assembleArtilce(result[i]));
+                }
+
+            },
+            error: function (xhr, state, errorThrown) {
+                    // requesFail(xhr);
+            }
+        })
+    }
+    function getFavorate(){
+        $.ajax({
+            type:"GET",
+            headers:{
+                'Accept':'application/json',
+                'Authorization':'Token '+localStorage.getItem('token'),
+            },
+            url:"http://localhost:5000/api/v1/articles/favorate",
+            success: function (result) {
+                for (let i =0;i<result.length;++i){
+                    $('#favorateList').append(assembleArtilce(result[i]));
+                }
+            },
+            error: function (xhr, state, errorThrown) {
+                    // requesFail(xhr);
+            }
+        })
+    }
+    $(document).ready(function () {
+
+        $("#loginForm").submit(function (e) {
+            e.preventDefault();
+            let array = $('#loginForm').serializeArray();
+            $.ajax({
+                type: "POST",
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                },
+                url: "http://localhost:5000/api/v1/login",
+                data: JSON.stringify({
+                    'username': array[0].value,
+                    'password': array[1].value
+                }),
+                // beforeSend: function(request) {
+                //     request.setRequestHeader("Token", "Chenxizhang");
+                // },
+                success: function (result) {
+                    console.log(result);
+                    alert('login successfully!')
+                    localStorage.setItem('isLoggedIn', true);
+                    localStorage.setItem('token', result.token);
+                    getUser();
+                    initProfile();
+                    getRecommended(1);
+                },
+                error: function (xhr, state, errorThrown) {
+                    // requesFail(xhr);
+                    alert('Invaild username or password')
+                }
+            })
+
+        })
+        $('#registerForm').submit(function (e) {
+            e.preventDefault();
+            let array = $('#registerForm').serializeArray();
+            if (array[1].value != array[2].value) {
+                alert('Password should be same');
+                return;
+            }
+            $.ajax({
+                type: "POST",
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                },
+                url: "http://localhost:5000/api/v1/register",
+                data: JSON.stringify({
+                    'username': array[0].value,
+                    'password': array[1].value
+                }),
+                success: function (result) {
+                    console.log(result);
+                    alert('register successfully!')
+                    localStorage.setItem('isLoggedIn', true);
+                    localStorage.setItem('token', result.token);
+                    initProfile();
+                },
+                error: function (xhr, state, errorThrown) {
+                    // requesFail(xhr);
+                    alert('Register failed')
+                }
+            })
+        })
+
+        initProfile();
+        if(localStorage.getItem('isLoggedIn')==='true'){
+            getRecommended(1);
+        }
+    });
+</script>
+
+<body>
+    <section style="height: 50px;"></section>
+    <form id="loginForm" name="input" action="" method="get">
+        <h4>Log in</h4>
+        <h5>Username: </h5>
+        <input type="text" name="username" value="" size="20">
+        <br />
+        <h5>Password: </h5>
+        <input type="password" name="password" value="" size="20">
+        <br />
+        <input type="submit" value="Submit">
+        <button type="button" onclick="openRegisterForm()">Register</button>
+
+    </form>
+
+    <form id="registerForm" name="input" action="" method="get">
+        <h4>Register </h4>
+        <h5>Username: </h5>
+        <input type="text" name="username" value="" size="20">
+        <br />
+        <h5>Password: </h5>
+        <input type="password" name="password" value="" size="20">
+        <br />
+        <h5>Repeat Password: </h5>
+        <input type="password" name="password" value="" size="20">
+        <br />
+        <input type="submit" value="Submit">
+        <button type="button" onclick="initProfile()">Cancle</button>
+    </form>
+
+    <div id='loggedInPanel'>
+        <h2>Hi,<span id='username'></span>,you've logged in.</h2>
+        <button type="button" onclick="logout()">Log out</button>
+        <button type="button" onclick="openRegisterForm()">Register New Account</button>
+    </div>
+
+    <div id="loggedInContent">
+        <div id="userArticleList"></div>
+        <div id="favorateList"></div>
+    </div>
+</body>
