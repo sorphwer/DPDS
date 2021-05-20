@@ -38,6 +38,8 @@ class ArticleModel(Schema):
     }
 
 def serialize_article(article):
+    if(not article):
+       return
     return {
         'id': article['id'],
         'title': article['title'],

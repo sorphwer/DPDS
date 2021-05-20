@@ -7,7 +7,6 @@
   padding: 0;
 }
 html, html[data-theme="light"] { 
-
   	--link-color: rgb(0, 112, 201);
     --main-background-color: #FFF;
     --footer-color:#FFF;
@@ -194,6 +193,38 @@ textarea {
 .lang-ja .u-m {
   font-family: Helvetica Neue, Helvetica, Arial, "Hiragino Kaku Gothic ProN",
     "游ゴシック", YuGothic, Meiryo, sans-serif;
+}
+
+input.favorate[type='checkbox'] {
+  cursor: pointer;
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  font-size:2rem;
+  visibility: hidden;
+}
+input.favorate[type='checkbox']::after {
+  position: absolute;
+  top: 0;
+  background-color: var(--main-background-color);
+  color: var(--main-background-color);
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  visibility: visible;
+  padding-left: 0px;
+  text-align: top;
+  content: '❤';
+  -webkit-text-stroke: 2px #e83e8c;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+input.favorate[type='checkbox']:checked::after {
+  content: '❤';
+  font-size: 2rem;
+  color:#e83e8c;
+  font-weight: bold;
 }
 .u-clearfix:after {
   visibility: hidden;

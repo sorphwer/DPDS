@@ -7,7 +7,7 @@ layout: default
 <!-- <section id="banner" class="home-visual" data-bottom-top="background-position: 50% -1%;"
   data--100-top-top="background-position: 50% 100%;"
   style="background-image:url({{site.url}}/img/{{page.img}});width:100vw ;overflow-x: visible;position: relative;align-items: center;text-align: left;">???
-</section> --> 
+</section> -->
 <!-- experiment banner################ -->
 {%endif%}
 
@@ -20,14 +20,44 @@ layout: default
       }
   });
 </script>
-<script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 {%endif%}
 {%if page.mathjax != false %}
 <script type="text/javascript" async src='{{ "/js/mermaid.min.js" | prepend: site.baseurl }}'></script>
 {%endif%}
+<style>
+  .rating {
+        font-size: 0;
+        display: table;
+        margin: 0 auto;
+    }
 
+    .rating > label {
+        color: #ddd;
+        float: right;
+    }
+
+    .rating > label:before {
+        padding: 5px;
+        font-size: 24px;
+        line-height: 1em;
+        display: inline-block;
+        content: "★";
+    }
+
+    .rating > input:checked ~ label,
+    .rating:not(:checked) > label:hover,
+    .rating:not(:checked) > label:hover ~ label {
+        color: #FFD700;
+    }
+
+    .rating > input:checked ~ label:hover,
+    .rating > label:hover ~ input:checked ~ label,
+    .rating > input:checked ~ label:hover ~ label {
+        opacity: 0.5;
+    }
+</style>
 <section id="front-wedge" style="height: 0px;"></section>
 {% if page.toc != false %}
 <div class="sidebar_catelog sticky-top"></div>
@@ -39,26 +69,31 @@ layout: default
       {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
 
       {% if page.status%}<sup>[{{page.status}}]</sup>{%endif%}
-      <a class="edit-button" href="{{site.repo_url}}/blob/master/{{page.path}}" title="Edit on GitHub"><i
-        class="fa fa-edit"></i></a>
+      <!-- <a class="edit-button" href="{{site.repo_url}}/blob/master/{{page.path}}" title="Edit on GitHub"><i
+        class="fa fa-edit"></i></a> -->
+
+      <input class='favorate' type="checkbox" id='favorate' value="1" />
       <!-- <a class="download tbutton" href="{{site.url}}/{{page.path}}">Download</a> -->
     </h1>
     <h4 class="subheading">{{ page.subtitle }}</h4>
 
     {% if page.last-modify %}
-    <span class="meta">Last modified by <i>{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}</i> on {{page.last-modify | date: "%B %-d, %Y"}} 
+    <span class="meta">Last modified by <i>{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif
+        %}</i> on {{page.last-modify | date: "%B %-d, %Y"}}
 
-    {% else %}
-    <span class="meta">Posted by <i>{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}</i> on {{ page.date | date: "%B %-d, %Y" }} 
+      {% else %}
+      <span class="meta">Posted by <i>{% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %}</i> on
+        {{ page.date | date: "%B %-d, %Y" }}
 
-    {% endif %}
+        {% endif %}
 
 
-    </span><i class="fa fa-tags"></i>
+      </span><i class="fa fa-tags"></i>
 
       {% for tag in page.tags %}
       <a class="tag" href="{{ site.baseurl }}/archive/tag={{ tag | url_encode }}" title="{{ tag }}">{{ tag }}</a>
       {% endfor %}
+
 
 
 
@@ -82,10 +117,10 @@ layout: default
       <!-- custom banner -->
       {% if page.banner-title%}
       <div class="d-flex banner">
-        <img src="/img/bg2.gif" class="black-white-image p-2 flex-fill bd-highlight banner-image" >
+        <img src="/img/bg2.gif" class="black-white-image p-2 flex-fill bd-highlight banner-image">
         <div class="p-2 flex-fill bd-highlight ">
-            <h1 class="banner-text" >{{page.banner-title}}</h1>
-            <p class="banner-text">{{page.banner-subtitle}}</p>
+          <h1 class="banner-text">{{page.banner-title}}</h1>
+          <p class="banner-text">{{page.banner-subtitle}}</p>
         </div>
       </div>
       {%endif%}
@@ -97,30 +132,42 @@ layout: default
       {% capture time %}{{curr_date|minus: post_date}}{%endcapture%}
       {% if curr_date>1 %}
       <div class="d-flex banner">
-        <img src="/img/bg2.gif" class="warning-image p-2 flex-fill bd-highlight banner-image" >
+        <img src="/img/bg2.gif" class="warning-image p-2 flex-fill bd-highlight banner-image">
         <div class="p-2 flex-fill bd-highlight ">
-            <h1 class="banner-text" style="color: #e83e8c !important;"><i class="fa fa-exclamation-triangle" style="color: #e83e8c !important;font-size: 2.5rem;" aria-hidden="true"></i> Expired</h1>
-            <p class="banner-text">Post published over one year ago</p>
+          <h1 class="banner-text" style="color: #e83e8c !important;"><i class="fa fa-exclamation-triangle"
+              style="color: #e83e8c !important;font-size: 2.5rem;" aria-hidden="true"></i> Expired</h1>
+          <p class="banner-text">Post published over one year ago</p>
         </div>
       </div>
       {%endif%}
-      
+
       <!-- expired banner -->
       <!-- WIP banner -->
       {%if page.status == "WIP"%}
       <div class="d-flex banner">
-        <img src="/img/bg2.gif" class="black-white-image p-2 flex-fill bd-highlight banner-image" >
+        <img src="/img/bg2.gif" class="black-white-image p-2 flex-fill bd-highlight banner-image">
         <div class="p-2 flex-fill bd-highlight ">
-            <h1 class="banner-text" >Work in progress</h1>
-            <p class="banner-text"><i class="fa fa-spinner" aria-hidden="true"></i>This post will be updated soon</p>
+          <h1 class="banner-text">Work in progress</h1>
+          <p class="banner-text"><i class="fa fa-spinner" aria-hidden="true"></i>This post will be updated soon</p>
         </div>
       </div>
       {%endif%}
       <!-- WIP banner -->
 
-      {{ content  }}
+      {{ content }}
     </div>
-
+    <div class="rating">
+      <input type="radio" id="star5" name="rating" value="5" hidden/>
+      <label for="star5"></label>
+      <input type="radio" id="star4" name="rating" value="4" hidden/>
+      <label for="star4"></label>
+      <input type="radio" id="star3" name="rating" value="3" hidden/>
+      <label for="star3"></label>
+      <input type="radio" id="star2" name="rating" value="2" hidden/>
+      <label for="star2"></label>
+      <input type="radio" id="star1" name="rating" value="1" hidden/>
+      <label for="star1"></label>
+  </div>
   </div>
 
 
@@ -146,12 +193,12 @@ layout: default
     $('.sidebar_catelog').html($('#table-of-contents').html());
     //hide origin toc on the head of the article.
     $('#table-of-contents').css("visibility", "hidden");
-    $('#markdown-content').css("margin-top", -$("#table-of-contents").height()*1);//###########################This is in experiment##############
+    $('#markdown-content').css("margin-top", -$("#table-of-contents").height() * 1);//###########################This is in experiment##############
     //because sidebar is a stiky-top class,set a wedge to creat space between it to the top.
     $('.sidebar_catelog').prepend("<div class='wedge'></div>")
     $('.wedge').css("height", "250px");
     //for the first wedge will create space for every component, use negetive margin to rise toe content:
-    $('.main-body').css("margin-top",  -($("#table-of-contents").height()+250));
+    $('.main-body').css("margin-top", -($("#table-of-contents").height() + 250));
     //for the last rising operation will make footer in wrong place, set another wedge to fix it.
     $('.js-fadein').append("<section class='wedge-main'></section>");
     $('.wedge-main').css("height", "250px");
@@ -204,7 +251,7 @@ layout: default
 
     //marmaid
     mermaid.init(undefined, $('.language-mermaid'));
-    $('.language-mermaid').parent().css('text-align','center');
+    $('.language-mermaid').parent().css('text-align', 'center');
 
 
   });

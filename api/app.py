@@ -31,8 +31,9 @@ app = Flask(__name__)
 CORS(app)
 FlaskJSON(app)
 
-api = Api(app, title='DPDS文本搜索系统', api_version='0.1.10')
+api = Api(app, title='DPDS Text Search System - API Panel', api_version='0.1.10')
 
+GLOBAL_USER_ID = 'fdfb834b-a161-44b5-b859-b706f2a7da29'
 
 @api.representation('application/json')
 def output_json(data, code, headers=None):
@@ -1035,7 +1036,7 @@ class RankedArticles(Resource):
                 WITH avg(otherRating.rating) AS avgRating, article
                 RETURN article
                 ORDER BY avgRating desc
-                LIMIT 25
+                LIMIT 10
                 ''',{'user_id':id}
             ))
         db = get_db()
@@ -1088,7 +1089,7 @@ class ArticleById(Resource):
                 'name': 'id',
                 'description': 'id number',
                 'in': 'path',
-                'type': 'integer',
+                'type': 'string',
                 'required': True
             }
         ],
@@ -1127,7 +1128,7 @@ class ArticleRelated(Resource):
                 'name': 'id',
                 'description': 'article id',
                 'in': 'path',
-                'type': 'interger',
+                'type': 'string',
                 'required': True
             }
         ],
@@ -1145,18 +1146,18 @@ class ArticleRelated(Resource):
         def get_articles_by_tag(tx,id):
                     return list(tx.run(
                 '''
-                MATCH(article:Article{id:$id}) 
+                MATCH(article:Article {id:$id}) 
                 OPTIONAL MATCH (article)-[r:HAS_TAG]-(n:Tag)
                 UNWIND n as tag
                 OPTIONAL MATCH (tag)-[:SUBSUME*1..2]-(p:Tag)
                 OPTIONAL MATCH (p)<-[:HAS_TAG]-(res:Article)
                 RETURN DISTINCT res
-
-                ''',{'name':tag}
+                ''',{'id':id}
             ))
         db = get_db()
-        result = db.read_transaction(get_articles_by_tag,tag)
-        return [serialize_article(record['article']) for record in result] 
+        result = db.read_transaction(get_articles_by_tag,id)
+        _.cprint(str(result))
+        return [serialize_article(record['res']) for record in result][1:]
 
 
 class ArticleTouched(Resource):
@@ -1210,17 +1211,121 @@ class ArticleTouched(Resource):
         def _cypher(tx, user_id, article_id, rating):
             return tx.run(
                 '''
-                MATCH (u:User {id: $user_id}),(m:Movie {tmdbId: $article_id})
+                MATCH (u:User {id: $user_id}),(m:Article {id: $article_id})
                 MERGE (u)-[r:RATED]->(m)
                 SET r.rating = $rating
                 RETURN m
-                ''', {'user_id': user_id, 'movie_id': article_id, 'rating': rating}
+                ''', {'user_id': user_id, 'article_id': article_id, 'rating': rating}
             )
 
         db = get_db()
         results = db.write_transaction(_cypher, g.user['id'], id, rating)
-        return {}
+        return 'saved',200
 
+class FavorateArticle(Resource):
+    @swagger.doc({
+        'tags':['Favorate'],
+        'summary':'favorate/unfavorate an article',
+        'description':'create FAVORATE relationship between user and target',
+        'parameters': [
+            {
+                'name': 'Authorization',
+                'in': 'header',
+                'type': 'string',
+                'required': True,
+                'default': 'Token 1a6221b3d04651b09ee96373d1a179c4cb958037',
+            },
+            {
+                'name': 'id',
+                'description': 'article id',
+                'in': 'path',
+                'type': 'string',
+            }
+        ],
+        'responses': {
+            '200': {
+                'description': 'saved'
+            },
+            '401': {
+                'description': 'invalid / missing authentication'
+            }
+        }
+    })
+    @login_required
+    def post(self,id):
+        if(g.user['id']==GLOBAL_USER_ID):
+            return 'invalid / missing authentication',401
+        def _get_favorate(tx,user_id,id):
+            return list(tx.run(
+                '''
+                MATCH (u:User {id: $user_id}),(m:Article {id: $id})
+                MATCH (u)-[r:FAVROATE]->(m)
+                RETURN r
+                ''',{'user_id':user_id,'id':id}
+            ))
+        def _favorate(tx,user_id,article_id):
+            return list(tx.run(
+                '''
+                MATCH (u:User {id: $user_id}),(m:Article {id: $id})
+                MERGE (u)-[r:FAVORATE]->(m)
+                RETURN m
+                ''',{'user_id':user_id,'id':id}
+            ))
+
+        def _unfavorate(tx,user_id,id):
+            return list(tx.run(
+                '''
+                MATCH (u:User {id: $user_id}),(m:Article {id: $id})
+                MATCH (u)-[r:FAVORATE]->(m)
+                DELETE r
+                ''',{'user_id':user_id,'id':id}
+            ))
+        db = get_db()
+        relation = db.read_transaction(_get_favorate,g.user['id'], id)
+        if(relation):
+            return db.write_transaction(_favorate,g.user['id'], id),200
+        else:
+            return db.write_transaction(_unfavorate,g.user['id'], id),200
+
+class FavorateArticleList(Resource):
+    @swagger.doc({
+        'tags':['Favorate'],
+        'summary':'favorated article list',
+        'description':'Return a list of articles',
+        'parameters': [
+            {
+                'name': 'Authorization',
+                'in': 'header',
+                'type': 'string',
+                'required': True,
+                'default': 'Token 1a6221b3d04651b09ee96373d1a179c4cb958037',
+            }
+        ],
+        'responses':{
+            '200':{
+                'description':'a list of articles',
+                'schema':{
+                    'type':'array',
+                    'items': ArticleModel,
+                }
+            }
+        }
+    })
+    @login_required
+    def get(self):
+        if(g.user['id']==GLOBAL_USER_ID):
+            return 'invalid / missing authentication',401
+        def _cypher(tx,id):
+            return list(tx.run(
+                '''
+                MATCH (u:User {id: $user_id})
+                OPTIONAL MATCH (u)-[:FAVORATE]->(a:Article)
+                RETURN a
+                ''',{'user_id':id}
+            ))
+        db = get_db()
+        result = db.read_transaction(_cypher,g.user['id'])
+        return [serialize_article(record['a']) for record in result]
 class QueryTitle(Resource):
     @swagger.doc({
         'tags':['Search'],
@@ -1435,13 +1540,13 @@ api.add_resource(ArticleList,'/api/v1/articles/page=<string:page>')
 #GetResource
 api.add_resource(ArticleByTag,'/api/v1/query/articles/with_tag/<string:tag>')
 api.add_resource(ArticleById,'/api/v1/query/articles/with_id/<string:id>')
-
+api.add_resource(ArticleRelated,'/api/v1/query/articles/about/<string:id>')
 #USER
 api.add_resource(Register, '/api/v1/register')
 api.add_resource(Login, '/api/v1/login')
 api.add_resource(UserMe, '/api/v1/users/me')
 #USER ACTIONS
-api.add_resource(ArticleTouched,'/api/v0/query/user/rated/<int:id>')
+api.add_resource(ArticleTouched,'/api/v0/query/user/rated/<string:id>')
 
 
 #Check
@@ -1453,3 +1558,6 @@ api.add_resource(QueryAuthor,'/api/v1/search/index_only/author_name_contains/<st
 api.add_resource(QueryTitleAndTags,'/api/v1/search/index_only/titleOrTag_name_contains/<string:text>')
 
 
+#Favorate
+api.add_resource(FavorateArticle,'/api/v1/favorate/<string:id>')
+api.add_resource(FavorateArticleList,'/api/v1/favoratelist')

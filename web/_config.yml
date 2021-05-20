@@ -63,5 +63,7 @@ navigation:
 - text: Archive
   url: /archive/
   layout: forarchive
+- text: Profile
+  url: /profile/
 - text: Policy
   url: /policy/

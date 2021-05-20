@@ -5,14 +5,25 @@ permalink: /profile/
 ---
 <script type="text/javascript">
     function logout() {
+        if(confirm('Are you sure to log out?')){
+            logout();
+        }
         localStorage.setItem('isLoggedIn', false);
         localStorage.setItem('token', '1a6221b3d04651b09ee96373d1a179c4cb958037')
         initProfile();
         alert('log out successfully!')
     }
+    function deleteAccount(){
+        if(confirm('Are you sure? All information will be removed')){
+            logout();
+        }
+    }
     function initProfile() {
         //logged in status
         $('#registerForm').hide();
+        $('#loadinglist1').hide();
+        $('#loadinglist2').hide();
+        $('#loadinglist3').hide();
         getUser();
         let isLoggedIn = localStorage.getItem('isLoggedIn')
         if (isLoggedIn === 'true') {
@@ -44,6 +55,7 @@ permalink: /profile/
             url:"http://localhost:5000/api/v1/users/me",
             success: function (result) {
                     $('#username').text(result.username);
+                    $('#token').text(localStorage.getItem('token'));
                 },
             error: function (xhr, state, errorThrown) {
                     // requesFail(xhr);
@@ -66,6 +78,7 @@ permalink: /profile/
         
     }
     function getRecommended(page){
+        let i=0
         $.ajax({
             type:"GET",
             headers:{
@@ -73,6 +86,11 @@ permalink: /profile/
                 'Authorization':'Token '+localStorage.getItem('token'),
             },
             url:"http://localhost:5000/api/v1/articles/page="+page,
+            beforeSend: function() {
+                // setting a timeout
+                $('#loadinglist1').show();
+                i++;
+                },
             success: function (result) {
                 for (let i =0;i<result.length;++i){
                     $('#userArticleList').append(assembleArtilce(result[i]));
@@ -81,7 +99,13 @@ permalink: /profile/
             },
             error: function (xhr, state, errorThrown) {
                     // requesFail(xhr);
-            }
+            },
+            complete: function() {
+                    i--;
+                    if (i <= 0) {
+                        $('#loadinglist1').hide();
+                    }
+                },
         })
     }
     function getFavorate(){
@@ -91,7 +115,7 @@ permalink: /profile/
                 'Accept':'application/json',
                 'Authorization':'Token '+localStorage.getItem('token'),
             },
-            url:"http://localhost:5000/api/v1/articles/favorate",
+            url:"http://localhost:5000/api/v1/favoratelist",
             success: function (result) {
                 for (let i =0;i<result.length;++i){
                     $('#favorateList').append(assembleArtilce(result[i]));
@@ -103,7 +127,7 @@ permalink: /profile/
         })
     }
     $(document).ready(function () {
-
+        $("footer").hide();
         $("#loginForm").submit(function (e) {
             e.preventDefault();
             let array = $('#loginForm').serializeArray();
@@ -129,6 +153,7 @@ permalink: /profile/
                     getUser();
                     initProfile();
                     getRecommended(1);
+                    getFavorate();
                 },
                 error: function (xhr, state, errorThrown) {
                     // requesFail(xhr);
@@ -161,6 +186,8 @@ permalink: /profile/
                     localStorage.setItem('isLoggedIn', true);
                     localStorage.setItem('token', result.token);
                     initProfile();
+                    getRecommended(1);
+                    getFavorate();
                 },
                 error: function (xhr, state, errorThrown) {
                     // requesFail(xhr);
@@ -172,10 +199,69 @@ permalink: /profile/
         initProfile();
         if(localStorage.getItem('isLoggedIn')==='true'){
             getRecommended(1);
+            getFavorate();
         }
     });
 </script>
-
+<style>
+button{
+	padding:2px;
+    margin:10px;
+    border: 1px var(--main-text-color) solid;
+    border-radius: 3px;
+    padding: 0 11px;
+    color:var(--main-text-color);
+    background:var(--main-background-color);
+  }
+button:hover{
+	margin:10px;
+	border: 1px var(--main-text-color) solid;
+    border-radius: 3px;
+    padding: 0 11px;
+    color:var(--main-background-color);
+    background:var(--main-text-color);
+}
+.test_box {
+    margin-left:10px;
+    min-height: 50vh;
+    margin: 1em auto;
+    position: relative;
+}
+.test_tab {
+    width: 25%;
+    margin-right: -1px;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    float: left;
+}
+.test_label {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: var(--main-background-color);
+    color:var(--main-text-color);
+    text-align: center;
+}
+.test_radio,
+.test_tab_content {
+    position: absolute;
+    left: -999em;
+}
+.test_radio:checked ~ .test_tab_content {
+    margin-top: -1px;
+    padding: 1em 2em;
+    border: 1px solid #ccc;
+    left: 0;
+    right: 0;
+}
+.test_radio:checked ~ .test_label {
+    background-color: var(--main-text-color);
+    border-bottom: 1px solid #fff;
+    position: relative;
+    z-index: 1;
+    color:var(--main-background-color);
+}
+</style>
 <body>
     <section style="height: 50px;"></section>
     <form id="loginForm" name="input" action="" method="get">
@@ -208,12 +294,39 @@ permalink: /profile/
 
     <div id='loggedInPanel'>
         <h2>Hi,<span id='username'></span>,you've logged in.</h2>
+        <p>To use your API somewhere else, use Token: <b id='token'></b></p>
         <button type="button" onclick="logout()">Log out</button>
         <button type="button" onclick="openRegisterForm()">Register New Account</button>
+        <button type="button" style="color: red;" onclick="deleteAccount()">Delete Account</button>
     </div>
 
     <div id="loggedInContent">
-        <div id="userArticleList"></div>
-        <div id="favorateList"></div>
+
+        <div class="test_box">
+            <div class="test_tab">
+                <input type="radio" id="testTabRadio1" class="test_radio" name="tab" checked="checked" />
+                <label class="test_label" for="testTabRadio1">Articles for you</label>
+                <div class="test_tab_content">
+                    <div id="userArticleList"><i id="loadinglist1">Loading...</i></div>
+                </div>
+            </div>
+            <div class="test_tab"> 
+                <input type="radio" id="testTabRadio2" class="test_radio" name="tab" />
+                <label class="test_label" for="testTabRadio2">Favorated Articles</label>
+                <div class="test_tab_content">
+                    <div id="favorateList"><i id="loadinglist2">Loading...</i></div>
+                </div>
+            </div>
+            <div class="test_tab">
+                <input type="radio" id="testTabRadio3" class="test_radio" name="tab" />
+                <label class="test_label" for="testTabRadio3">Rated Articles</label>
+                <div class="test_tab_content">
+
+                    <div id="rateList"><i id="loadinglist3">Loading...</i></div>
+                </div>
+            </div>
+        </div>
+        
+        
     </div>
 </body>
