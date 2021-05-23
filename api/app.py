@@ -995,6 +995,101 @@ class ArticleList(Resource):
         result = db.read_transaction(get_articles,page)
         return [serialize_article(record['article']) for record in result]
 
+class AuthorList(Resource):
+    @swagger.doc({
+        'tags':['GetResource'],
+        'summary':'return all author',
+        'description':'return a list of author',
+        'responses':{
+            '200':{
+                'description':'a list of authors',
+                'schema':{
+                    'type':'array',
+                    'items': AuthorModel,
+                }
+            }
+        }
+    })
+    def get(self):
+        def _cypher(tx):
+            return list(tx.run(
+                '''
+                MATCH (n:Author) RETURN n LIMIT 100
+                '''
+            ))
+        db = get_db()
+        result = db.read_transaction(_cypher)
+        return [serialize_author(record['n']) for record in result]
+
+class TagList(Resource):
+    @swagger.doc({
+        'tags':['GetResource'],
+        'summary':'Return all tags',
+        'description':'Return a list of tags',
+        'responses':{
+            '200':{
+                'description':'a list of tags',
+                'schema':{
+                    'type':'array',
+                    'items': TagModel,
+                }
+            }
+        }
+    })
+    def get(self):
+        def _cypher(tx):
+            return list(tx.run(
+                '''
+                MATCH (n:Tag) RETURN n LIMIT 180
+                
+                '''
+            ))
+        db = get_db()
+        result = db.read_transaction(_cypher)
+        return [serialize_tag(record['n']) for record in result]
+
+class ArticleByAuthor(Resource):
+    @swagger.doc({
+        'tags':['GetResource'],
+        'summary':'find articles by author',
+        'description':'return all articles by this author',
+        'parameters': [
+            {
+                'name': 'name',
+                'description': 'author name',
+                'in': 'path',
+                'type': 'string',
+                'required': True
+            }
+        ],
+        'responses':{
+            '200':{
+                'description':'target article',
+                'schema': {
+                    'type':'array',
+                    'items':ArticleModel
+                }
+            },
+            '404':{
+                'description': 'article not found'
+            }
+        }
+    })
+    def get(self,name):
+        def _cypher(tx,name):
+            return list(tx.run(
+                '''
+                MATCH (author:Author) WHERE author.name CONTAINS $name
+                UNWIND author as authors
+                MATCH (authors)<-[:WRITTEN_BY]-(article:Article)
+                Return DISTINCT article
+                ''',{'name':name}
+            ))
+        db = get_db()
+        result = db.read_transaction(_cypher,name)
+        return [serialize_article(record['article']) for record in result]
+
+
 
 #HOME ARTICLE LIST (IF LOGGED IN)
 class RankedArticles(Resource):
@@ -1151,7 +1246,7 @@ class ArticleRelated(Resource):
                 UNWIND n as tag
                 OPTIONAL MATCH (tag)-[:SUBSUME*1..2]-(p:Tag)
                 OPTIONAL MATCH (p)<-[:HAS_TAG]-(res:Article)
-                RETURN DISTINCT res
+                RETURN DISTINCT res LIMIT 5
                 ''',{'id':id}
             ))
         db = get_db()
@@ -1541,6 +1636,9 @@ api.add_resource(ArticleList,'/api/v1/articles/page=<string:page>')
 api.add_resource(ArticleByTag,'/api/v1/query/articles/with_tag/<string:tag>')
 api.add_resource(ArticleById,'/api/v1/query/articles/with_id/<string:id>')
 api.add_resource(ArticleRelated,'/api/v1/query/articles/about/<string:id>')
+api.add_resource(AuthorList,'/api/v1/authors')
+api.add_resource(TagList,'/api/v1/tags')
+api.add_resource(ArticleByAuthor,'/api/v1/query/articles/by/<string:name>')
 #USER
 api.add_resource(Register, '/api/v1/register')
 api.add_resource(Login, '/api/v1/login')

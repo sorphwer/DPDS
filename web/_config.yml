@@ -58,7 +58,7 @@ navigation:
   url: /index.html
   layout: home
 - text: Search
-  url: /search.html
+  url: /search/
   layout: search
 - text: Archive
   url: /archive/

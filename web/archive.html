@@ -21,7 +21,7 @@ https://github.com/kitian616/jekyll-TeXt-theme
 		<div class="col-md">
 			<!-- Tags (as filter) -->
 			<div id='tag_cloud' class="d-flex flex-wrap js-tags">
-				<a class="tag-button--all" data-encode="" href="{{site.baseurl }}/archive.html">
+				<a class="tag-button--all" data-encode="" href="{{site.baseurl }}/archive/">
 					<b>Show All</b>
 					<sup>{{site.posts.size}}</sup>
 				</a>
@@ -29,7 +29,7 @@ https://github.com/kitian616/jekyll-TeXt-theme
 				{% capture tags %}
 				{% for tag in site.tags %}
 				<a 
-				 href="archive.html?tag={{ tag[0] }}"
+				 href="/archive/?tag={{ tag[0] }}"
 				 data-sort="{{ site.posts.size | minus: tag[1].size | prepend: '0000' | slice: -4, 4 }}"
 					data-encode="{{ tag[0] | strip | url_encode }}"
 					class="tag-button"

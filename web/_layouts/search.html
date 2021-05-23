@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% include head.html %}
+{% include header.html %}
+<script type="text/javascript" src='{{ "/search/js/typeahead.bundle.js" | prepend: site.baseurl }}'></script>
+<script type="text/javascript" src='{{ "/search/js/fuzzyset.js" | prepend: site.baseurl }}'></script>
+<script type="text/javascript" src='{{ "/search/js/bloodhound.js" | prepend: site.baseurl }}'></script>
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
+<section class="home-message ">
+{{ content }}
+</section>
+{% include footer.html %}
+</html>

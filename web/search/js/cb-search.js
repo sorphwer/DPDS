@@ -61,39 +61,39 @@ $(document).ready(function () {
         time1 = 0;
     });
 
-    var substringMatcher = function(strs) {
+    var substringMatcher = function (strs) {
         return function findMatches(q, cb) {
-          let matches, substringRegex;
-          //init q-gram set
-          let fuzzySet = FuzzySet(arr=names);
-          
+            let matches, substringRegex;
+            //init q-gram set
+            let fuzzySet = FuzzySet(arr = names);
 
-          // an array that will be populated with substring matches
-          matches = [];
-      
-          // regex used to determine if a string contains the substring `q`
-          substrRegex = new RegExp(q, 'i');
-      
-          // iterate through the pool of strings and for any string that
-          // contains the substring `q`, add it to the `matches` array
-          $.each(strs, function(i, str) {
-            if (substrRegex.test(str)) {
-              matches.push(str);
-            }
-          });
 
-          //if no result, try fuzzy search
-          if (matches.length===0) {
-            let qgramResult = fuzzySet.get(q,minScore=0.2);
-            console.log(qgramResult);
-            if(qgramResult){
-                matches.push(qgramResult[1]);
+            // an array that will be populated with substring matches
+            matches = [];
+
+            // regex used to determine if a string contains the substring `q`
+            substrRegex = new RegExp(q, 'i');
+
+            // iterate through the pool of strings and for any string that
+            // contains the substring `q`, add it to the `matches` array
+            $.each(strs, function (i, str) {
+                if (substrRegex.test(str)) {
+                    matches.push(str);
+                }
+            });
+
+            //if no result, try fuzzy search
+            if (matches.length === 0) {
+                let qgramResult = fuzzySet.get(q, minScore = 0.2);
+                console.log(qgramResult);
+                if (qgramResult) {
+                    matches.push(qgramResult[1]);
+                }
             }
-          }
-      
-          cb(matches);
+
+            cb(matches);
         };
-      };
+    };
 
     $.getJSON("/search/cb-search.json").done(function (data) {
         if (data.code == 0) {
@@ -103,8 +103,9 @@ $(document).ready(function () {
                 urls.push(item.url);
             }
 
-            $("#cb-search-content").typeahead({
-                // source: names,
+            $("#cb-search-content").typeahead(
+            {
+
                 name: 'names',
                 source: substringMatcher(names),
                 afterSelect: function (item) {
@@ -113,6 +114,7 @@ $(document).ready(function () {
                     window.location.href = (urls[names.indexOf(item)]);
                     return item;
                 }
+
             });
         }
     });

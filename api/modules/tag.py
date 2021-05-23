@@ -11,6 +11,6 @@ class TagModel(Schema):
     }
 def serialize_tag(tag):
     return{
-        'name':tag['name'],
-        'keywords_for_search':tag['keywords_for_search']
+        'name':tag['name']
+        # 'keywords_for_search':tag['keywords_for_search']
     }
