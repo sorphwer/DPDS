@@ -254,3 +254,3640 @@ haskell |2021-04-26 13:09:47|
 smalltalk |2021-04-26 13:09:48|
 pizzly |2021-04-26 13:09:49|
 inthirtyseconds |2021-04-26 13:10:20|
+Undirected Graph |2021-05-24 23:08:03|
+Person Reidentification |2021-05-24 23:08:14|
+China Email |2021-05-24 23:08:15|
+Similarity Score |2021-05-24 23:08:16|
+Video Surveillance |2021-05-24 23:08:17|
+Key Component |2021-05-24 23:08:19|
+Natural Language Text |2021-05-24 23:08:20|
+Automatic Semantic Role Labeling SRL |2021-05-24 23:08:53|
+Several Machine |2021-05-24 23:08:54|
+Motion SFM |2021-05-24 23:08:55|
+Landmarkbased Approaches |2021-05-24 23:08:56|
+Groundplane |2021-05-24 23:08:57|
+Parameterization |2021-05-24 23:09:20|
+Semantic Pattern |2021-05-24 23:09:21|
+Positive Sentiment |2021-05-24 23:09:22|
+Sentiment Analysis |2021-05-24 23:09:23|
+Sentimenttopic Features |2021-05-24 23:09:24|
+Cost Aggregation |2021-05-24 23:09:40|
+Stereo Matching |2021-05-24 23:09:42|
+Global Method |2021-05-24 23:09:53|
+Low Resolution |2021-05-24 23:09:54|
+Missing Data Method |2021-05-24 23:10:11|
+Feature Reconstruction |2021-05-24 23:10:12|
+Missing Data |2021-05-24 23:10:13|
+Recognition Process |2021-05-24 23:10:14|
+Transfer Learning |2021-05-24 23:10:45|
+Knowledge Transfer |2021-05-24 23:10:46|
+Collaborative Filtering |2021-05-24 23:10:58|
+Topic Modeling |2021-05-24 23:11:21|
+DFLDA |2021-05-24 23:11:22|
+Same Topic |2021-05-24 23:11:23|
+Cannotlink |2021-05-24 23:11:24|
+Individual Language |2021-05-24 23:11:25|
+State Of The Art |2021-05-24 23:11:26|
+Meaning Space |2021-05-24 23:11:27|
+Feedforward Network |2021-05-24 23:11:28|
+Language Processing |2021-05-24 23:11:29|
+Systematic Approach |2021-05-24 23:11:55|
+Common Definition |2021-05-24 23:11:56|
+Emergent Phenomenon |2021-05-24 23:11:56|
+Functional Dependency |2021-05-24 23:11:58|
+Hyperconnection |2021-05-24 23:12:13|
+Tail Node |2021-05-24 23:12:15|
+Cyclomatic Number |2021-05-24 23:12:16|
+Different Seed |2021-05-24 23:12:17|
+Occlusion Boundary |2021-05-24 23:12:18|
+CPMC |2021-05-24 23:12:19|
+Segment Hypotheses |2021-05-24 23:12:20|
+Image Segment |2021-05-24 23:12:21|
+CHAPTER 3 |2021-05-24 23:12:22|
+CallisonBurch |2021-05-24 23:12:22|
+Suffix Array |2021-05-24 23:12:24|
+Data Structure |2021-05-24 23:12:25|
+Pattern Matching |2021-05-24 23:12:26|
+Image Classification |2021-05-24 23:12:27|
+FACE Recognition |2021-05-24 23:12:28|
+Same Group |2021-05-24 23:12:29|
+Attribute Prediction |2021-05-24 23:12:30|
+Scene Labeling |2021-05-24 23:12:31|
+Yahoo Answer |2021-05-24 23:12:43|
+QA Site |2021-05-24 23:13:10|
+General Prediction Model |2021-05-24 23:13:11|
+Stress Function |2021-05-24 23:13:12|
+Layout |2021-05-24 23:14:14|
+Multidimensional Scaling |2021-05-24 23:14:15|
+Classical Scaling |2021-05-24 23:14:16|
+Discussion Forum |2021-05-24 23:14:28|
+Monte Carlo Tree Search |2021-05-24 23:15:11|
+Trained |2021-05-24 23:15:46|
+Decision Unit |2021-05-24 23:15:47|
+Visual Cortex |2021-05-24 23:15:48|
+Framework Of Information Geometry |2021-05-24 23:15:49|
+Information Theory |2021-05-24 23:16:07|
+Graphical Model |2021-05-24 23:16:08|
+Transition Function |2021-05-24 23:16:09|
+Finite Number |2021-05-24 23:16:10|
+Input String |2021-05-24 23:16:10|
+Blank Symbol |2021-05-24 23:16:29|
+Public Health Topic |2021-05-24 23:16:37|
+Knowledge Assessment |2021-05-24 23:16:38|
+Academic Year |2021-05-24 23:16:40|
+Open Content |2021-05-24 23:16:40|
+Useful Knowledge |2021-05-24 23:16:41|
+BIG DATA |2021-05-24 23:16:42|
+Feature Extraction |2021-05-24 23:17:50|
+Data Selection |2021-05-24 23:17:51|
+Softmax Layer |2021-05-24 23:17:53|
+Parsing |2021-05-24 23:18:04|
+Treebank |2021-05-24 23:18:05|
+Simple Tree |2021-05-24 23:18:32|
+Distance Constraint |2021-05-24 23:18:32|
+Feature Map |2021-05-24 23:18:33|
+Distance Function |2021-05-24 23:18:34|
+Distance Metric |2021-05-24 23:18:35|
+ABS |2021-05-24 23:19:37|
+Supply Chain |2021-05-24 23:19:50|
+Agentbased Modeling |2021-05-24 23:19:51|
+Modeling Agent Behavior |2021-05-24 23:19:53|
+Data Aggregation |2021-05-24 23:19:54|
+Data Integrity |2021-05-24 23:20:07|
+Sensor Network Application |2021-05-24 23:20:08|
+Aggregation Protocol |2021-05-24 23:20:09|
+Object Recognition |2021-05-24 23:20:11|
+Lowdimensional Structure |2021-05-24 23:20:12|
+Lowrank |2021-05-24 23:20:12|
+RANK |2021-05-24 23:20:14|
+Robust PCA |2021-05-24 23:20:15|
+Personal Impressions |2021-05-24 23:20:46|
+User Profile |2021-05-24 23:21:05|
+Domain Equation |2021-05-24 23:21:06|
+Partial Order |2021-05-24 23:21:07|
+Induction Principle |2021-05-24 23:21:08|
+Projection Pairs |2021-05-24 23:21:09|
+Categorical Framework |2021-05-24 23:21:09|
+Interactive Query Expansion |2021-05-24 23:21:11|
+Single Term |2021-05-24 23:21:12|
+Partial Match |2021-05-24 23:21:13|
+Average Precision |2021-05-24 23:21:23|
+Graph Matching |2021-05-24 23:21:47|
+Document Class |2021-05-24 23:21:48|
+Document Image |2021-05-24 23:21:58|
+Universal Composability |2021-05-24 23:21:58|
+UC Model |2021-05-24 23:21:59|
+Cryptography |2021-05-24 23:22:00|
+Handwriting Recognition |2021-05-24 23:22:01|
+Segmentation Algorithm |2021-05-24 23:22:02|
+Dynamic Programming |2021-05-24 23:22:03|
+Character Recognition |2021-05-24 23:22:04|
+Typical Application |2021-05-24 23:22:40|
+Home Automation |2021-05-24 23:22:41|
+Wide Spectrum |2021-05-24 23:22:42|
+Neighbor Sensors |2021-05-24 23:22:43|
+Formal Ontology |2021-05-24 23:22:44|
+Tology |2021-05-24 23:23:26|
+Relations Etc. |2021-05-24 23:23:27|
+Logicbased |2021-05-24 23:23:28|
+Syntactic |2021-05-24 23:23:30|
+Language Expression |2021-05-24 23:23:30|
+Unit Testing |2021-05-24 23:23:41|
+Dynamic Test Generation |2021-05-24 23:23:42|
+LOCK |2021-05-24 23:23:43|
+10T |2021-05-24 23:23:44|
+Word Sense Disambiguation |2021-05-24 23:24:02|
+Annotated Corpora |2021-05-24 23:24:03|
+OntoNotes Project |2021-05-24 23:24:04|
+OntoNotes Corpus |2021-05-24 23:24:05|
+Propbank |2021-05-24 23:24:06|
+Visualisation |2021-05-24 23:24:07|
+Toolkit |2021-05-24 23:24:08|
+Software Library |2021-05-24 23:24:18|
+Artoolkit |2021-05-24 23:24:46|
+Augmented Reality |2021-05-24 23:24:47|
+LINK Model |2021-05-24 23:25:52|
+CDF |2021-05-24 23:27:07|
+Powerlaw |2021-05-24 23:27:08|
+Strength Distribution |2021-05-24 23:27:10|
+Suitable Support |2021-05-24 23:27:54|
+Text Mining |2021-05-24 23:28:38|
+Word Order |2021-05-24 23:28:41|
+EM Algorithm |2021-05-24 23:28:42|
+Particle Swarm Optimization PSO |2021-05-24 23:29:23|
+Gon Alves |2021-05-24 23:29:24|
+TABU Search |2021-05-24 23:29:25|
+Security Policy |2021-05-24 23:29:41|
+Abstract Interpretation |2021-05-24 23:29:42|
+Model Checking |2021-05-24 23:29:43|
+Static Analysis |2021-05-24 23:29:44|
+Analytical Model |2021-05-24 23:29:52|
+Power Distribution |2021-05-24 23:29:53|
+Smart Grid |2021-05-24 23:29:55|
+FDIR |2021-05-24 23:29:56|
+Energy Function |2021-05-24 23:29:57|
+Boltzmann Machine |2021-05-24 23:29:58|
+Latent Variable |2021-05-24 23:29:59|
+Energybased Model |2021-05-24 23:30:00|
+Single Carrier |2021-05-24 23:30:01|
+Transmitted Symbol |2021-05-24 23:30:02|
+FBMC |2021-05-24 23:30:03|
+Frequency Domain |2021-05-24 23:30:04|
+Keyphrase |2021-05-24 23:30:30|
+Candidate Identification |2021-05-24 23:30:32|
+Logical Structure |2021-05-24 23:30:33|
+Candidate List |2021-05-24 23:30:34|
+Difference Reward |2021-05-24 23:30:46|
+Local Reward |2021-05-24 23:30:47|
+Maxsum |2021-05-24 23:30:48|
+Coordination Graph |2021-05-24 23:30:49|
+Processing Step |2021-05-24 23:31:06|
+Optical Flow |2021-05-24 23:31:07|
+Local Region |2021-05-24 23:31:18|
+Anonymity |2021-05-24 23:31:19|
+Peertopeer Overlay |2021-05-24 23:31:20|
+Node In The Network |2021-05-24 23:31:21|
+DHT Protocol |2021-05-24 23:31:21|
+Research Systems |2021-05-24 23:31:23|
+Partial Type |2021-05-24 23:31:33|
+Service Directory |2021-05-24 23:31:34|
+Actual |2021-05-24 23:31:35|
+Service Composition |2021-05-24 23:31:36|
+GRBF |2021-05-24 23:32:22|
+Radial Basis Function |2021-05-24 23:32:23|
+Gaussian Kernel |2021-05-24 23:32:24|
+Language Modeling , Machine Translation |2021-05-24 23:32:24|
+Recurrent Neural Network Language Model |2021-05-24 23:32:25|
+Speech Recognition Systems |2021-05-24 23:32:26|
+Long Range Dependencies |2021-05-24 23:32:27|
+Back Propagation |2021-05-24 23:32:29|
+Mobile Manipulation |2021-05-24 23:32:44|
+Ground Vehicle |2021-05-24 23:32:45|
+Mobile Manipulator |2021-05-24 23:32:46|
+Speech Utterance |2021-05-24 23:34:00|
+Broad Phonetic Classes |2021-05-24 23:34:01|
+3D Structure |2021-05-24 23:34:02|
+Oversegmentation |2021-05-24 23:34:03|
+Scene Reconstruction |2021-05-24 23:34:04|
+Object Detection |2021-05-24 23:34:05|
+Geometric Property |2021-05-24 23:34:06|
+Evolutionary Game Theory |2021-05-24 23:34:07|
+Mutation Rate |2021-05-24 23:34:19|
+Evolutionary Process |2021-05-24 23:34:20|
+Stationary Distribution |2021-05-24 23:34:21|
+Kriya |2021-05-24 23:34:21|
+Multiple Decoding Paths |2021-05-24 23:34:55|
+Language Model Score |2021-05-24 23:34:56|
+3D Model |2021-05-24 23:34:57|
+Depth Image |2021-05-24 23:34:58|
+Depth Map |2021-05-24 23:34:59|
+High Quality |2021-05-24 23:35:00|
+Depth Sensor |2021-05-24 23:35:02|
+Sensor Data |2021-05-24 23:35:13|
+Total Amount |2021-05-24 23:35:14|
+Knowledge Extraction |2021-05-24 23:35:15|
+Environmental Monitoring |2021-05-24 23:35:16|
+Centerline |2021-05-24 23:35:17|
+Knowledge Base |2021-05-24 23:35:35|
+Route Layer |2021-05-24 23:35:36|
+Pro.t |2021-05-24 23:35:37|
+WEB Search |2021-05-24 23:35:39|
+Commercial Advantage |2021-05-24 23:35:42|
+Recommender Systems |2021-05-24 23:35:43|
+Topic Diversity |2021-05-24 23:35:44|
+TCP Connection |2021-05-24 23:36:20|
+Markov Chain |2021-05-24 23:36:21|
+Packet Losses |2021-05-24 23:36:22|
+Proxemics |2021-05-24 23:36:23|
+Major Part |2021-05-24 23:36:24|
+Natural Interaction |2021-05-24 23:36:25|
+Humanlike Robot |2021-05-24 23:36:26|
+Student Behavior |2021-05-24 23:36:46|
+Kmean |2021-05-24 23:37:24|
+Feature Space |2021-05-24 23:37:25|
+Hashing Algorithm |2021-05-24 23:37:26|
+Unknown Target |2021-05-24 23:37:27|
+Learning Criterion |2021-05-24 23:37:28|
+Restricted Version |2021-05-24 23:37:30|
+Sample Complexity Of Learning |2021-05-24 23:37:38|
+Word Embedding |2021-05-24 23:37:50|
+Tasks Such As Language Modeling |2021-05-24 23:37:51|
+Consistent Performance Improvements |2021-05-24 23:37:52|
+Language Model |2021-05-24 23:37:53|
+Small Chemical Compounds |2021-05-24 23:37:55|
+Metabolite |2021-05-24 23:37:56|
+ChEBI Ontology |2021-05-24 23:37:57|
+Biological Interest ChEBI |2021-05-24 23:37:58|
+Molecular Entity |2021-05-24 23:37:58|
+Group Activity |2021-05-24 23:37:59|
+Activity Recognition |2021-05-24 23:38:00|
+Message Passing |2021-05-24 23:38:01|
+Scene Classification |2021-05-24 23:38:02|
+Vowel |2021-05-24 23:38:03|
+Epenthesis |2021-05-24 23:38:17|
+Stress Pattern |2021-05-24 23:38:18|
+Candidate Set |2021-05-24 23:38:19|
+Casecontrol Study |2021-05-24 23:38:31|
+Risk Reduction |2021-05-24 23:38:32|
+CVSS Score |2021-05-24 23:38:51|
+LogFAS |2021-05-24 23:38:52|
+Cryptosystem |2021-05-24 23:38:53|
+Security Property |2021-05-24 23:38:54|
+Authentication Scheme |2021-05-24 23:38:55|
+MAC |2021-05-24 23:39:57|
+Geometric Hashing |2021-05-24 23:40:45|
+MS. |2021-05-24 23:40:46|
+Target Category |2021-05-24 23:40:59|
+LLDA |2021-05-24 23:40:59|
+Latent Dirichlet Allocation |2021-05-24 23:41:00|
+LDA Model |2021-05-24 23:41:01|
+Online Course |2021-05-24 23:41:02|
+Reinforcement Learning |2021-05-24 23:42:52|
+Hidden State |2021-05-24 23:43:14|
+Decision Making |2021-05-24 23:43:15|
+Large Volume |2021-05-24 23:43:16|
+Network Analysis |2021-05-24 23:43:17|
+Important Area |2021-05-24 23:43:18|
+ConE |2021-05-24 23:43:18|
+Graph Theory |2021-05-24 23:43:20|
+Polar Domain |2021-05-24 23:43:21|
+Retinal Layer |2021-05-24 23:43:21|
+Dynamic Analysis |2021-05-24 23:43:42|
+Malicious Behavior |2021-05-24 23:44:23|
+Vulnerability Detection |2021-05-24 23:44:46|
+Security Vulnerability |2021-05-24 23:44:47|
+Information Extraction |2021-05-24 23:45:18|
+MedLEE |2021-05-24 23:45:19|
+Decision Support |2021-05-24 23:45:20|
+Multiple Domain |2021-05-24 23:45:21|
+Logic Program |2021-05-24 23:45:23|
+Running Example |2021-05-24 23:45:23|
+Plugin |2021-05-24 23:45:24|
+Key Choice |2021-05-24 23:45:25|
+Logic Queries |2021-05-24 23:45:26|
+Mysql |2021-05-24 23:45:28|
+Performance Management |2021-05-24 23:45:28|
+HBase |2021-05-24 23:45:30|
+Keyvalue Store |2021-05-24 23:45:31|
+Neuronal Response |2021-05-24 23:45:32|
+Small Saccades |2021-05-24 23:45:33|
+Microtremor |2021-05-24 23:45:34|
+Eye Movement |2021-05-24 23:45:35|
+Spectrum Gridlock |2021-05-24 23:45:45|
+Cognitive Radio CR |2021-05-24 23:45:46|
+Interweave Paradigm |2021-05-24 23:45:47|
+Interference Temperature |2021-05-24 23:45:49|
+Underlay Spectrum Sharing |2021-05-24 23:45:50|
+Sequence Learning |2021-05-24 23:45:51|
+Network Model |2021-05-24 23:45:53|
+Working Memory |2021-05-24 23:45:54|
+Hierarchical Control |2021-05-24 23:45:55|
+Neural Model |2021-05-24 23:45:56|
+Summary Statistic |2021-05-24 23:45:58|
+ROCcurve |2021-05-24 23:45:58|
+Majority Classes |2021-05-24 23:45:59|
+Receiver Operating Characteristic ROC |2021-05-24 23:46:00|
+ROC Curve AUC |2021-05-24 23:46:01|
+Panchromatic Data |2021-05-24 23:46:02|
+IKONOS Data |2021-05-24 23:46:03|
+Morphological Operation |2021-05-24 23:46:05|
+Morphological Filter |2021-05-24 23:46:32|
+Global Average Pooling |2021-05-24 23:46:53|
+Convolution |2021-05-24 23:46:54|
+Graphbased Method |2021-05-24 23:46:55|
+Natural Language Processing |2021-05-24 23:46:56|
+State K |2021-05-24 23:47:04|
+Original Markov Chain |2021-05-24 23:47:05|
+State I |2021-05-24 23:47:06|
+Different Part |2021-05-24 23:47:14|
+Whole Cell |2021-05-24 23:47:15|
+Living Cell |2021-05-24 23:47:16|
+D Image |2021-05-24 23:47:17|
+Segmentation Approach |2021-05-24 23:47:18|
+Segmentation Method |2021-05-24 23:47:19|
+Machine Learning Algorithm |2021-05-24 23:47:20|
+Imbalanced Data |2021-05-24 23:47:34|
+Imbalance |2021-05-24 23:47:35|
+Majority Class |2021-05-24 23:47:36|
+Xpoint |2021-05-24 23:47:37|
+Inference Technique |2021-05-24 23:47:38|
+Large Body |2021-05-24 23:47:51|
+Approximation Domains |2021-05-24 23:47:52|
+Optimization Problems |2021-05-24 23:48:17|
+PID Controller |2021-05-24 23:48:32|
+Networked Data |2021-05-24 23:48:33|
+Collective Classification |2021-05-24 23:48:34|
+ICA |2021-05-24 23:49:36|
+Gibbs Sampling |2021-05-24 23:49:37|
+Etwork |2021-05-24 23:49:38|
+Offline Method |2021-05-24 23:50:51|
+Question Answering |2021-05-24 23:50:52|
+Event Extraction |2021-05-24 23:50:53|
+Social Media |2021-05-24 23:50:54|
+Online Tool |2021-05-24 23:50:55|
+Social Web |2021-05-24 23:51:14|
+Semantic Web Technology |2021-05-24 23:51:16|
+Structured |2021-05-24 23:51:32|
+Information Hiding |2021-05-24 23:51:33|
+Identical Structure |2021-05-24 23:51:34|
+Dirty Paper Coding |2021-05-24 23:51:35|
+Communications With Side Information |2021-05-24 23:51:36|
+Channel Noise |2021-05-24 23:51:37|
+Gridworld |2021-05-24 23:51:52|
+Modern Video Games |2021-05-24 23:51:53|
+Flow Network |2021-05-24 23:51:54|
+Distributional |2021-05-24 23:52:05|
+Clustering Algorithm |2021-05-24 23:52:21|
+Clustering Method |2021-05-24 23:52:22|
+Previous History |2021-05-24 23:52:23|
+Users' Information |2021-05-24 23:52:24|
+Recommendation Systems |2021-05-24 23:52:25|
+PASs |2021-05-24 23:52:26|
+Reference Image |2021-05-24 23:52:27|
+Color Space |2021-05-24 23:52:28|
+Disparity Map |2021-05-24 23:52:29|
+Intermediate Representation |2021-05-24 23:52:30|
+Development Process |2021-05-24 23:52:58|
+Few Second |2021-05-24 23:53:34|
+Graph Drawing |2021-05-24 23:54:01|
+Autoencoder |2021-05-24 23:54:02|
+Binary Data |2021-05-24 23:54:03|
+Highdimensional |2021-05-24 23:54:04|
+Space Domain |2021-05-24 23:54:05|
+Control Mechanism |2021-05-24 23:54:52|
+Classic Alignment |2021-05-24 23:54:53|
+Functional Annotation |2021-05-24 23:54:54|
+DNA Sequence |2021-05-24 23:54:55|
+Alignmentfree Method |2021-05-24 23:54:56|
+Protein Sequence |2021-05-24 23:54:57|
+Contact Prediction |2021-05-24 23:54:58|
+Consensus Method |2021-05-24 23:54:59|
+MOOD |2021-05-24 23:55:00|
+Support Vector Machine SVM |2021-05-24 23:55:01|
+Ve Bayes Classifier |2021-05-24 23:55:01|
+Na Ve Bayes |2021-05-24 23:55:02|
+Text Categorization |2021-05-24 23:55:03|
+Agentbased Model |2021-05-24 23:55:16|
+Opensource |2021-05-24 23:55:40|
+Composition Theorem |2021-05-24 23:55:41|
+Relevant Concept |2021-05-24 23:55:41|
+Real Setting |2021-05-24 23:55:42|
+Composable Security |2021-05-24 23:55:43|
+Discourse Relation |2021-05-24 23:55:44|
+PDTB |2021-05-24 23:55:45|
+Penn Discourse TreeBank |2021-05-24 23:55:46|
+Discourse Connective |2021-05-24 23:56:04|
+Spurious Signal |2021-05-24 23:56:05|
+Bayesian Network |2021-05-24 23:56:07|
+Software Component |2021-05-24 23:56:08|
+Onboard |2021-05-24 23:56:49|
+Negative Transfer |2021-05-24 23:56:50|
+Few Trials |2021-05-24 23:56:51|
+Source Tasks |2021-05-24 23:56:58|
+Image Region |2021-05-24 23:57:37|
+Scale Change |2021-05-24 23:57:38|
+MS Tracker |2021-05-24 23:57:40|
+Mathematical Morphology |2021-05-24 23:57:41|
+Practical Aspect |2021-05-24 23:58:03|
+PeertoPeer P Overlay Network |2021-05-24 23:58:24|
+Participant Entities |2021-05-24 23:58:25|
+High Energy Barrier |2021-05-24 23:59:02|
+2D Image Information |2021-05-24 23:59:02|
+Detailed Balance |2021-05-24 23:59:03|
+Counting |2021-05-24 23:59:16|
+Target Scene |2021-05-24 23:59:17|
+Stateoftheart Method |2021-05-24 23:59:18|
+Handcrafted Feature |2021-05-24 23:59:19|
+Local Visual Features |2021-05-24 23:59:20|
+Quality Measure |2021-05-24 23:59:46|
+Facetoface Classes |2021-05-25 00:00:34|
+Oncampus |2021-05-25 00:00:36|
+Undergraduate |2021-05-25 00:00:37|
+Key Space |2021-05-25 00:00:55|
+Caching |2021-05-25 00:00:56|
+RankSVM |2021-05-25 00:01:42|
+IR Measure |2021-05-25 00:01:44|
+ListNet |2021-05-25 00:01:56|
+Toolset |2021-05-25 00:02:04|
+Safetycritical Systems |2021-05-25 00:02:05|
+AADL Model |2021-05-25 00:02:06|
+Aerospace |2021-05-25 00:02:08|
+DOLCE Ontology |2021-05-25 00:02:08|
+Different Role |2021-05-25 00:02:10|
+Ontology Engineering |2021-05-25 00:02:10|
+Semantic Technology |2021-05-25 00:02:12|
+GEV Distribution |2021-05-25 00:02:20|
+Rcpsp |2021-05-25 00:02:30|
+Search Algorithm |2021-05-25 00:02:31|
+Search Heuristic |2021-05-25 00:02:32|
+Prior Score |2021-05-25 00:02:43|
+Learningbased Approaches |2021-05-25 00:02:44|
+Speedup |2021-05-25 00:03:03|
+Maxflow |2021-05-25 00:03:04|
+Edge Weight |2021-05-25 00:03:05|
+MOMA |2021-05-25 00:03:06|
+Weighting Vector |2021-05-25 00:03:07|
+Version Of MOEA/D |2021-05-25 00:03:08|
+Decomposition Strategy |2021-05-25 00:03:09|
+Nsgaii |2021-05-25 00:03:10|
+Image Mosaicing |2021-05-25 00:04:17|
+Object Movement |2021-05-25 00:04:18|
+Video Compression |2021-05-25 00:04:19|
+Input Image |2021-05-25 00:04:21|
+Monolingual Data |2021-05-25 00:04:22|
+Clustering Structure |2021-05-25 00:04:35|
+Joint Model |2021-05-25 00:04:35|
+SSL |2021-05-25 00:05:37|
+Unknown Label |2021-05-25 00:05:38|
+Data Point |2021-05-25 00:05:39|
+SSC |2021-05-25 00:06:58|
+Tracking Of Multiple Objects |2021-05-25 00:06:59|
+Multiperson Tracking |2021-05-25 00:07:19|
+Trackingbydetection |2021-05-25 00:07:20|
+Morphological Operator |2021-05-25 00:07:46|
+Original Image |2021-05-25 00:08:13|
+High Resolution |2021-05-25 00:08:14|
+Crprolog |2021-05-25 00:08:26|
+Rules Crrules |2021-05-25 00:08:28|
+LPOD |2021-05-25 00:08:29|
+AProlog |2021-05-25 00:08:30|
+Tangible Bits |2021-05-25 00:08:31|
+Virtual Object |2021-05-25 00:08:31|
+Following Advantages |2021-05-25 00:09:10|
+MARL |2021-05-25 00:09:26|
+Multiagent Learning |2021-05-25 00:09:27|
+State Space |2021-05-25 00:09:28|
+Computer Network |2021-05-25 00:09:29|
+Formal Model |2021-05-25 00:09:50|
+Functional Level |2021-05-25 00:09:51|
+Dialectal Arabic |2021-05-25 00:10:14|
+Tabulation |2021-05-25 00:10:53|
+Hash Function |2021-05-25 00:10:54|
+BIN |2021-05-25 00:11:56|
+Linear Probing |2021-05-25 00:11:57|
+Affinity Propagation AP Algorithm |2021-05-25 00:12:49|
+Euclidean Distance |2021-05-25 00:12:50|
+Developmental Pattern |2021-05-25 00:12:51|
+Proposed Method |2021-05-25 00:12:53|
+Quantization Error |2021-05-25 00:12:54|
+Knowledge Resource |2021-05-25 00:13:03|
+Daily Life |2021-05-25 00:13:04|
+Mobile Worm |2021-05-25 00:13:13|
+Key Node |2021-05-25 00:13:22|
+Mobile Network |2021-05-25 00:13:23|
+Unknown Sharp Image |2021-05-25 00:13:24|
+Gradient Domain |2021-05-25 00:13:25|
+Variety Of Methods |2021-05-25 00:13:26|
+Simple Statistics |2021-05-25 00:13:28|
+Uniform Kernel |2021-05-25 00:13:29|
+Linear Constraint |2021-05-25 00:13:42|
+Following SDP |2021-05-25 00:13:43|
+SemiDefinite Programming SDP |2021-05-25 00:13:44|
+Convex Optimization |2021-05-25 00:13:44|
+Statistical Model |2021-05-25 00:13:55|
+User Model |2021-05-25 00:13:55|
+Training Example |2021-05-25 00:13:56|
+Student Modeling |2021-05-25 00:13:58|
+Large Data |2021-05-25 00:13:59|
+Heatmap |2021-05-25 00:14:24|
+Endtoend |2021-05-25 00:14:25|
+Spatial Model |2021-05-25 00:14:27|
+Cancerous Cell |2021-05-25 00:14:28|
+Active Learning |2021-05-25 00:14:29|
+Class Imbalance |2021-05-25 00:14:48|
+Text Document |2021-05-25 00:14:50|
+Feature Extraction Technique |2021-05-25 00:14:51|
+Electronic Data |2021-05-25 00:14:52|
+Patche |2021-05-25 00:15:04|
+Metric Map |2021-05-25 00:15:14|
+CORE Component |2021-05-25 00:15:14|
+Rotation Vector |2021-05-25 00:15:16|
+Document Collection |2021-05-25 00:15:26|
+Query Template |2021-05-25 00:15:27|
+Query Language |2021-05-25 00:15:28|
+Word Segmentation |2021-05-25 00:15:47|
+Word Boundary |2021-05-25 00:15:48|
+POS Tagging |2021-05-25 00:15:49|
+Annotation Guideline |2021-05-25 00:15:50|
+Several Time |2021-05-25 00:15:52|
+Statistical Significance |2021-05-25 00:15:53|
+Familywise Error |2021-05-25 00:15:54|
+Performance Improvement |2021-05-25 00:15:55|
+Number Of Algorithms |2021-05-25 00:16:20|
+Recent Effort |2021-05-25 00:16:20|
+Histogram |2021-05-25 00:16:21|
+Textural Characteristics |2021-05-25 00:16:22|
+Superpixel |2021-05-25 00:16:23|
+Level Feature |2021-05-25 00:16:24|
+Head Motion |2021-05-25 00:16:48|
+Data Acquisition |2021-05-25 00:16:49|
+Simple Technique |2021-05-25 00:16:50|
+Image Degradation |2021-05-25 00:16:52|
+Monitoring Program |2021-05-25 00:16:53|
+Monitor |2021-05-25 00:17:55|
+Large Graph |2021-05-25 00:17:56|
+Product Penetration |2021-05-25 00:18:09|
+Static Network |2021-05-25 00:18:10|
+TCP Stream Reassembly |2021-05-25 00:18:21|
+Panning |2021-05-25 00:18:31|
+Video Browsing |2021-05-25 00:18:32|
+IMOT |2021-05-25 00:18:42|
+RSA |2021-05-25 00:20:54|
+WEB Site |2021-05-25 00:21:07|
+Postadoption Research |2021-05-25 00:21:08|
+Acceptance Behavior |2021-05-25 00:21:09|
+Key Construct |2021-05-25 00:21:10|
+Required Security Levels |2021-05-25 00:21:11|
+SEC |2021-05-25 00:22:13|
+Elliptic Curve |2021-05-25 00:22:15|
+Multiplication |2021-05-25 00:22:27|
+Indian Buffet Process IBP |2021-05-25 00:22:28|
+Dishes |2021-05-25 00:22:29|
+Latent Structure |2021-05-25 00:22:30|
+Research Agenda |2021-05-25 00:23:40|
+Informal Learning |2021-05-25 00:23:52|
+Facetoface Meeting |2021-05-25 00:23:52|
+Possible Thanks |2021-05-25 00:23:53|
+Video Format |2021-05-25 00:23:54|
+Input Graph |2021-05-25 00:23:55|
+Map/reduce |2021-05-25 00:24:07|
+Largescale Graph |2021-05-25 00:24:35|
+Human Genome |2021-05-25 00:24:36|
+Human Gene |2021-05-25 00:24:37|
+Genome Annotation |2021-05-25 00:24:38|
+Biological Sequence |2021-05-25 00:24:40|
+Immune Epitopes |2021-05-25 00:24:41|
+Probabilistic Program |2021-05-25 00:24:42|
+Machine Code |2021-05-25 00:24:44|
+Inference Method |2021-05-25 00:24:45|
+C Library |2021-05-25 00:24:46|
+Convergence Time |2021-05-25 00:24:47|
+LOG |2021-05-25 00:25:22|
+Geographic Information |2021-05-25 00:25:47|
+Support Set |2021-05-25 00:25:48|
+Overwhelming Probability |2021-05-25 00:25:49|
+D/N |2021-05-25 00:25:50|
+Graphical Model Selection |2021-05-25 00:25:51|
+Random Support |2021-05-25 00:25:53|
+Internet Graph |2021-05-25 00:25:53|
+Routing Scheme |2021-05-25 00:25:55|
+Random Graph |2021-05-25 00:25:55|
+POWER LAW |2021-05-25 00:25:56|
+Product Quality |2021-05-25 00:26:14|
+Planning Horizon |2021-05-25 00:26:15|
+Demand Forecast |2021-05-25 00:26:16|
+Production Machines |2021-05-25 00:26:17|
+Production Cost |2021-05-25 00:26:18|
+Translation Model |2021-05-25 00:26:19|
+Ngram |2021-05-25 00:26:28|
+Joint Probability |2021-05-25 00:26:29|
+Target Word |2021-05-25 00:26:30|
+Logistic Regression |2021-05-25 00:26:31|
+Prediction Model |2021-05-25 00:26:32|
+Massive Open Online Courses MOOC |2021-05-25 00:26:51|
+Consecutive Weeks |2021-05-25 00:26:53|
+Forecasting |2021-05-25 00:26:54|
+Contentious Issue |2021-05-25 00:26:55|
+Political Opinion |2021-05-25 00:27:08|
+Word Vector |2021-05-25 00:27:56|
+Transfer Function |2021-05-25 00:27:58|
+Recursive Autoencoder |2021-05-25 00:28:15|
+Different Characteristic |2021-05-25 00:28:16|
+Automatic Speech Recognition ASR |2021-05-25 00:28:28|
+Considerable Amount |2021-05-25 00:28:42|
+PIR Protocol |2021-05-25 00:28:43|
+Private Information Retrieval PIR |2021-05-25 00:28:45|
+Access Pattern |2021-05-25 00:28:45|
+TALK |2021-05-25 00:28:47|
+Hierarchical Task Network |2021-05-25 00:28:47|
+Planning Algorithm |2021-05-25 00:28:49|
+WSC Procedures |2021-05-25 00:28:50|
+HTN Planning |2021-05-25 00:29:02|
+Driver Assistance |2021-05-25 00:29:03|
+Scene Understanding |2021-05-25 00:29:04|
+Driver Behavior |2021-05-25 00:29:05|
+Main Component |2021-05-25 00:29:06|
+Multiagent Systems |2021-05-25 00:29:47|
+Social Law |2021-05-25 00:30:21|
+Selforganisation |2021-05-25 00:30:22|
+Mutation Operator |2021-05-25 00:30:23|
+Numerical Optimization |2021-05-25 00:31:30|
+Mutation Strategy |2021-05-25 00:31:31|
+Same Layer |2021-05-25 00:31:32|
+Adaptive Fuzzy Systems |2021-05-25 00:31:33|
+Multilayer Perceptron |2021-05-25 00:31:44|
+Popular Research Topic |2021-05-25 00:31:45|
+TFT |2021-05-25 00:32:47|
+Freerider |2021-05-25 00:32:57|
+Compliant Clients |2021-05-25 00:33:11|
+Semantic Annotation |2021-05-25 00:33:19|
+Bottomup Approaches |2021-05-25 00:33:20|
+Accusative Case |2021-05-25 00:33:32|
+Internal Argument |2021-05-25 00:33:33|
+Class Distribution |2021-05-25 00:33:34|
+Training Time |2021-05-25 00:33:35|
+Ensemble Method |2021-05-25 00:33:36|
+CGS |2021-05-25 00:34:38|
+Computational Time |2021-05-25 00:34:39|
+Mapreduce |2021-05-25 00:34:40|
+Collapsed Gibbs Sampling |2021-05-25 00:34:41|
+Ence |2021-05-25 00:34:42|
+Control Strategy |2021-05-25 00:35:06|
+Markov Decision Process MDP |2021-05-25 00:35:08|
+HVAC Systems |2021-05-25 00:35:09|
+Energy Saving |2021-05-25 00:35:10|
+Minor Variant |2021-05-25 00:35:26|
+Convnet |2021-05-25 00:35:40|
+Video Frame |2021-05-25 00:35:41|
+Graph Analysis Algorithms |2021-05-25 00:36:01|
+Graph Processing |2021-05-25 00:36:02|
+Datalevel Parallelism |2021-05-25 00:36:03|
+Error Rate |2021-05-25 00:36:15|
+Convolutional Neural Network |2021-05-25 00:36:16|
+Phone Recognition |2021-05-25 00:36:17|
+CAD |2021-05-25 00:37:19|
+Object Class |2021-05-25 00:37:20|
+Pairwise Algorithm |2021-05-25 00:37:44|
+RankBoost |2021-05-25 00:38:01|
+Machine Learning Technique |2021-05-25 00:38:02|
+ReID |2021-05-25 00:38:03|
+Recent Survey |2021-05-25 00:38:04|
+Reidentification |2021-05-25 00:38:05|
+Review Paper |2021-05-25 00:38:07|
+Same Identifier |2021-05-25 00:38:08|
+CPU Cluster |2021-05-25 00:38:09|
+Commodity Server |2021-05-25 00:38:35|
+COAP |2021-05-25 00:38:47|
+RESTful Web Service |2021-05-25 00:38:48|
+Heterogeneous Devices |2021-05-25 00:38:49|
+Arcconsistency |2021-05-25 00:38:50|
+Constraint Programming CP |2021-05-25 00:38:51|
+Constraint Satisfaction |2021-05-25 00:38:52|
+Tagging Systems |2021-05-25 00:39:28|
+Sigurbj Rnsson |2021-05-25 00:39:28|
+Tag Recommendation |2021-05-25 00:39:40|
+OntoEdit |2021-05-25 00:39:41|
+Initial Ontology |2021-05-25 00:39:50|
+Knowledge Sharing |2021-05-25 00:39:51|
+WebODE |2021-05-25 00:39:52|
+Significant |2021-05-25 00:39:53|
+Simulation Environment |2021-05-25 00:39:54|
+Robot Control |2021-05-25 00:39:54|
+Robot Simulator |2021-05-25 00:40:04|
+Crowdsourcing Systems |2021-05-25 00:40:05|
+Online Community |2021-05-25 00:40:06|
+Human Computation |2021-05-25 00:40:08|
+Crowdsourcing Platform |2021-05-25 00:40:09|
+BPEL |2021-05-25 00:41:11|
+Execution Language |2021-05-25 00:41:13|
+Relative Entropy |2021-05-25 00:41:14|
+Minibatch Training |2021-05-25 00:41:15|
+Generative Model |2021-05-25 00:41:25|
+Hypergraph |2021-05-25 00:41:58|
+Feature Set |2021-05-25 00:41:59|
+Spectral Clustering Algorithm |2021-05-25 00:42:00|
+Reachable Belief Space |2021-05-25 00:42:01|
+SARSOP |2021-05-25 00:42:02|
+Initial Belief State |2021-05-25 00:42:03|
+Offline Planning |2021-05-25 00:42:04|
+PBVI Pineau |2021-05-25 00:42:05|
+Crowdsourcing |2021-05-25 00:42:06|
+Lack Of Awareness |2021-05-25 00:42:28|
+Gradient Information |2021-05-25 00:42:39|
+Dual Coordinate Descent |2021-05-25 00:42:58|
+Gradient Descent |2021-05-25 00:42:59|
+DCA |2021-05-25 00:44:01|
+Method Of Community Detection |2021-05-25 00:44:02|
+Spectral Clustering |2021-05-25 00:44:03|
+D Composition |2021-05-25 00:44:04|
+Disjoint Communities |2021-05-25 00:44:05|
+Obtenir |2021-05-25 00:44:06|
+Sybil Attack |2021-05-25 00:58:41|
+VOTE |2021-05-25 00:58:42|
+Online Content |2021-05-25 00:58:43|
+Lie Group |2021-05-25 00:58:45|
+Continuous Time Optimal Control Problems |2021-05-25 00:58:46|
+Motion Planning |2021-05-25 00:58:47|
+Motion Plan |2021-05-25 00:58:48|
+Trajectory Optimization |2021-05-25 00:58:49|
+Microlevel |2021-05-25 00:58:50|
+Macrolevel |2021-05-25 00:58:51|
+Strategic Asset |2021-05-25 00:58:52|
+BaNK |2021-05-25 00:58:53|
+Sicstus Prolog |2021-05-25 00:59:28|
+Key Application |2021-05-25 00:59:30|
+Vironment |2021-05-25 01:00:04|
+Nash Equilibria |2021-05-25 01:00:06|
+PLAYER Game |2021-05-25 01:00:16|
+Special Structure |2021-05-25 01:00:17|
+Mixed Strategy |2021-05-25 01:00:18|
+Rate Limit |2021-05-25 01:01:01|
+Traffic Pattern |2021-05-25 01:01:02|
+Allocation Of Tasks |2021-05-25 01:01:03|
+Th Raulaz |2021-05-25 01:01:04|
+Allocation Method |2021-05-25 01:01:05|
+Allocation Algorithm |2021-05-25 01:01:06|
+Text Processing |2021-05-25 01:01:21|
+Data Science |2021-05-25 01:01:22|
+Bigdata Analytics |2021-05-25 01:01:22|
+Product Reputation Analysis |2021-05-25 01:01:24|
+Sentiments Toward Events |2021-05-25 01:01:25|
+Second Category |2021-05-25 01:01:25|
+Product Review |2021-05-25 01:01:27|
+VERB |2021-05-25 01:02:01|
+Nominalization |2021-05-25 01:02:09|
+Noun Phrase |2021-05-25 01:02:10|
+Semantic Relations In Text |2021-05-25 01:02:11|
+Lection |2021-05-25 01:02:12|
+NLP Application |2021-05-25 01:02:13|
+Conflict Detection |2021-05-25 01:03:04|
+Bilingual Lexicon |2021-05-25 01:03:41|
+Comparable Corpora |2021-05-25 01:03:42|
+Context Vector |2021-05-25 01:03:53|
+Target Language |2021-05-25 01:03:55|
+CPSS |2021-05-25 01:04:56|
+Resulting |2021-05-25 01:04:58|
+Cyberphysical Systems |2021-05-25 01:04:59|
+Topic Segmentation |2021-05-25 01:05:00|
+Text Segmentation |2021-05-25 01:05:01|
+Supervised Method |2021-05-25 01:05:02|
+Topic Model |2021-05-25 01:05:03|
+Maximum Degree |2021-05-25 01:05:15|
+Connected Graph |2021-05-25 01:05:16|
+Bends Per Edge |2021-05-25 01:05:17|
+Word Pair |2021-05-25 01:05:18|
+Side Information |2021-05-25 01:05:19|
+ASR |2021-05-25 01:06:21|
+Fault Tolerance |2021-05-25 01:06:36|
+Software Systems |2021-05-25 01:06:37|
+System Health Management |2021-05-25 01:06:55|
+Contextaware Access Control |2021-05-25 01:06:55|
+Context Classification |2021-05-25 01:06:56|
+Speech Source |2021-05-25 01:06:57|
+Degenerate Unmixing Estimation Technique DUET |2021-05-25 01:06:58|
+Level Difference |2021-05-25 01:06:59|
+Sparseness Of Source Signals |2021-05-25 01:07:00|
+Spectrotemporal Domain |2021-05-25 01:07:02|
+Cliquewidth |2021-05-25 01:07:03|
+Tree Decomposition |2021-05-25 01:07:20|
+Outerplanar Graph |2021-05-25 01:07:21|
+Coordinate Structure |2021-05-25 01:07:22|
+Punctuation Signs |2021-05-25 01:07:23|
+POS Tag |2021-05-25 01:07:24|
+Sparse Code |2021-05-25 01:07:25|
+Laplacian Source |2021-05-25 01:07:26|
+Overcomplete Dictionary |2021-05-25 01:07:27|
+MAP Estimate |2021-05-25 01:07:28|
+Textual Corpora |2021-05-25 01:07:29|
+Dynamic Topic Model |2021-05-25 01:07:44|
+Hierarchical Dirichlet Process HDP |2021-05-25 01:07:45|
+Various Method |2021-05-25 01:07:46|
+Fusiform Gyrus |2021-05-25 01:07:47|
+Face Processing |2021-05-25 01:07:48|
+Social Stimuli |2021-05-25 01:07:49|
+Facial Expression |2021-05-25 01:07:50|
+Eye Tracking |2021-05-25 01:07:51|
+Shadow Price |2021-05-25 01:07:52|
+Rate Allocation |2021-05-25 01:07:53|
+Utility Maximization |2021-05-25 01:07:54|
+TCP Congestion Control |2021-05-25 01:08:05|
+Unsupervised Learning Of Morphology |2021-05-25 01:08:06|
+Hammarstr M |2021-05-25 01:08:07|
+Word Form |2021-05-25 01:08:09|
+Policy Evaluation |2021-05-25 01:08:19|
+Continuous MDP |2021-05-25 01:08:20|
+Planning Scenario |2021-05-25 01:08:21|
+Highperformance Policy |2021-05-25 01:08:21|
+Covert Channel |2021-05-25 01:08:33|
+Hiding Data |2021-05-25 01:08:34|
+Audio File |2021-05-25 01:08:36|
+Working Implementation |2021-05-25 01:08:36|
+Secret |2021-05-25 01:09:38|
+Binary Field |2021-05-25 01:09:39|
+Embedded Systems |2021-05-25 01:09:40|
+Publickey Algorithm |2021-05-25 01:09:42|
+Sensor Node |2021-05-25 01:09:43|
+Urban Transportation Systems |2021-05-25 01:09:44|
+Mistake |2021-05-25 01:10:45|
+Successful Systems |2021-05-25 01:10:47|
+Network Graph |2021-05-25 01:11:13|
+Text File |2021-05-25 01:11:14|
+Cytoscape Software |2021-05-25 01:11:16|
+Swer |2021-05-25 01:11:31|
+QA Systems |2021-05-25 01:11:33|
+Data Redundancy |2021-05-25 01:11:42|
+Text Corpus |2021-05-25 01:11:43|
+Diversity Statistics |2021-05-25 01:11:45|
+Haplotype |2021-05-25 01:12:01|
+Genetic Variation |2021-05-25 01:12:03|
+MEGA |2021-05-25 01:13:05|
+Emotion Analysis |2021-05-25 01:13:05|
+Lexical Feature |2021-05-25 01:13:07|
+Emotion Classification |2021-05-25 01:13:08|
+Tabular Format |2021-05-25 01:13:24|
+CoNLL Score |2021-05-25 01:13:25|
+NLP Research |2021-05-25 01:13:26|
+Coreference Resolution |2021-05-25 01:13:27|
+Planning Process |2021-05-25 01:13:28|
+Exogenous Event |2021-05-25 01:13:30|
+Syntax And Semantic |2021-05-25 01:13:31|
+Action Duration |2021-05-25 01:13:32|
+Numerical State Variables |2021-05-25 01:13:33|
+Nomenclature |2021-05-25 01:13:34|
+Splicing Mutation |2021-05-25 01:13:35|
+Annotation Tool |2021-05-25 01:13:59|
+Sequencing |2021-05-25 01:14:00|
+Cognitive Processes |2021-05-25 01:14:01|
+Memory Recall |2021-05-25 01:14:02|
+Cognitive Load |2021-05-25 01:14:04|
+Subdivision Scheme |2021-05-25 01:14:05|
+Art Performances |2021-05-25 01:14:05|
+Object And Scene Categories |2021-05-25 01:14:07|
+Different Scale |2021-05-25 01:14:08|
+Spatial Pyramids SP |2021-05-25 01:14:09|
+Traditional Game |2021-05-25 01:14:11|
+Local Optimum |2021-05-25 01:14:24|
+Fuzzy Clustering |2021-05-25 01:14:25|
+Approach To Clustering |2021-05-25 01:14:26|
+Subspace Clustering |2021-05-25 01:14:27|
+D Model |2021-05-25 01:14:28|
+3D Display |2021-05-25 01:14:29|
+3D Modeling |2021-05-25 01:14:30|
+Office Of The Future |2021-05-25 01:14:42|
+Object Proposal |2021-05-25 01:14:43|
+Proposal Generation |2021-05-25 01:14:44|
+CNN Model |2021-05-25 01:14:45|
+Shallow Parse |2021-05-25 01:14:45|
+Semantic Role Labeler |2021-05-25 01:14:46|
+Syntactic Constituent |2021-05-25 01:14:47|
+Syntactic Parse Trees |2021-05-25 01:14:48|
+MWE |2021-05-25 01:16:04|
+Compositionality |2021-05-25 01:16:05|
+Distributional Similarity |2021-05-25 01:16:06|
+Visual Feature |2021-05-25 01:16:07|
+Multiple Modality |2021-05-25 01:16:08|
+Predefined Set |2021-05-25 01:16:27|
+Multimedia Content |2021-05-25 01:16:28|
+Multitenant Datacenters |2021-05-25 01:16:29|
+Virtualization |2021-05-25 01:16:44|
+Virtual Network |2021-05-25 01:16:46|
+Control Plane |2021-05-25 01:16:47|
+Public Debate |2021-05-25 01:16:48|
+Important Topic |2021-05-25 01:16:49|
+Systematic Analysis |2021-05-25 01:16:56|
+Speaker Recognition |2021-05-25 01:16:57|
+Biometric |2021-05-25 01:16:58|
+Acoustic Noise |2021-05-25 01:16:59|
+Spoofing |2021-05-25 01:17:00|
+5G Systems |2021-05-25 01:17:01|
+GFDM |2021-05-25 01:17:02|
+Subcarrier |2021-05-25 01:17:03|
+Frequency Synchronization |2021-05-25 01:17:04|
+Conference Version |2021-05-25 01:17:05|
+Underlying Model |2021-05-25 01:17:06|
+Multiagent Coordination |2021-05-25 01:17:06|
+Competent Agents |2021-05-25 01:17:07|
+Regularization Term |2021-05-25 01:17:19|
+Sparse Coefficient |2021-05-25 01:17:20|
+Optimization Method |2021-05-25 01:17:21|
+Image Tagging |2021-05-25 01:17:22|
+Dense Correspondence |2021-05-25 01:17:50|
+Target Model |2021-05-25 01:18:08|
+Triple Graph |2021-05-25 01:18:09|
+Consistency Relation |2021-05-25 01:18:10|
+Complex Transformation |2021-05-25 01:18:11|
+Graph Grammar |2021-05-25 01:18:12|
+Security Concept |2021-05-25 01:18:13|
+Potential Attack |2021-05-25 01:18:14|
+Security Requirement |2021-05-25 01:18:14|
+Modeling Framework |2021-05-25 01:18:16|
+Countermeasure |2021-05-25 01:18:17|
+Credit Assignment |2021-05-25 01:18:17|
+TD Error |2021-05-25 01:18:19|
+Intelligent Control |2021-05-25 01:18:35|
+Learning Robot |2021-05-25 01:18:37|
+Tag Sequence |2021-05-25 01:18:38|
+Surrounding Words |2021-05-25 01:18:38|
+Statistical Tagger |2021-05-25 01:18:40|
+Sentence Boundary Detection |2021-05-25 01:18:41|
+Consistent Manner |2021-05-25 01:18:42|
+Submodular |2021-05-25 01:19:14|
+Local Polytope |2021-05-25 01:19:15|
+QPBOI |2021-05-25 01:19:29|
+Supervisory Layer |2021-05-25 01:19:30|
+Learning Algorithm |2021-05-25 01:19:52|
+Learning Rate |2021-05-25 01:19:53|
+Control Policy |2021-05-25 01:19:54|
+OR/MS |2021-05-25 01:19:55|
+M/M/1 |2021-05-25 01:19:56|
+Integer Programming |2021-05-25 01:19:56|
+ARC |2021-05-25 01:20:59|
+Linear Programming |2021-05-25 01:21:00|
+Relatedness |2021-05-25 01:21:01|
+Source Domain |2021-05-25 01:21:02|
+Domain Adaptation |2021-05-25 01:21:03|
+Target Domain |2021-05-25 01:21:05|
+Eavesdropping |2021-05-25 01:21:14|
+Encrypted Data |2021-05-25 01:21:15|
+Smatch |2021-05-25 01:21:16|
+AMR |2021-05-25 01:22:31|
+Law Enforcement |2021-05-25 01:22:42|
+Important Tasks |2021-05-25 01:22:43|
+Interagent Constraint |2021-05-25 01:22:44|
+Pareto Optimality |2021-05-25 01:22:45|
+Dynamic Change |2021-05-25 01:22:46|
+HCI Research |2021-05-25 01:23:35|
+HCI Researchers |2021-05-25 01:23:36|
+Streamlined Version |2021-05-25 01:23:37|
+Conducting |2021-05-25 01:23:38|
+Video Sequence |2021-05-25 01:23:40|
+Panoramic Image |2021-05-25 01:23:41|
+Intermediate Frames |2021-05-25 01:23:42|
+Video Texture |2021-05-25 01:23:43|
+Panoramic Mosaic |2021-05-25 01:23:45|
+User EXperience |2021-05-25 01:23:46|
+Natural Language Requirements |2021-05-25 01:23:46|
+Conceptual Model |2021-05-25 01:23:47|
+Requirement Engineering |2021-05-25 01:23:49|
+Requirement Analysis |2021-05-25 01:23:50|
+Stroke Width |2021-05-25 01:23:51|
+Document Binarization |2021-05-25 01:23:52|
+Thresholding Method |2021-05-25 01:23:52|
+DIBCO |2021-05-25 01:23:53|
+Edge Information |2021-05-25 01:23:54|
+Multiview Video |2021-05-25 01:23:55|
+View Synthesis |2021-05-25 01:24:12|
+3DV |2021-05-25 01:24:13|
+Maltparser |2021-05-25 01:25:06|
+Source And Target Side |2021-05-25 01:25:07|
+Latent Annotation |2021-05-25 01:25:08|
+Message Transmission |2021-05-25 01:25:10|
+Special Type |2021-05-25 01:25:11|
+Subset A |2021-05-25 01:25:12|
+Prediction Accuracy |2021-05-25 01:25:56|
+Sequence Length |2021-05-25 01:25:56|
+Approximation Algorithm |2021-05-25 01:25:57|
+Graph Problems |2021-05-25 01:25:58|
+Planar Graph |2021-05-25 01:25:59|
+Treewidth |2021-05-25 01:26:00|
+Vertex Cover |2021-05-25 01:26:01|
+LDOF |2021-05-25 01:26:02|
+Descriptor Matching |2021-05-25 01:26:03|
+Variational Approach |2021-05-25 01:26:15|
+Similarity Measure |2021-05-25 01:26:16|
+Field Of Knowledge Representation |2021-05-25 01:26:17|
+Different Ontology |2021-05-25 01:26:31|
+Ontology Alignment |2021-05-25 01:26:32|
+WLAN Link |2021-05-25 01:26:34|
+Early Proposal |2021-05-25 01:26:52|
+Retransmit |2021-05-25 01:26:53|
+Spectrum Hole |2021-05-25 01:26:54|
+Dynamic Spectrum Access |2021-05-25 01:26:54|
+Inference Rule |2021-05-25 01:27:21|
+Semantic Relation |2021-05-25 01:27:22|
+P Conversion |2021-05-25 01:28:06|
+Ngram Model |2021-05-25 01:28:20|
+Pronunciation |2021-05-25 01:28:21|
+Graphone |2021-05-25 01:28:22|
+Nodexl |2021-05-25 01:28:23|
+Network Analysis Tool |2021-05-25 01:28:34|
+Visualization Technique |2021-05-25 01:28:34|
+Network Metric |2021-05-25 01:28:36|
+Training Trajectory |2021-05-25 01:28:37|
+Developed |2021-05-25 01:29:02|
+Milboost |2021-05-25 01:29:03|
+Annotated Bounding Box |2021-05-25 01:29:11|
+Algorithmic Language Scheme RS |2021-05-25 01:29:23|
+Program Committee |2021-05-25 01:29:24|
+Github |2021-05-25 01:29:37|
+Criminal Accounts |2021-05-25 01:29:38|
+Spammer |2021-05-25 01:29:52|
+2D Image |2021-05-25 01:30:11|
+Embedding Space |2021-05-25 01:30:12|
+Joint Embedding |2021-05-25 01:30:13|
+EvenDar |2021-05-25 01:30:14|
+Sample Complexity |2021-05-25 01:30:15|
+Same Approach |2021-05-25 01:30:59|
+Conditional Likelihood |2021-05-25 01:31:00|
+MAP Inference |2021-05-25 01:31:01|
+Structured Learning |2021-05-25 01:31:02|
+Loglinear Model |2021-05-25 01:31:03|
+Discriminative Training |2021-05-25 01:31:04|
+Cost Volume |2021-05-25 01:31:05|
+Aggregation Method |2021-05-25 01:31:37|
+Request Flow |2021-05-25 01:31:38|
+Performance Change |2021-05-25 01:31:39|
+Encoder |2021-05-25 01:32:01|
+Dimensionality Reduction |2021-05-25 01:32:02|
+Hidden Representation |2021-05-25 01:32:03|
+Input Space |2021-05-25 01:32:04|
+Residueresidue Contacts |2021-05-25 01:32:05|
+CAS And CAS |2021-05-25 01:32:19|
+Complementary Information |2021-05-25 01:32:21|
+MDC |2021-05-25 01:33:23|
+Research Purpose |2021-05-25 01:34:03|
+Active Research Area |2021-05-25 01:34:04|
+Learning Mechanism |2021-05-25 01:34:05|
+Content Information |2021-05-25 01:34:06|
+Tree Kernel Model |2021-05-25 01:34:07|
+Predicateargument Structure |2021-05-25 01:34:25|
+Data Center |2021-05-25 01:35:47|
+Different Topology |2021-05-25 01:35:59|
+Ambiguous Training Data |2021-05-25 01:36:11|
+Human Annotation |2021-05-25 01:36:12|
+Meaning Representation |2021-05-25 01:36:25|
+Formal Language |2021-05-25 01:36:26|
+Classical Outcomes |2021-05-25 01:36:27|
+Original Specification |2021-05-25 01:36:28|
+Quantum Key Distribution Protocol |2021-05-25 01:36:29|
+Photon Source |2021-05-25 01:36:30|
+Direct Sum |2021-05-25 01:36:31|
+Implicit Sentiment |2021-05-25 01:36:32|
+Objective Sentences |2021-05-25 01:36:33|
+Opinion Mining |2021-05-25 01:36:34|
+Related Tasks |2021-05-25 01:36:35|
+Input Distribution |2021-05-25 01:36:36|
+Pearson's R |2021-05-25 01:36:37|
+Dependency Tree |2021-05-25 01:36:38|
+Semantic |2021-05-25 01:37:04|
+BAn |2021-05-25 01:37:05|
+Sequence Information |2021-05-25 01:37:26|
+Logic Conditions |2021-05-25 01:37:54|
+Refactoring |2021-05-25 01:37:55|
+Data Plane |2021-05-25 01:37:56|
+4D Architecture |2021-05-25 01:37:57|
+Network Management |2021-05-25 01:37:58|
+Biological Cell Membranes |2021-05-25 01:38:11|
+RESP |2021-05-25 01:38:13|
+Eigenvalue |2021-05-25 01:38:14|
+Willmore Flow |2021-05-25 01:38:15|
+Experimental Observation |2021-05-25 01:38:16|
+Pattern Formation |2021-05-25 01:38:33|
+Chua's Circuit |2021-05-25 01:38:34|
+Scaling Behavior |2021-05-25 01:38:35|
+Achievable Rate |2021-05-25 01:38:36|
+Corresponding |2021-05-25 01:38:37|
+Multiple Relay Networks |2021-05-25 01:38:38|
+CF Scheme |2021-05-25 01:38:40|
+Interaction Graph |2021-05-25 01:39:06|
+Data Element |2021-05-25 01:39:07|
+Data Reuse |2021-05-25 01:39:08|
+Overall Time |2021-05-25 01:39:09|
+Microprocessor Chip |2021-05-25 01:40:27|
+Convergence Property |2021-05-25 01:40:29|
+Optimization Algorithm |2021-05-25 01:40:30|
+Evolutionary |2021-05-25 01:40:31|
+Feature Representation |2021-05-25 01:41:06|
+Conventional Approach |2021-05-25 01:41:07|
+Conditional Random Fields CRF |2021-05-25 01:41:21|
+Llmer |2021-05-25 01:41:51|
+Unsupervised Method |2021-05-25 01:42:17|
+Unigram |2021-05-25 01:42:18|
+Simulated Annealing |2021-05-25 01:42:19|
+MMD |2021-05-25 01:43:22|
+Training Sample |2021-05-25 01:43:23|
+Image Data |2021-05-25 01:43:24|
+Satellite Environment |2021-05-25 01:43:25|
+Performance Problems |2021-05-25 01:43:25|
+SACK |2021-05-25 01:43:37|
+Nested Object |2021-05-25 01:43:38|
+Surface Segmentation |2021-05-25 01:43:39|
+Graph Construction |2021-05-25 01:43:40|
+3D Surface |2021-05-25 01:43:42|
+Software Engineering |2021-05-25 01:43:58|
+Graph Layout |2021-05-25 01:43:59|
+Graph Representation |2021-05-25 01:44:00|
+Unbalanced Dataset |2021-05-25 01:44:01|
+Semantic Relation Classification |2021-05-25 01:44:09|
+Answering |2021-05-25 01:44:10|
+Surface Pattern |2021-05-25 01:44:11|
+LRA |2021-05-25 01:45:13|
+Attributional Similarity |2021-05-25 01:45:14|
+Attack Model |2021-05-25 01:45:16|
+Attack Type |2021-05-25 01:45:17|
+Attack Profile |2021-05-25 01:45:18|
+Malicious Attack |2021-05-25 01:45:19|
+Sequential Data |2021-05-25 01:45:30|
+Health Data |2021-05-25 01:45:31|
+OO Systems |2021-05-25 01:45:32|
+Single Set |2021-05-25 01:45:33|
+Objectoriented Systems |2021-05-25 01:45:34|
+GUi |2021-05-25 01:45:35|
+Requ Te |2021-05-25 01:45:36|
+Query Expansion Technique |2021-05-25 01:45:37|
+Retrieval Effectiveness |2021-05-25 01:45:38|
+Relevant Document |2021-05-25 01:45:39|
+Expansion Term |2021-05-25 01:45:40|
+Botnet |2021-05-25 01:45:40|
+Outgoing |2021-05-25 01:46:08|
+Total Cost |2021-05-25 01:46:34|
+Memetic Algorithm |2021-05-25 01:46:35|
+TextonBoost |2021-05-25 01:46:55|
+Potts Potentials |2021-05-25 01:46:57|
+Gene Regulatory Network |2021-05-25 01:46:57|
+Key Challenge |2021-05-25 01:46:59|
+Multiagent |2021-05-25 01:47:30|
+Kmer Length |2021-05-25 01:47:55|
+RNASeq Data |2021-05-25 01:47:56|
+Default Parameter |2021-05-25 01:47:58|
+Assembler |2021-05-25 01:47:59|
+Softwarebased Attestation |2021-05-25 01:48:08|
+Nuprl |2021-05-25 01:48:47|
+Category Theory |2021-05-25 01:48:48|
+Proof Search |2021-05-25 01:48:49|
+Mlearning |2021-05-25 01:48:50|
+Mobile Learning |2021-05-25 01:48:51|
+Property 1 |2021-05-25 01:49:44|
+Nphard |2021-05-25 01:49:46|
+Convexity Property |2021-05-25 01:49:47|
+Fractional Chromatic Number |2021-05-25 01:49:48|
+Partial Tree Kernel PTK |2021-05-25 01:50:09|
+SVMlight |2021-05-25 01:50:21|
+Kernel Function |2021-05-25 01:50:22|
+Mining Frequent Itemset |2021-05-25 01:50:23|
+Data Mining Area |2021-05-25 01:50:24|
+Data Type |2021-05-25 01:50:26|
+Transaction Data |2021-05-25 01:50:27|
+Apriori |2021-05-25 01:50:28|
+Privacy Protection |2021-05-25 01:50:29|
+Social Networking |2021-05-25 01:50:55|
+Personal Attribute |2021-05-25 01:51:04|
+Household Appliance |2021-05-25 01:51:20|
+Natural Language Interface |2021-05-25 01:51:21|
+Scene Geometry |2021-05-25 01:51:36|
+Intelligent Machine |2021-05-25 01:52:09|
+Structured Light Source |2021-05-25 01:53:58|
+Tourist Domain |2021-05-25 01:53:59|
+Contextual Factor |2021-05-25 01:54:00|
+Contextual Information |2021-05-25 01:54:01|
+Recommender |2021-05-25 01:54:02|
+Item Ratings |2021-05-25 01:54:03|
+Imitation Learning |2021-05-25 01:54:04|
+Bayesian Optimization |2021-05-25 01:54:05|
+Level Controller |2021-05-25 01:54:06|
+Upper Confidence Bounds |2021-05-25 01:54:07|
+Dropconnect |2021-05-25 01:54:08|
+SVHN |2021-05-25 01:54:09|
+Network Architecture |2021-05-25 01:54:10|
+CIFAR |2021-05-25 01:54:11|
+Principal Component |2021-05-25 01:55:29|
+Online Learning |2021-05-25 01:55:30|
+Word Recognition |2021-05-25 01:55:31|
+TORO |2021-05-25 01:55:32|
+GaussNewton Method |2021-05-25 01:55:33|
+SSBA |2021-05-25 01:55:34|
+Graph Optimization |2021-05-25 01:55:46|
+Metadata |2021-05-25 01:56:03|
+Genre Distinctions |2021-05-25 01:56:04|
+WiT |2021-05-25 01:56:05|
+Value Function |2021-05-25 01:56:06|
+Common Feature |2021-05-25 01:56:07|
+Information Retrieval |2021-05-25 01:56:28|
+Response Time |2021-05-25 01:56:29|
+1/P |2021-05-25 01:56:30|
+Absolute Constant |2021-05-25 01:56:31|
+Random Variable |2021-05-25 01:56:33|
+Symmetric Matrix |2021-05-25 01:56:34|
+High Probability |2021-05-25 01:56:35|
+Functional Connectivity Matrix |2021-05-25 01:56:36|
+Connectomics |2021-05-25 01:56:37|
+Modularity Analysis |2021-05-25 01:56:38|
+Nodes In The Network |2021-05-25 01:56:38|
+Connection Density |2021-05-25 01:56:39|
+Dynamic Version |2021-05-25 01:56:40|
+Randomization |2021-05-25 01:56:41|
+Constant Time |2021-05-25 01:56:42|
+Time Complexity |2021-05-25 01:56:43|
+Collaborative |2021-05-25 01:57:09|
+Ltering |2021-05-25 01:57:11|
+Embedding |2021-05-25 01:57:12|
+Source Separation |2021-05-25 01:57:21|
+Speech Data |2021-05-25 01:57:22|
+Quiet Environment |2021-05-25 01:57:23|
+Time Series |2021-05-25 01:57:25|
+MCNN |2021-05-25 01:57:25|
+Images And Text |2021-05-25 01:57:27|
+Zeroshot Learning |2021-05-25 01:57:28|
+DTRNN |2021-05-25 01:57:29|
+Topic Information |2021-05-25 01:57:30|
+Topic Word |2021-05-25 01:57:31|
+SeSeq Model |2021-05-25 01:57:32|
+Query Segment |2021-05-25 01:58:15|
+Query Segmentation |2021-05-25 01:58:16|
+Optimization Component |2021-05-25 01:58:17|
+Connguration |2021-05-25 01:58:19|
+Buffer Overflow Attack |2021-05-25 01:58:50|
+WEB Server |2021-05-25 01:58:51|
+Perfect CSIT And CSIR |2021-05-25 01:58:52|
+Sum Capacity |2021-05-25 01:58:53|
+DPC |2021-05-25 01:59:55|
+MIMO BC |2021-05-25 01:59:56|
+Dynamic Discovery |2021-05-25 01:59:57|
+Orchestration Of Web Services |2021-05-25 01:59:58|
+Workflow Specification Language |2021-05-25 01:59:59|
+Service Composition Languages |2021-05-25 02:00:00|
+Design Time |2021-05-25 02:00:01|
+Singlepath Flow |2021-05-25 02:00:03|
+Congestion Control |2021-05-25 02:00:10|
+Route R |2021-05-25 02:00:11|
+Nonlinear |2021-05-25 02:01:09|
+Internal Estimate |2021-05-25 02:01:10|
+Necessary And Sufficient Condition |2021-05-25 02:01:11|
+Homogeneous Network |2021-05-25 02:01:13|
+General Linear |2021-05-25 02:01:14|
+P Botnet |2021-05-25 02:02:35|
+Centrality |2021-05-25 02:03:09|
+Limited Amount |2021-05-25 02:03:10|
+Essential Part |2021-05-25 02:03:11|
+Career Decision |2021-05-25 02:03:36|
+Selfefficacy |2021-05-25 02:03:38|
+Career Choice |2021-05-25 02:03:46|
+Abstractive Summarization |2021-05-25 02:03:57|
+Human Brain |2021-05-25 02:03:58|
+Scientific Article |2021-05-25 02:03:59|
+Lockbased Critical Sections |2021-05-25 02:04:01|
+Hardware Implementation |2021-05-25 02:04:02|
+UTM |2021-05-25 02:05:04|
+Individual Difference |2021-05-25 02:05:18|
+Online Game |2021-05-25 02:05:19|
+Personalization |2021-05-25 02:05:20|
+Golf Course |2021-05-25 02:05:21|
+Minorclosed Class |2021-05-25 02:05:22|
+Finite Set |2021-05-25 02:05:23|
+Graphs G |2021-05-25 02:05:24|
+Celebrated |2021-05-25 02:05:25|
+Finite Graph |2021-05-25 02:05:26|
+Invariant Blur |2021-05-25 02:05:27|
+DOF |2021-05-25 02:06:29|
+Exposure Time |2021-05-25 02:07:22|
+Face Detection |2021-05-25 02:07:23|
+Informativeness |2021-05-25 02:07:24|
+Bayesian Learning |2021-05-25 02:07:25|
+Decision Tree Learning |2021-05-25 02:07:26|
+Human Mobility |2021-05-25 02:07:27|
+Location Prediction |2021-05-25 02:07:28|
+Markov Predictor |2021-05-25 02:07:29|
+Spatial Pyramid |2021-05-25 02:07:31|
+Human Action Recognition |2021-05-25 02:07:32|
+Context Information |2021-05-25 02:07:33|
+Video Volume |2021-05-25 02:07:34|
+Geometric Method |2021-05-25 02:07:35|
+Detector Array |2021-05-25 02:07:36|
+Nonlinear Regression |2021-05-25 02:07:37|
+Age Estimation |2021-05-25 02:07:38|
+Extensive Survey |2021-05-25 02:07:39|
+Chemical Master Equation CME |2021-05-25 02:07:58|
+SSA Algorithm |2021-05-25 02:07:59|
+Molecular Systems |2021-05-25 02:08:00|
+Microscopic Level |2021-05-25 02:08:01|
+Van Den |2021-05-25 02:08:02|
+AQ Family |2021-05-25 02:08:29|
+Example I |2021-05-25 02:08:30|
+Finite Support |2021-05-25 02:09:08|
+Mode Check |2021-05-25 02:09:10|
+Logic Programming |2021-05-25 02:09:11|
+Mode Analysis |2021-05-25 02:09:16|
+Spki/sdsi |2021-05-25 02:09:17|
+Access Control Mechanism |2021-05-25 02:09:22|
+Trust Management |2021-05-25 02:09:50|
+Dimensional Space |2021-05-25 02:09:52|
+Highdimensional Space |2021-05-25 02:09:54|
+Resulting Algorithm |2021-05-25 02:09:55|
+Probability T |2021-05-25 02:09:58|
+Monolingual Settings |2021-05-25 02:10:02|
+Dimensionality Reduction Technique |2021-05-25 02:10:04|
+Structural Feature |2021-05-25 02:10:37|
+Linkage Likelihood |2021-05-25 02:10:39|
+Structure Of The Network |2021-05-25 02:10:41|
+Katz Index |2021-05-25 02:10:44|
+Graph Structural Properties |2021-05-25 02:10:46|
+MNIST |2021-05-25 02:10:47|
+NORB |2021-05-25 02:10:51|
+Art Systems |2021-05-25 02:10:54|
+Realitybased Interaction |2021-05-25 02:10:55|
+Interaction Style |2021-05-25 02:10:56|
+Physical World |2021-05-25 02:11:17|
+Human Feedback |2021-05-25 02:11:40|
+Traditional Reinforcement |2021-05-25 02:11:42|
+TAMER Framework |2021-05-25 02:11:43|
+Human User |2021-05-25 02:11:44|
+RL Algorithm |2021-05-25 02:11:45|
+Datadriven Learningbased Techniques |2021-05-25 02:11:46|
+Reference Topology |2021-05-25 02:11:47|
+Opencv |2021-05-25 02:11:49|
+Hidden Unit |2021-05-25 02:12:12|
+Scissor |2021-05-25 02:13:41|
+Semantic Representation |2021-05-25 02:14:20|
+Temporal Constraint |2021-05-25 02:14:39|
+IxTeT |2021-05-25 02:14:41|
+Resource Constraint |2021-05-25 02:14:42|
+Plan Generation |2021-05-25 02:14:43|
+Large Neighbourhood Search |2021-05-25 02:14:46|
+Comprehensive Survey |2021-05-25 02:15:03|
+Neighborhood Search |2021-05-25 02:15:04|
+NED |2021-05-25 02:16:08|
+Causal Model |2021-05-25 02:16:41|
+Informational Relationships |2021-05-25 02:16:43|
+Quale |2021-05-25 02:16:44|
+Information Processing |2021-05-25 02:16:45|
+Training Algorithm |2021-05-25 02:16:46|
+Parallelization Approach |2021-05-25 02:16:47|
+Long Training Time |2021-05-25 02:16:48|
+Word Vector Representation |2021-05-25 02:16:49|
+LBL |2021-05-25 02:17:51|
+Worvec |2021-05-25 02:17:52|
+Skipgram |2021-05-25 02:17:53|
+Block Sparsity |2021-05-25 02:17:55|
+Corollary |2021-05-25 02:17:56|
+Broad Set |2021-05-25 02:17:57|
+Model Selection |2021-05-25 02:17:58|
+Norm Minimization |2021-05-25 02:17:59|
+Machine Learning Method |2021-05-25 02:18:00|
+Training Process |2021-05-25 02:18:01|
+Semisupervised Clustering |2021-05-25 02:18:02|
+Multiview Algorithm |2021-05-25 02:18:14|
+TCB |2021-05-25 02:19:43|
+Rapid Growth |2021-05-25 02:19:53|
+Demographic |2021-05-25 02:19:54|
+Personality Trait |2021-05-25 02:19:55|
+User Properties |2021-05-25 02:19:56|
+Political Preference |2021-05-25 02:19:57|
+Facebook Profile Data |2021-05-25 02:19:58|
+Information Filtering |2021-05-25 02:19:59|
+Relevant Information |2021-05-25 02:20:01|
+Knowledge Management |2021-05-25 02:20:02|
+User Interest |2021-05-25 02:20:03|
+Same Coin |2021-05-25 02:20:07|
+Language Pair |2021-05-25 02:20:08|
+Word Translation |2021-05-25 02:20:08|
+Pertopic Word Distributions |2021-05-25 02:20:10|
+Seed Lexicon |2021-05-25 02:20:11|
+Response Generation |2021-05-25 02:20:12|
+BLEU |2021-05-25 02:21:14|
+Human Evaluation |2021-05-25 02:21:15|
+Route Panorama |2021-05-25 02:21:16|
+Same Scene |2021-05-25 02:21:17|
+Perspective Image |2021-05-25 02:21:18|
+U.S. Government |2021-05-25 02:21:19|
+Place Recognition |2021-05-25 02:21:20|
+Syllabletimed Language |2021-05-25 02:21:21|
+Isochrony |2021-05-25 02:21:22|
+Stresstimed Language |2021-05-25 02:21:24|
+Prosodic Feature |2021-05-25 02:21:24|
+Language Identification |2021-05-25 02:21:26|
+Learning Method |2021-05-25 02:21:27|
+Different Tasks |2021-05-25 02:21:28|
+Mobile User |2021-05-25 02:21:29|
+Pervasive Computing |2021-05-25 02:21:30|
+Ubiquitous Computing |2021-05-25 02:21:45|
+Computing Power |2021-05-25 02:21:46|
+Selinux |2021-05-25 02:21:47|
+Differential Privacy |2021-05-25 02:21:58|
+Access Control |2021-05-25 02:21:59|
+Contractual Relation |2021-05-25 02:22:00|
+Commitment Protocol |2021-05-25 02:22:01|
+Creditor |2021-05-25 02:22:02|
+Open Systems |2021-05-25 02:22:03|
+Hamming Distance |2021-05-25 02:22:20|
+Hashing |2021-05-25 02:22:22|
+Alternating Optimization |2021-05-25 02:22:22|
+Virtual Environment |2021-05-25 02:22:49|
+Virtual Human |2021-05-25 02:22:50|
+Realtime Simulation |2021-05-25 02:22:51|
+Vision Community |2021-05-25 02:23:13|
+Behavior Recognition |2021-05-25 02:23:14|
+Video Stream |2021-05-25 02:23:16|
+Human Movement |2021-05-25 02:23:17|
+Video Retrieval |2021-05-25 02:23:18|
+Research Area |2021-05-25 02:23:19|
+Interested Reader |2021-05-25 02:23:20|
+Style Feature |2021-05-25 02:23:21|
+Local Minimum |2021-05-25 02:23:23|
+Arg Min |2021-05-25 02:23:24|
+Convex Analysis |2021-05-25 02:23:25|
+Mconvex Function |2021-05-25 02:23:26|
+Submodular Function |2021-05-25 02:23:27|
+MCTS Algorithm |2021-05-25 02:23:29|
+White Resp |2021-05-25 02:23:30|
+Progressive Widening |2021-05-25 02:24:51|
+Inference Process |2021-05-25 02:24:53|
+Fundamental Goal |2021-05-25 02:24:54|
+Theoretical Foundation |2021-05-25 02:25:02|
+Relevance Feedback |2021-05-25 02:25:14|
+Similarity Matrix |2021-05-25 02:25:15|
+Contentbased Image Retrieval |2021-05-25 02:25:16|
+Knearest Neighbor |2021-05-25 02:25:17|
+Generation Process |2021-05-25 02:25:18|
+Bestperforming |2021-05-25 02:25:19|
+Hybrid Tree Model |2021-05-25 02:25:20|
+Design Problems |2021-05-25 02:25:57|
+User Studies |2021-05-25 02:25:58|
+Statistical Pattern Recognition |2021-05-25 02:26:10|
+FolD |2021-05-25 02:26:12|
+Single Algorithm |2021-05-25 02:26:15|
+Backpropagation |2021-05-25 02:26:16|
+Experimental Setup |2021-05-25 02:26:18|
+Donn Es |2021-05-25 02:26:19|
+Cryptographic Access Control |2021-05-25 02:26:26|
+Key Assignment |2021-05-25 02:26:28|
+Key Distribution |2021-05-25 02:26:29|
+Public Information |2021-05-25 02:26:31|
+Recognition Accuracy |2021-05-25 02:27:11|
+Visual Recognition |2021-05-25 02:27:12|
+Pixel Value |2021-05-25 02:28:15|
+Texton |2021-05-25 02:28:16|
+Sumrate Capacity |2021-05-25 02:28:27|
+Dual MAC |2021-05-25 02:28:27|
+Power Constraint |2021-05-25 02:28:41|
+Original Source |2021-05-25 02:28:42|
+Domaindependent Information |2021-05-25 02:28:43|
+Restricted Domain |2021-05-25 02:28:44|
+Challenging Problems |2021-05-25 02:28:46|
+Developmental Stage |2021-05-25 02:28:47|
+Structured Controlled Vocabulary |2021-05-25 02:28:47|
+TAXA |2021-05-25 02:28:49|
+Cautious Reasoning |2021-05-25 02:29:14|
+Belief Revision |2021-05-25 02:29:49|
+Solutions Of A Certain |2021-05-25 02:29:57|
+Mealy Machine |2021-05-25 02:29:59|
+Regular Language |2021-05-25 02:30:00|
+Mobile Payment |2021-05-25 02:30:01|
+Payment Procedure |2021-05-25 02:30:02|
+Spreading |2021-05-25 02:30:03|
+Simplicity And Usability |2021-05-25 02:30:04|
+Electronic Commerce |2021-05-25 02:30:06|
+Randomness |2021-05-25 02:30:07|
+Virtual Machine |2021-05-25 02:30:08|
+Long History |2021-05-25 02:30:22|
+Second Contribution |2021-05-25 02:30:23|
+Emergent Behavior |2021-05-25 02:30:25|
+Psychological Model |2021-05-25 02:30:25|
+Adjective |2021-05-25 02:30:26|
+Formal Learning |2021-05-25 02:30:28|
+Durative Action |2021-05-25 02:30:29|
+COLIN |2021-05-25 02:30:44|
+Planning Problems |2021-05-25 02:30:45|
+Semantic Parsing |2021-05-25 02:31:02|
+Semantic Parser |2021-05-25 02:31:03|
+Feature Learning |2021-05-25 02:31:32|
+Sparse Representation |2021-05-25 02:31:33|
+Aggregation Algorithm |2021-05-25 02:31:34|
+Network Size |2021-05-25 02:31:35|
+E.G |2021-05-25 02:31:36|
+Failure Detection |2021-05-25 02:31:37|
+Ensemble Learning |2021-05-25 02:31:39|
+Positive Class |2021-05-25 02:31:40|
+Oversampling |2021-05-25 02:31:41|
+Balanced Data Set |2021-05-25 02:31:42|
+Candidate Antecedent |2021-05-25 02:31:44|
+Negative Training Instances |2021-05-25 02:31:45|
+Instance Selection |2021-05-25 02:31:46|
+Learning Approach |2021-05-25 02:31:47|
+K Nearest Neighbor |2021-05-25 02:31:48|
+Random Hash Function |2021-05-25 02:32:05|
+Thresholding |2021-05-25 02:32:42|
+Image Inpainting |2021-05-25 02:32:44|
+Sparsity |2021-05-25 02:32:45|
+Morphological Component |2021-05-25 02:32:46|
+Attention Model |2021-05-25 02:32:47|
+Bounding Boxes |2021-05-25 02:32:48|
+Class Boundary |2021-05-25 02:32:49|
+VizWiz |2021-05-25 02:32:50|
+Image Description |2021-05-25 02:33:05|
+Blind User |2021-05-25 02:33:06|
+TREC Data |2021-05-25 02:33:07|
+Retrieval Conference |2021-05-25 02:33:08|
+Evaluation Methodology |2021-05-25 02:33:09|
+Graph Product |2021-05-25 02:33:36|
+Word Similarity |2021-05-25 02:33:37|
+Word Learning |2021-05-25 02:33:38|
+Evaluation Script |2021-05-25 02:34:02|
+Answer Sentence |2021-05-25 02:34:04|
+Reranking Model |2021-05-25 02:34:05|
+Sentence Selection |2021-05-25 02:34:07|
+Target Candidate |2021-05-25 02:34:37|
+TAMD |2021-05-25 02:34:49|
+Large Network |2021-05-25 02:34:50|
+Common Characteristic |2021-05-25 02:34:51|
+Internal Host |2021-05-25 02:34:52|
+DR Technique |2021-05-25 02:35:09|
+Principal Component Analysis PCA |2021-05-25 02:35:10|
+Feature Dimension |2021-05-25 02:35:12|
+Underlying Manifold Structures |2021-05-25 02:35:13|
+Clusteringbased |2021-05-25 02:35:14|
+Meronymy |2021-05-25 02:35:15|
+Data Sparseness |2021-05-25 02:35:16|
+Hypernymy |2021-05-25 02:35:17|
+Relation Extraction |2021-05-25 02:35:18|
+Patching Policies |2021-05-25 02:35:20|
+Vulnerability Disclosure |2021-05-25 02:35:21|
+Time Window |2021-05-25 02:35:22|
+Timely Manner |2021-05-25 02:35:23|
+WikiNet |2021-05-25 02:35:24|
+Knowledge Source |2021-05-25 02:35:25|
+Wordnet |2021-05-25 02:36:00|
+Image Search |2021-05-25 02:36:35|
+Similarity Search |2021-05-25 02:36:36|
+Term Weight |2021-05-25 02:37:10|
+Retrieval Model |2021-05-25 02:37:11|
+Information Measure |2021-05-25 02:37:12|
+Research Field |2021-05-25 02:37:13|
+Educational Data Mining |2021-05-25 02:37:14|
+Learning Environment |2021-05-25 02:37:34|
+Learning Process |2021-05-25 02:37:35|
+Heuristic Algorithm |2021-05-25 02:37:45|
+Local Search |2021-05-25 02:37:46|
+Information Geometry |2021-05-25 02:37:48|
+Field Approximation |2021-05-25 02:37:49|
+Statistical Physics |2021-05-25 02:37:50|
+Meanfield Method |2021-05-25 02:37:51|
+True Posterior |2021-05-25 02:37:52|
+Object Appearance |2021-05-25 02:37:54|
+Active Shape And Appearance Model |2021-05-25 02:37:55|
+Objects Of Interest |2021-05-25 02:38:07|
+Crowded Scene |2021-05-25 02:38:29|
+Crowd Analysis |2021-05-25 02:38:42|
+Structural Property |2021-05-25 02:38:43|
+Crowd Systems |2021-05-25 02:38:45|
+Input Component |2021-05-25 02:38:46|
+Cortical Column Selforganisation L Cke |2021-05-25 02:38:47|
+RTM |2021-05-25 02:39:49|
+RosenZvi |2021-05-25 02:39:51|
+AT Model |2021-05-25 02:39:52|
+Authorship |2021-05-25 02:39:53|
+DER |2021-05-25 02:39:54|
+Web Forum |2021-05-25 02:39:55|
+Prior Study |2021-05-25 02:39:56|
+Message Board |2021-05-25 02:39:57|
+PDHG |2021-05-25 02:40:38|
+Image Restoration |2021-05-25 02:40:39|
+Gradient Projection |2021-05-25 02:40:40|
+Image Denoising |2021-05-25 02:40:41|
+Arabic Dialect |2021-05-25 02:40:42|
+System Design |2021-05-25 02:41:21|
+Native Language |2021-05-25 02:41:22|
+PatchMatch |2021-05-25 02:41:23|
+Small Patches |2021-05-25 02:41:25|
+SiftFlow |2021-05-25 02:41:27|
+Eigenvalue Optimization |2021-05-25 02:41:57|
+Suitable Reformulation |2021-05-25 02:41:58|
+Spectral Optimization |2021-05-25 02:41:59|
+Signal Processing |2021-05-25 02:42:00|
+Research Paper |2021-05-25 02:42:01|
+User Profiling |2021-05-25 02:42:02|
+Remarkable Success |2021-05-25 02:42:03|
+Encoder Decoders |2021-05-25 02:42:16|
+NMT |2021-05-25 02:43:18|
+Encoderdecoder Framework |2021-05-25 02:43:19|
+Symbolic Execution |2021-05-25 02:43:21|
+Taint Analysis |2021-05-25 02:43:44|
+SQL Injection |2021-05-25 02:43:46|
+Web Application |2021-05-25 02:43:47|
+Timeliness |2021-05-25 02:43:48|
+Public Health Surveillance |2021-05-25 02:43:49|
+Surveillance Systems |2021-05-25 02:43:51|
+Active Surveillance |2021-05-25 02:43:52|
+Squares Method |2021-05-25 02:44:15|
+Related Algorithm |2021-05-25 02:44:15|
+World Knowledge |2021-05-25 02:44:35|
+Relative Improvement |2021-05-25 02:44:37|
+Event Argument |2021-05-25 02:44:38|
+Heldout |2021-05-25 02:44:39|
+Probability Measure |2021-05-25 02:44:40|
+Generalization Error |2021-05-25 02:44:41|
+BenDavid |2021-05-25 02:44:42|
+Facility Location |2021-05-25 02:45:04|
+Column Generation |2021-05-25 02:45:06|
+Same Model |2021-05-25 02:45:24|
+Denoising Autoencoder |2021-05-25 02:45:26|
+Lexical Resource |2021-05-25 02:45:49|
+Subcategorization Frame |2021-05-25 02:45:50|
+Semantic Form |2021-05-25 02:45:51|
+Frame Type |2021-05-25 02:45:52|
+Source Data |2021-05-25 02:45:53|
+AnCora |2021-05-25 02:45:54|
+CoNLL |2021-05-25 02:45:55|
+Notated |2021-05-25 02:45:56|
+Taul |2021-05-25 02:45:58|
+Adaptation Strategy |2021-05-25 02:46:06|
+Human Health |2021-05-25 02:46:07|
+Health Risk |2021-05-25 02:46:18|
+Same Technology |2021-05-25 02:46:20|
+Employees |2021-05-25 02:46:21|
+Editability |2021-05-25 02:46:22|
+Bayesian Logistic Regression |2021-05-25 02:46:38|
+Minimizer |2021-05-25 02:46:39|
+Kernel Density Estimation |2021-05-25 02:46:39|
+Random Forest |2021-05-25 02:46:40|
+Semisupervised And Active Learning |2021-05-25 02:46:41|
+Classifieur |2021-05-25 02:46:42|
+Various Semisupervised Learning Methods |2021-05-25 02:46:44|
+Smoothness Assumption |2021-05-25 02:46:44|
+Transductive Setting |2021-05-25 02:46:46|
+Mutual Translations |2021-05-25 02:46:47|
+Bilingual Terminology |2021-05-25 02:46:48|
+Crosslanguage Information Retrieval |2021-05-25 02:46:49|
+Bilingual Word Pair |2021-05-25 02:46:50|
+User Interaction |2021-05-25 02:46:51|
+Data Flow |2021-05-25 02:47:20|
+ICC |2021-05-25 02:48:22|
+Entry Point |2021-05-25 02:48:23|
+Eigenfunction |2021-05-25 02:48:38|
+Mesh Edge |2021-05-25 02:48:38|
+Mean Curvature |2021-05-25 02:48:40|
+Cotangent Weights |2021-05-25 02:48:41|
+Completion Rate |2021-05-25 02:48:56|
+Underlying Mechanics |2021-05-25 02:48:57|
+POOL |2021-05-25 02:48:58|
+Structured Data |2021-05-25 02:49:24|
+Data Processing |2021-05-25 02:49:26|
+Programming Model |2021-05-25 02:49:27|
+VLDB Endowment |2021-05-25 02:49:28|
+Faster RCNN |2021-05-25 02:49:29|
+Convolution Layer |2021-05-25 02:49:30|
+Box Regression |2021-05-25 02:49:31|
+Approaches Such |2021-05-25 02:49:32|
+KSVD |2021-05-25 02:49:46|
+SRC |2021-05-25 02:50:53|
+Brain Activity |2021-05-25 02:51:16|
+Affective State |2021-05-25 02:51:17|
+Ledbat |2021-05-25 02:51:50|
+Excess Bandwidth |2021-05-25 02:51:51|
+TCP Traffic |2021-05-25 02:51:52|
+Vega |2021-05-25 02:52:54|
+Working Set |2021-05-25 02:52:55|
+Whole Data Set |2021-05-25 02:53:12|
+High Data Reuse |2021-05-25 02:53:13|
+Sentence Or Word Level |2021-05-25 02:53:14|
+Word Alignment |2021-05-25 02:53:15|
+Entity Recognition |2021-05-25 02:53:16|
+Dependency Parsing |2021-05-25 02:53:17|
+Source Language |2021-05-25 02:53:19|
+Spectrogram |2021-05-25 02:53:20|
+Keyvalue Pair |2021-05-25 02:54:08|
+Input List |2021-05-25 02:54:09|
+Cartesian Product |2021-05-25 02:54:11|
+Value Pair |2021-05-25 02:54:12|
+Input Data |2021-05-25 02:54:13|
+Multipath Routing |2021-05-25 02:54:14|
+Innetwork Aggregation |2021-05-25 02:54:15|
+Query Processing |2021-05-25 02:54:17|
+Sparsification |2021-05-25 02:54:45|
+Marginal Likelihood |2021-05-25 02:54:47|
+Sparse Approximation |2021-05-25 02:54:48|
+Pearson's Coefficient |2021-05-25 02:54:49|
+Erd OsR |2021-05-25 02:54:50|
+Dynamical Property |2021-05-25 02:54:52|
+Same Degree Distribution |2021-05-25 02:54:53|
+Communaut S |2021-05-25 02:54:54|
+List Of Documents |2021-05-25 02:54:55|
+TREC Evaluations |2021-05-25 02:54:56|
+External Memory |2021-05-25 02:54:57|
+Stream Processing |2021-05-25 02:56:01|
+Image Analysis |2021-05-25 02:56:02|
+Dictionary Learning |2021-05-25 02:56:04|
+Compressive Sensing |2021-05-25 02:56:05|
+Beta Process |2021-05-25 02:56:06|
+Extended |2021-05-25 02:56:07|
+Theorem 2 |2021-05-25 02:56:07|
+Computing Equilibria |2021-05-25 02:56:08|
+Total Power |2021-05-25 02:56:09|
+Significant Attention |2021-05-25 02:56:10|
+Traffic Characteristic |2021-05-25 02:56:11|
+Campus Network |2021-05-25 02:56:23|
+Mobile Traffic |2021-05-25 02:56:25|
+Enterprise Network |2021-05-25 02:56:26|
+HMM Model |2021-05-25 02:56:27|
+Automatic Alignment |2021-05-25 02:56:28|
+Possible Transliterations |2021-05-25 02:56:29|
+Failure Propagation |2021-05-25 02:56:30|
+Adaptive Systems |2021-05-25 02:56:31|
+Critical Systems |2021-05-25 02:56:33|
+Target Site |2021-05-25 02:56:58|
+Crosssite Scripting |2021-05-25 02:56:59|
+Complex Model |2021-05-25 02:57:00|
+GPU Algorithm |2021-05-25 02:57:01|
+Data Transfer |2021-05-25 02:57:02|
+Nonparametric |2021-05-25 02:57:20|
+Significant Performance Improvement |2021-05-25 02:57:21|
+Planning Results |2021-05-25 02:57:33|
+Fulfilment |2021-05-25 02:57:34|
+Master Production Schedule |2021-05-25 02:57:35|
+Tardiness |2021-05-25 02:57:37|
+Tor Protocol |2021-05-25 02:57:38|
+University Of Maryland |2021-05-25 02:57:39|
+Multicast |2021-05-25 02:57:40|
+Anonymous Web Browsing |2021-05-25 02:57:41|
+Hand Configuration |2021-05-25 02:57:42|
+Oversampling And Undersampling |2021-05-25 02:57:49|
+Fraud Detection |2021-05-25 02:57:51|
+Oil Spill |2021-05-25 02:57:52|
+Nosocomial Infection |2021-05-25 02:57:53|
+Bandit Setting |2021-05-25 02:57:54|
+Anomaly Detection |2021-05-25 02:57:55|
+Life Science |2021-05-25 02:57:57|
+Maximal Value |2021-05-25 02:57:58|
+Efficient Way |2021-05-25 02:57:59|
+Business Processes |2021-05-25 02:58:00|
+Service Component |2021-05-25 02:58:02|
+Functional Approaches |2021-05-25 02:58:34|
+Graphical Library |2021-05-25 02:58:35|
+Key Concept |2021-05-25 02:58:36|
+Crossvalidation |2021-05-25 02:58:37|
+Apprenticeship Learning |2021-05-25 02:58:37|
+IRL |2021-05-25 02:59:40|
+Parser Training |2021-05-25 02:59:41|
+Error Reduction |2021-05-25 02:59:42|
+Semantic Network |2021-05-25 02:59:44|
+Search Results |2021-05-25 02:59:44|
+Semantic Search Systems |2021-05-25 02:59:45|
+Computing Paradigm |2021-05-25 03:00:36|
+Infrastructure Provider |2021-05-25 03:00:37|
+SpiderNet |2021-05-25 03:00:38|
+Largescale Simulation |2021-05-25 03:00:40|
+Multimedia Stream |2021-05-25 03:00:41|
+Extensive Experiment |2021-05-25 03:00:42|
+Former Work |2021-05-25 03:00:43|
+Framelevel |2021-05-25 03:00:44|
+Recognition Rate |2021-05-25 03:00:45|
+Business Model |2021-05-25 03:00:46|
+Exponentiation |2021-05-25 03:00:54|
+Tate Pairing |2021-05-25 03:00:56|
+Security Level |2021-05-25 03:00:56|
+Hardware Model |2021-05-25 03:00:57|
+Memory Access |2021-05-25 03:00:59|
+Access Cost |2021-05-25 03:00:59|
+Query Optimization |2021-05-25 03:01:00|
+Accented Speech |2021-05-25 03:01:01|
+Political Reasons |2021-05-25 03:01:20|
+Foreignaccented Speech |2021-05-25 03:01:22|
+Difficult Lighting Conditions |2021-05-25 03:01:23|
+Local Ternary Patterns LTP |2021-05-25 03:01:24|
+Ternary Pattern |2021-05-25 03:01:26|
+Android Platform |2021-05-25 03:01:54|
+Permission Request |2021-05-25 03:01:56|
+Access Control Hierarchies |2021-05-25 03:02:34|
+Key Management |2021-05-25 03:02:36|
+Derivation Method |2021-05-25 03:02:37|
+Cryptographic Algorithm |2021-05-25 03:02:38|
+Access Service |2021-05-25 03:02:47|
+Service Provision |2021-05-25 03:02:48|
+Internet Access |2021-05-25 03:02:49|
+Scheduling Mechanism |2021-05-25 03:02:51|
+KEEL Dataset Repository |2021-05-25 03:02:51|
+Experimental Analysis |2021-05-25 03:02:53|
+Imbalanced Data Set |2021-05-25 03:02:54|
+Numerical Datasets |2021-05-25 03:02:55|
+Performance Of The Proposals |2021-05-25 03:02:55|
+Dark Knowledge |2021-05-25 03:02:57|
+Model Compression |2021-05-25 03:02:58|
+Deep Model |2021-05-25 03:02:59|
+Deep Net |2021-05-25 03:03:00|
+Function Approximation |2021-05-25 03:03:25|
+Optimal Control |2021-05-25 03:03:27|
+Supervised Setting |2021-05-25 03:03:27|
+Web Ontology Language OWL |2021-05-25 03:03:48|
+SPARQL Query Language |2021-05-25 03:03:49|
+OWL Reasoner |2021-05-25 03:03:50|
+Pedestrian Behavior |2021-05-25 03:03:51|
+Path Planning |2021-05-25 03:03:52|
+Crowded Environment |2021-05-25 03:03:53|
+Largescale Dataset |2021-05-25 03:03:54|
+Supervised One |2021-05-25 03:03:55|
+Hash Code |2021-05-25 03:03:56|
+Social Media Users |2021-05-25 03:04:08|
+Contact Network |2021-05-25 03:04:10|
+Disease Progress |2021-05-25 03:04:30|
+Panoramic View |2021-05-25 03:04:31|
+Comprehensive Review |2021-05-25 03:05:28|
+Heart Chamber |2021-05-25 03:05:30|
+Shape Model |2021-05-25 03:05:31|
+LV Segmentation |2021-05-25 03:05:33|
+MR Image |2021-05-25 03:05:34|
+Thematic Categorization |2021-05-25 03:05:35|
+Structure Extraction |2021-05-25 03:05:49|
+Interaction Map |2021-05-25 03:06:10|
+Computational Synthesis |2021-05-25 03:06:11|
+Connection Weight |2021-05-25 03:06:12|
+Learning Rule |2021-05-25 03:06:13|
+Doublecompression |2021-05-25 03:06:14|
+Tampering Operation |2021-05-25 03:06:16|
+Double JPEG Compression |2021-05-25 03:06:54|
+Image Tampering |2021-05-25 03:06:55|
+Image Matching |2021-05-25 03:07:15|
+Subchannel |2021-05-25 03:07:34|
+Implementation Complexity |2021-05-25 03:07:35|
+Human Skin |2021-05-25 03:07:36|
+Nger |2021-05-25 03:07:37|
+Touch Interaction |2021-05-25 03:07:38|
+Touch Panel |2021-05-25 03:07:39|
+TION |2021-05-25 03:07:40|
+Rich Literature |2021-05-25 03:07:41|
+Motor Control |2021-05-25 03:07:42|
+Authorship Analysis |2021-05-25 03:07:44|
+Author Identification |2021-05-25 03:07:44|
+Authorship Attribution |2021-05-25 03:07:45|
+Support Vector Machine |2021-05-25 03:07:46|
+Authorship Identification |2021-05-25 03:07:47|
+Parallel Corpus |2021-05-25 03:07:49|
+Comparable Corpus |2021-05-25 03:07:49|
+Comparable Document |2021-05-25 03:07:51|
+Number Of Approaches |2021-05-25 03:07:51|
+Dissimilarity |2021-05-25 03:07:53|
+Policy Matching |2021-05-25 03:07:54|
+Question Analysis |2021-05-25 03:07:54|
+Aqualog |2021-05-25 03:07:56|
+PANTO |2021-05-25 03:07:56|
+Interactivity |2021-05-25 03:07:57|
+Classification Problems |2021-05-25 03:07:59|
+Medical Diagnosis |2021-05-25 03:08:00|
+Multiple Depth Values |2021-05-25 03:08:18|
+Layerbased Representation |2021-05-25 03:08:19|
+Moderate Number |2021-05-25 03:08:33|
+PAS |2021-05-25 03:09:41|
+PASCAL VOC |2021-05-25 03:09:43|
+Nodes In A Network |2021-05-25 03:09:44|
+Scientific Collaboration Network |2021-05-25 03:09:45|
+Largescale |2021-05-25 03:10:08|
+Optical Flow Field |2021-05-25 03:10:09|
+HOG Feature |2021-05-25 03:10:10|
+Load Shifting |2021-05-25 03:10:30|
+Rigid |2021-05-25 03:10:32|
+Total Utility |2021-05-25 03:10:32|
+Control Algorithm |2021-05-25 03:10:33|
+RAW Data |2021-05-25 03:10:35|
+Classifi |2021-05-25 03:10:36|
+Feature Engineering |2021-05-25 03:10:37|
+Important Contribution |2021-05-25 03:10:37|
+Dynamic Programming Solution |2021-05-25 03:10:38|
+Logic Programming Systems |2021-05-25 03:10:39|
+Tabling |2021-05-25 03:10:40|
+Design Flow |2021-05-25 03:10:51|
+Security And Privacy |2021-05-25 03:10:52|
+Computational |2021-05-25 03:10:52|
+Supervised Learning |2021-05-25 03:10:54|
+Different Topic |2021-05-25 03:10:54|
+Research Direction |2021-05-25 03:10:56|
+Linguistic |2021-05-25 03:10:57|
+Recommendation Technology |2021-05-25 03:10:58|
+Bookstore |2021-05-25 03:11:22|
+Customer Trust |2021-05-25 03:11:53|
+Behavioral Intention |2021-05-25 03:11:55|
+Underlying Assumption |2021-05-25 03:11:56|
+Training HMM |2021-05-25 03:12:15|
+Simple Perceptron |2021-05-25 03:12:16|
+Structured Tasks |2021-05-25 03:12:17|
+Hinge Loss |2021-05-25 03:12:29|
+SDN Technology |2021-05-25 03:12:31|
+Network Administration |2021-05-25 03:12:31|
+Feasible |2021-05-25 03:12:32|
+Open Protocol |2021-05-25 03:12:33|
+Network Policy |2021-05-25 03:12:34|
+Dense Subgraph |2021-05-25 03:12:35|
+Entity Graph |2021-05-25 03:12:36|
+Memory Consumption |2021-05-25 03:12:53|
+Streaming Data |2021-05-25 03:12:54|
+Professional Development |2021-05-25 03:12:55|
+Wide Interest |2021-05-25 03:12:56|
+Image Size |2021-05-25 03:12:57|
+Excellent Repeatability |2021-05-25 03:13:18|
+Local Image Descriptor |2021-05-25 03:13:19|
+Adaptation Algorithm |2021-05-25 03:13:20|
+3JD |2021-05-25 03:13:21|
+Mpeg7 |2021-05-25 03:13:22|
+Image Retrieval CBIR |2021-05-25 03:13:23|
+Perceptual Similarity |2021-05-25 03:13:24|
+Personal Health Management |2021-05-25 03:13:25|
+Health Information |2021-05-25 03:13:26|
+OOV |2021-05-25 03:13:27|
+Social Media Text |2021-05-25 03:13:28|
+Phonetic Similarity |2021-05-25 03:13:40|
+SMS |2021-05-25 03:14:42|
+Flooding |2021-05-25 03:14:44|
+DOS Attack |2021-05-25 03:14:45|
+IP Addresses |2021-05-25 03:14:46|
+Brain Network |2021-05-25 03:14:55|
+Network Topology |2021-05-25 03:14:56|
+Clustering Coefficient |2021-05-25 03:14:57|
+Network Structure |2021-05-25 03:14:58|
+Continuoustime |2021-05-25 03:14:59|
+Control Law |2021-05-25 03:15:00|
+Signum Function |2021-05-25 03:15:01|
+Finitetime |2021-05-25 03:15:02|
+Lyapunov Function |2021-05-25 03:15:03|
+Liberal Art |2021-05-25 03:15:04|
+Small Size |2021-05-25 03:15:05|
+Curriculum |2021-05-25 03:15:06|
+Result Type |2021-05-25 03:15:22|
+Int |2021-05-25 03:15:47|
+Hybrid Approaches |2021-05-25 03:16:15|
+Target User |2021-05-25 03:16:17|
+AI Planning |2021-05-25 03:16:18|
+Planning Technique |2021-05-25 03:16:19|
+Business Goal |2021-05-25 03:16:20|
+Search Method |2021-05-25 03:16:21|
+Different Order |2021-05-25 03:16:23|
+Search Tree |2021-05-25 03:16:24|
+Relative Reduction |2021-05-25 03:16:25|
+Output Score |2021-05-25 03:16:25|
+Person Verification |2021-05-25 03:16:27|
+Practical Scenario |2021-05-25 03:16:28|
+XVTS Database |2021-05-25 03:16:29|
+Audio And Visual Modalities |2021-05-25 03:16:30|
+B Cells |2021-05-25 03:16:31|
+Cytotoxicity |2021-05-25 03:16:51|
+Ore Algebra |2021-05-25 03:17:04|
+Polynomial Equation |2021-05-25 03:17:32|
+Itembased Approaches |2021-05-25 03:17:52|
+QoS Prediction |2021-05-25 03:17:53|
+Candidate Service |2021-05-25 03:17:54|
+QoS Value |2021-05-25 03:17:55|
+Attribute Computation |2021-05-25 03:18:24|
+Proj |2021-05-25 03:18:25|
+Pushout |2021-05-25 03:18:26|
+Node And Edge |2021-05-25 03:18:27|
+Interpolation Kernel |2021-05-25 03:18:39|
+Random Field Theory |2021-05-25 03:19:10|
+Wavelet |2021-05-25 03:19:12|
+Sicstus |2021-05-25 03:19:13|
+BProlog |2021-05-25 03:19:14|
+Language Feature |2021-05-25 03:19:15|
+Action Rule |2021-05-25 03:19:17|
+Image Segmentation |2021-05-25 03:19:18|
+Image Retrieval |2021-05-25 03:19:19|
+Motion Cue |2021-05-25 03:19:20|
+Video Object Segmentation |2021-05-25 03:19:22|
+Tfidf |2021-05-25 03:20:02|
+Recurrent Network |2021-05-25 03:20:04|
+Nonspecific Response |2021-05-25 03:20:05|
+Bayesian Representation |2021-05-25 03:20:06|
+Various Robotic Applications |2021-05-25 03:20:07|
+Implicit Surface |2021-05-25 03:20:08|
+Shape Representation |2021-05-25 03:20:42|
+Water Heater |2021-05-25 03:20:54|
+Aggregate Power |2021-05-25 03:20:55|
+View Management |2021-05-25 03:20:56|
+LAb |2021-05-25 03:20:57|
+View Plane |2021-05-25 03:20:58|
+Label Information |2021-05-25 03:20:59|
+Learningbased Hashing Methods |2021-05-25 03:21:01|
+Semisupervised Method |2021-05-25 03:21:02|
+Qvalue |2021-05-25 03:21:10|
+Replay Technique |2021-05-25 03:21:18|
+Qlearning |2021-05-25 03:21:19|
+Experience Replay |2021-05-25 03:21:20|
+Curvature Flow |2021-05-25 03:21:22|
+Original Scheme |2021-05-25 03:21:36|
+Legal Domain |2021-05-25 03:21:49|
+Legal Concept |2021-05-25 03:21:50|
+Main Element |2021-05-25 03:21:51|
+Legal Reasoning |2021-05-25 03:21:52|
+Sentiment Prediction |2021-05-25 03:21:54|
+TSM |2021-05-25 03:22:56|
+Medical CBIR |2021-05-25 03:22:57|
+Medical Field |2021-05-25 03:22:58|
+Univ. |2021-05-25 03:23:11|
+Model Neuron |2021-05-25 03:23:12|
+Convolutional Layer |2021-05-25 03:23:13|
+Informative Objects |2021-05-25 03:23:13|
+Domain Knowledge |2021-05-25 03:23:22|
+Image Recognition |2021-05-25 03:23:24|
+Convolutional Filter |2021-05-25 03:23:25|
+Subcellular Localization |2021-05-25 03:23:27|
+Relative Weight |2021-05-25 03:23:43|
+Pairwise Key |2021-05-25 03:23:44|
+Dictionary A |2021-05-25 03:23:45|
+Sparse Coding Stage |2021-05-25 03:23:46|
+Alternate Minimization |2021-05-25 03:24:45|
+Stream Cipher |2021-05-25 03:24:46|
+Cryptographic Primitive |2021-05-25 03:24:47|
+Secure Scheme |2021-05-25 03:25:01|
+Pvalue |2021-05-25 03:25:09|
+Test Statistic |2021-05-25 03:25:25|
+Class Label |2021-05-25 03:25:25|
+Graph Cut Algorithm |2021-05-25 03:25:26|
+Tlink |2021-05-25 03:25:27|
+Interactive Segmentation |2021-05-25 03:25:29|
+Segmentation Technique |2021-05-25 03:25:30|
+Constraint Language |2021-05-25 03:25:31|
+Sliding Window |2021-05-25 03:25:45|
+Various Boosting Classifiers |2021-05-25 03:25:46|
+RL Literature |2021-05-25 03:26:32|
+E 3 Algorithm |2021-05-25 03:26:33|
+Mixing Time |2021-05-25 03:26:34|
+Reference Plan |2021-05-25 03:26:35|
+Beam |2021-05-25 03:27:37|
+Number Of Segment |2021-05-25 03:27:38|
+Gantry Angles |2021-05-25 03:27:40|
+IMRT Technique |2021-05-25 03:27:41|
+Vlogging |2021-05-25 03:27:56|
+Graph Data |2021-05-25 03:27:57|
+Graph Summarization |2021-05-25 03:27:58|
+MDL Principle |2021-05-25 03:27:59|
+Pair Of Nodes |2021-05-25 03:28:12|
+Private Learning |2021-05-25 03:28:13|
+Privacy Model |2021-05-25 03:28:14|
+Chinese Sentence |2021-05-25 03:28:15|
+Lexicon Features |2021-05-25 03:28:16|
+Unlabeled Data |2021-05-25 03:28:18|
+DP Mixture Model |2021-05-25 03:28:46|
+Variational Approaches |2021-05-25 03:28:48|
+Density Estimation |2021-05-25 03:28:49|
+Attractive Alternative |2021-05-25 03:28:50|
+Graph Regularization |2021-05-25 03:29:43|
+Geodesic Distance |2021-05-25 03:31:17|
+Predefined Value |2021-05-25 03:31:19|
+Resulting Graph |2021-05-25 03:31:33|
+Robust Algorithm |2021-05-25 03:31:34|
+Neuroticism |2021-05-25 03:31:35|
+Agreeableness |2021-05-25 03:31:36|
+Conscientiousness |2021-05-25 03:31:37|
+Opioid Dependence |2021-05-25 03:31:39|
+Linguistic Analysis |2021-05-25 03:31:40|
+Q/A |2021-05-25 03:31:40|
+Evaluation Criteria |2021-05-25 03:31:55|
+Orientability |2021-05-25 03:31:56|
+Cuckoo Hashing |2021-05-25 03:32:08|
+Satisfiability |2021-05-25 03:32:09|
+Simple Algorithm |2021-05-25 03:32:10|
+Original Model |2021-05-25 03:32:12|
+Time Series Data |2021-05-25 03:32:13|
+Real Environment |2021-05-25 03:33:05|
+Dynamic Simulation |2021-05-25 03:33:06|
+Grasp Success Rates |2021-05-25 03:33:07|
+Object Dynamics |2021-05-25 03:33:09|
+Robotic Hand |2021-05-25 03:33:10|
+Challenging Tasks |2021-05-25 03:33:11|
+Long ShortTerm Memory LSTM |2021-05-25 03:33:12|
+Wrapper Approaches |2021-05-25 03:33:13|
+Information Gain |2021-05-25 03:33:14|
+Filter Approach |2021-05-25 03:33:15|
+Data Mining |2021-05-25 03:33:16|
+Person Search |2021-05-25 03:33:17|
+Whole Image |2021-05-25 03:33:19|
+Person ReID |2021-05-25 03:33:20|
+Camera View |2021-05-25 03:33:21|
+Gibbs Sampling Algorithm |2021-05-25 03:33:22|
+Gibbs Sampler |2021-05-25 03:33:24|
+Hierarchical Dirichlet |2021-05-25 03:34:37|
+Search Strategy |2021-05-25 03:34:38|
+Prolog Program |2021-05-25 03:34:39|
+Declarative Semantics |2021-05-25 03:34:41|
+CCG Parser |2021-05-25 03:34:42|
+Above Technique |2021-05-25 03:34:43|
+Recommendation Process |2021-05-25 03:34:44|
+Query Similarity |2021-05-25 03:34:45|
+Critiquing |2021-05-25 03:34:46|
+Veriflow |2021-05-25 03:34:47|
+Packet Header |2021-05-25 03:34:48|
+Checking Networks |2021-05-25 03:34:49|
+Network Behavior |2021-05-25 03:34:50|
+NewS |2021-05-25 03:35:10|
+Language Modeling Approach |2021-05-25 03:35:11|
+Document Retrieval |2021-05-25 03:35:12|
+Environmental Change |2021-05-25 03:35:13|
+Benthic |2021-05-25 03:35:40|
+Species Pair |2021-05-25 03:35:41|
+Hybridization |2021-05-25 03:35:42|
+Oapos |2021-05-25 03:35:43|
+Caudate Nucleus |2021-05-25 03:35:44|
+Brain Region |2021-05-25 03:35:46|
+CoVis |2021-05-25 03:35:46|
+Worstcase |2021-05-25 03:35:48|
+Memory Accesses |2021-05-25 03:35:59|
+Topical Word |2021-05-25 03:36:00|
+Text Classification |2021-05-25 03:36:01|
+Public Transportation |2021-05-25 03:36:02|
+People With Cognitive Disabilities |2021-05-25 03:36:03|
+Transportation Systems |2021-05-25 03:36:04|
+Mobile Technology |2021-05-25 03:36:05|
+SADE |2021-05-25 03:36:29|
+Parameter Control |2021-05-25 03:36:30|
+Cosine Similarity |2021-05-25 03:36:34|
+Manufacturing Process |2021-05-25 03:36:56|
+Soft Actuators |2021-05-25 03:37:10|
+Homology Model |2021-05-25 03:37:11|
+Protein Structure |2021-05-25 03:37:12|
+Query Sequence |2021-05-25 03:37:13|
+Homology Detection |2021-05-25 03:37:14|
+Hyperspace Analogue |2021-05-25 03:37:15|
+LSA Latent Semantic Analysis |2021-05-25 03:37:16|
+Construct Validity |2021-05-25 03:37:17|
+Singular Value Decomposition SVD |2021-05-25 03:37:18|
+Few Minutes |2021-05-25 03:37:20|
+Very Success |2021-05-25 03:37:20|
+Hundreds Of Thousands Of Machines |2021-05-25 03:37:22|
+Matter Of Seconds |2021-05-25 03:37:22|
+Following Theorem |2021-05-25 03:37:41|
+Oneway Function |2021-05-25 03:37:42|
+Lecture Note |2021-05-25 03:37:43|
+Feature Selection Algorithm |2021-05-25 03:37:44|
+Security Mechanism |2021-05-25 03:37:45|
+Homomorphic Encryption |2021-05-25 03:37:46|
+Secure Multiparty Computation |2021-05-25 03:39:04|
+Evaluation Function |2021-05-25 03:39:06|
+Regression Method |2021-05-25 03:39:52|
+Matrix Inversion |2021-05-25 03:39:53|
+Approximate |2021-05-25 03:40:20|
+Computing Community |2021-05-25 03:40:22|
+GaticaPerez |2021-05-25 03:40:23|
+Vlog |2021-05-25 03:40:24|
+Small Group Interactions |2021-05-25 03:40:25|
+Information Flow |2021-05-25 03:40:26|
+Protection Mechanism |2021-05-25 03:40:40|
+Different Layer |2021-05-25 03:40:40|
+Large Numbers Of Samples |2021-05-25 03:42:15|
+Relations From Text |2021-05-25 03:42:16|
+Relation Acquisition |2021-05-25 03:42:17|
+Cohyponym |2021-05-25 03:42:19|
+Handwritten Patterns |2021-05-25 03:42:43|
+Protein Family |2021-05-25 03:43:11|
+Residue Contacts |2021-05-25 03:43:12|
+Bacterial Protein |2021-05-25 03:43:13|
+Service Attack |2021-05-25 03:44:22|
+Semantic Repository |2021-05-25 03:44:36|
+Main Issue |2021-05-25 03:44:37|
+PowerAqua |2021-05-25 03:44:39|
+Semantic Storage |2021-05-25 03:44:39|
+Research Point |2021-05-25 03:44:40|
+Known Systems |2021-05-25 03:44:41|
+Morfessor |2021-05-25 03:44:42|
+Wordform |2021-05-25 03:44:44|
+Minimum Description Length |2021-05-25 03:44:45|
+DLOG |2021-05-25 03:44:55|
+Description Logic |2021-05-25 03:44:56|
+Conditional Distribution |2021-05-25 03:45:10|
+Distribution Difference |2021-05-25 03:45:11|
+Distance Measure |2021-05-25 03:45:12|
+Open Problems |2021-05-25 03:45:13|
+Same Domain |2021-05-25 03:45:14|
+Number Of Data Sources |2021-05-25 03:45:16|
+Descriptions Of Unfamiliar Objects |2021-05-25 03:45:17|
+Textual Description |2021-05-25 03:45:17|
+Plant Species |2021-05-25 03:45:18|
+Positive And Negative Samples |2021-05-25 03:45:19|
+Outcome Class |2021-05-25 03:45:21|
+Spider |2021-05-25 03:46:22|
+Risk Of Overfitting |2021-05-25 03:46:24|
+Distribution Of Training Examples |2021-05-25 03:46:25|
+Coverage Range |2021-05-25 03:46:26|
+Data Rate |2021-05-25 03:46:27|
+Data Volume |2021-05-25 03:46:28|
+Parameter Setting |2021-05-25 03:46:29|
+Parallel Execution |2021-05-25 03:46:30|
+Unique Feature |2021-05-25 03:46:32|
+Functional Language |2021-05-25 03:46:33|
+Prolog Code |2021-05-25 03:46:34|
+Relational Language |2021-05-25 03:46:35|
+Target Phrase |2021-05-25 03:46:36|
+FIT |2021-05-25 03:47:38|
+Geometric Characteristics |2021-05-25 03:47:39|
+Text Line |2021-05-25 03:47:40|
+Secondary Structure |2021-05-25 03:47:41|
+Relation Similarity |2021-05-25 03:47:42|
+Relational Similarity |2021-05-25 03:47:43|
+SAT |2021-05-25 03:48:45|
+Analogy Questions |2021-05-25 03:48:46|
+Same Data |2021-05-25 03:48:48|
+BLSTM |2021-05-25 03:48:49|
+Recurrent Neural Network RNN Architecture |2021-05-25 03:48:50|
+Output Unit |2021-05-25 03:48:51|
+Long ShortTerm Memory |2021-05-25 03:48:52|
+Semisupervised |2021-05-25 03:48:54|
+SoNG |2021-05-25 03:49:11|
+GPGPU Programming |2021-05-25 03:50:05|
+School Of Computing |2021-05-25 03:50:07|
+Graphics Processing |2021-05-25 03:50:08|
+Training And Education |2021-05-25 03:50:09|
+Object Assembly |2021-05-25 03:50:10|
+Process Industry |2021-05-25 03:50:12|
+Mobile Application |2021-05-25 03:50:13|
+Target Tracking |2021-05-25 03:50:43|
+Control Of Robotic Networks |2021-05-25 03:50:44|
+Autonomous Vehicle |2021-05-25 03:50:45|
+Sensor Coverage |2021-05-25 03:50:45|
+Mobile Sensor |2021-05-25 03:50:47|
+Qualitative State |2021-05-25 03:50:48|
+Dynamical Behavior |2021-05-25 03:50:56|
+Boolean Network |2021-05-25 03:50:57|
+Regulatory Network |2021-05-25 03:50:59|
+RCM |2021-05-25 03:52:22|
+CT Scanner |2021-05-25 03:52:23|
+Johns Hopkins University, Baltimore |2021-05-25 03:52:24|
+Percutaneous Access |2021-05-25 03:52:25|
+Web Document |2021-05-25 03:52:43|
+Point Feature |2021-05-25 03:52:44|
+Search Area |2021-05-25 03:52:45|
+Spatial Location |2021-05-25 03:52:46|
+YALE |2021-05-25 03:52:48|
+Linear Regression |2021-05-25 03:52:49|
+Dialog Systems |2021-05-25 03:53:01|
+Specific Database |2021-05-25 03:53:02|
+Supersingular Curve |2021-05-25 03:53:03|
+Finite Field |2021-05-25 03:53:04|
+Pairing |2021-05-25 03:53:04|
+Discrete Logarithm |2021-05-25 03:53:06|
+Stock Market Fluctuations |2021-05-25 03:53:37|
+Hashtag |2021-05-25 03:54:08|
+Translation Quality |2021-05-25 03:54:10|
+Traditional Systems |2021-05-25 03:54:11|
+Pedagogy |2021-05-25 03:54:12|
+Institutional Level |2021-05-25 03:54:51|
+Different Model |2021-05-25 03:54:52|
+Previous Attempt |2021-05-25 03:54:53|
+Temporal Coherence |2021-05-25 03:54:55|
+Keypoints Over Time |2021-05-25 03:54:56|
+Appearance And Motion |2021-05-25 03:54:57|
+Region Tracking |2021-05-25 03:54:58|
+Video Segmentation |2021-05-25 03:54:59|
+Data Stream |2021-05-25 03:55:00|
+Multiple Queries |2021-05-25 03:55:01|
+Overlapping Window |2021-05-25 03:55:02|
+Streaming Systems |2021-05-25 03:55:38|
+Object Classes |2021-05-25 03:55:39|
+Multiview |2021-05-25 03:55:41|
+Different Viewpoint |2021-05-25 03:55:41|
+Multiple View |2021-05-25 03:55:43|
+Network Trace |2021-05-25 03:55:44|
+Anonymization |2021-05-25 03:55:45|
+Media Application |2021-05-25 03:55:58|
+Keypoint Matching |2021-05-25 03:56:09|
+Factorization Technique |2021-05-25 03:56:17|
+User Preference |2021-05-25 03:56:25|
+Human Pose Estimation |2021-05-25 03:56:26|
+Body Part |2021-05-25 03:56:27|
+Multiple Scale |2021-05-25 03:56:28|
+Lung Tissue |2021-05-25 03:56:30|
+Right Lung |2021-05-25 03:56:31|
+Lung Segmentation |2021-05-25 03:56:32|
+Automatic Method |2021-05-25 03:56:32|
+Main Step |2021-05-25 03:56:33|
+Medial PFC |2021-05-25 03:56:34|
+Orbitofrontal Cortex |2021-05-25 03:56:43|
+Explorative |2021-05-25 03:56:58|
+Patchbased |2021-05-25 03:56:59|
+Automatic Generation |2021-05-25 03:57:00|
+ASP Program |2021-05-25 03:57:01|
+SModel |2021-05-25 03:57:02|
+Prolog Module |2021-05-25 03:57:03|
+Niemel |2021-05-25 03:57:04|
+Highlevel Language |2021-05-25 03:57:05|
+Design And Action |2021-05-25 03:57:06|
+Technological Design |2021-05-25 03:57:07|
+Nascent Theory |2021-05-25 03:57:08|
+Design Science Paradigm |2021-05-25 03:57:09|
+Contributions To Knowledge |2021-05-25 03:57:10|
+Rich Language |2021-05-25 03:57:22|
+Tree Hierarchy |2021-05-25 03:57:23|
+Rekey Messages |2021-05-25 03:57:24|
+Centralized Approach |2021-05-25 03:57:38|
+Centralized Key Management Schemes |2021-05-25 03:57:39|
+Control Problems |2021-05-25 03:57:40|
+Controller Synthesis |2021-05-25 03:57:41|
+Communication Topology |2021-05-25 03:57:42|
+State Feedback Controller |2021-05-25 03:57:43|
+Dialects Of The Same Language |2021-05-25 03:57:44|
+Grammar Rule |2021-05-25 03:57:45|
+Chinese Mandarin |2021-05-25 03:57:46|
+Mixture Of Models |2021-05-25 03:57:47|
+Global Template |2021-05-25 03:57:48|
+Windows Framework |2021-05-25 03:58:11|
+LambdaMART |2021-05-25 03:58:13|
+Coordinate Ascent |2021-05-25 03:58:27|
+APPROX |2021-05-25 03:58:55|
+Richt Rik |2021-05-25 12:13:03|
+Hydra |2021-05-25 12:13:07|
+Uniform Sampling |2021-05-25 12:13:11|
+HKB |2021-05-25 12:13:13|
+FRBCSs |2021-05-25 12:13:15|
+Minority Class |2021-05-25 12:13:17|
+Terms T |2021-05-25 12:13:18|
+Metalogic |2021-05-25 12:13:19|
+RealTime Maude |2021-05-25 12:13:20|
+Rewrite Theory |2021-05-25 12:13:21|
+Term Rewriting |2021-05-25 12:13:22|
+LRC Code |2021-05-25 12:13:24|
+Transient Failure |2021-05-25 12:13:24|
+Production Cluster |2021-05-25 12:13:25|
+Repairable Codes |2021-05-25 12:13:39|
+Human Demonstration |2021-05-25 12:13:40|
+Policy Search |2021-05-25 12:13:41|
+Motor Primitives |2021-05-25 12:13:43|
+Headworn Display |2021-05-25 12:13:58|
+AR Application |2021-05-25 12:13:59|
+AR Game |2021-05-25 12:14:00|
+Sampling Rate |2021-05-25 12:14:21|
+Tracking Error |2021-05-25 12:14:21|
+Control Input |2021-05-25 12:14:22|
+Sample Interval |2021-05-25 12:14:24|
+Saccade |2021-05-25 12:14:24|
+SAP |2021-05-25 12:15:37|
+Business Process |2021-05-25 12:15:38|
+Process Model |2021-05-25 12:15:40|
+Bug Report |2021-05-25 12:15:40|
+Impact Analysis |2021-05-25 12:15:41|
+Defect Report |2021-05-25 12:15:42|
+Complexity Metric |2021-05-25 12:16:07|
+Predictive Power |2021-05-25 12:16:08|
+Quality Assurance |2021-05-25 12:16:09|
+Defect Predictors |2021-05-25 12:16:10|
+GO Term |2021-05-25 12:16:17|
+PubMed Abstracts |2021-05-25 12:16:26|
+Main Approaches |2021-05-25 12:16:53|
+Information Management |2021-05-25 12:16:54|
+Multiagent Simulation |2021-05-25 12:16:55|
+Response Activity |2021-05-25 12:16:56|
+Occupancy |2021-05-25 12:16:57|
+BMS |2021-05-25 12:17:59|
+Energy Efficiency |2021-05-25 12:17:59|
+Target Tweets |2021-05-25 12:18:01|
+Synchronous Data Flow Graphs |2021-05-25 12:18:02|
+Throughput Computation |2021-05-25 12:18:02|
+SDFG |2021-05-25 12:18:04|
+Throughput Analysis |2021-05-25 12:18:05|
+WAM |2021-05-25 12:19:30|
+Different Aggregation Schemes |2021-05-25 12:19:42|
+Frame Descriptor |2021-05-25 12:19:43|
+Principal Subspace |2021-05-25 12:19:56|
+Latent Representation |2021-05-25 12:19:57|
+Observation Space |2021-05-25 12:19:58|
+LVM |2021-05-25 12:21:00|
+GPLVM |2021-05-25 12:21:01|
+Shared Lexicon |2021-05-25 12:21:02|
+Lexicon Formation |2021-05-25 12:21:04|
+Robotic Agent |2021-05-25 12:21:04|
+Complex Communication Systems |2021-05-25 12:21:06|
+Possible Meaning |2021-05-25 12:21:07|
+Extract Features |2021-05-25 12:21:07|
+Query Image |2021-05-25 12:21:09|
+Large Number Of Object Classes |2021-05-25 12:21:09|
+Dbpedia |2021-05-25 12:21:11|
+Agentbased |2021-05-25 12:21:12|
+Dialogue Systems |2021-05-25 12:21:13|
+Increasing Complexity |2021-05-25 12:21:27|
+Task Demand |2021-05-25 12:21:29|
+Serious Threat |2021-05-25 12:21:30|
+Botmaster |2021-05-25 12:21:31|
+LTE Signal |2021-05-25 12:22:19|
+NexT GeNeraTioN |2021-05-25 12:22:21|
+Resource Block |2021-05-25 12:22:22|
+PADT |2021-05-25 12:22:23|
+Penn Arabic Treebank PATB |2021-05-25 12:22:43|
+Arabic Text |2021-05-25 12:22:44|
+Main Memory |2021-05-25 12:23:08|
+Apache Spark |2021-05-25 12:24:10|
+Network Activity |2021-05-25 12:24:11|
+Neural Ensemble |2021-05-25 12:24:59|
+Ising Model |2021-05-25 12:25:00|
+Entropy Model |2021-05-25 12:25:01|
+Biomedical Application |2021-05-25 12:25:02|
+Survey Paper |2021-05-25 12:25:03|
+Rigid Transformation |2021-05-25 12:25:04|
+Deformation Field |2021-05-25 12:25:05|
+Medical Imaging |2021-05-25 12:25:06|
+Scene Depth |2021-05-25 12:25:07|
+Target Side |2021-05-25 12:25:45|
+Parameter Matrix |2021-05-25 12:26:00|
+Global Objective Function |2021-05-25 12:26:15|
+Subtask |2021-05-25 12:26:16|
+Character Recognizer |2021-05-25 12:26:17|
+Truncation Level |2021-05-25 12:26:18|
+Semantic Integration |2021-05-25 12:26:34|
+Information Source |2021-05-25 12:26:35|
+Data Source |2021-05-25 12:26:36|
+Ontology Mapping |2021-05-25 12:26:37|
+Semantic Heterogeneity |2021-05-25 12:26:38|
+Quality Metric |2021-05-25 12:26:39|
+Video Quality |2021-05-25 12:26:40|
+Video Signal |2021-05-25 12:26:41|
+Human Perception |2021-05-25 12:26:42|
+Contents Lists |2021-05-25 12:26:42|
+Entity Linking Systems |2021-05-25 12:26:44|
+Illinois Wikifier |2021-05-25 12:26:45|
+DISK |2021-05-25 12:26:46|
+Columnstore |2021-05-25 12:26:47|
+Bitmap Indexes |2021-05-25 12:27:06|
+DBM |2021-05-25 12:28:08|
+Irregular Behavior |2021-05-25 12:28:09|
+Randomization Method |2021-05-25 12:28:10|
+Intrusion Detection |2021-05-25 12:28:10|
+Uptodate |2021-05-25 12:28:11|
+Land Use |2021-05-25 12:28:54|
+Kaggle |2021-05-25 12:29:56|
+Ad Hoc Network |2021-05-25 12:30:08|
+Various Researchers |2021-05-25 12:30:09|
+Energy Efficient Operation |2021-05-25 12:30:11|
+Data Throughput |2021-05-25 12:30:12|
+Roulette Wheel |2021-05-25 12:30:13|
+Tness |2021-05-25 12:30:14|
+Highdimensional Signal |2021-05-25 12:30:45|
+Sparse Matrix |2021-05-25 12:30:53|
+Sampling Method |2021-05-25 12:30:54|
+Online Education |2021-05-25 12:30:55|
+Security Service |2021-05-25 12:31:56|
+Protocol Overhead |2021-05-25 12:31:58|
+Opportunistic Forwarding |2021-05-25 12:31:58|
+Social Property |2021-05-25 12:32:00|
+Dissemination |2021-05-25 12:32:58|
+Reputationbased Trust |2021-05-25 12:32:59|
+Trust Relation |2021-05-25 12:33:00|
+Trust Research |2021-05-25 12:33:01|
+Supervised |2021-05-25 12:33:02|
+Clustering Approach |2021-05-25 12:33:10|
+Offcenter |2021-05-25 12:33:11|
+Stereo Mosaics |2021-05-25 12:33:12|
+General Model |2021-05-25 12:33:13|
+Longterm Consequence |2021-05-25 12:33:30|
+Theoretical Framework |2021-05-25 12:33:30|
+Legitimation |2021-05-25 12:34:32|
+Name Transliteration |2021-05-25 12:35:37|
+Cooccurrence Information |2021-05-25 12:35:38|
+Different Size |2021-05-25 12:35:39|
+Pattern Template |2021-05-25 12:36:03|
+Wikipedia Or Freebase |2021-05-25 12:36:04|
+Distant Supervision DS |2021-05-25 12:36:06|
+Dimensional Vector |2021-05-25 12:36:06|
+Pointwise Mutual Information PMI |2021-05-25 12:36:07|
+Same Source |2021-05-25 12:36:08|
+Joint Space |2021-05-25 12:36:09|
+Interaction Protocol |2021-05-25 12:36:10|
+Colored Petri Net |2021-05-25 12:36:29|
+Agent Communication |2021-05-25 12:36:29|
+Parallel Data |2021-05-25 12:36:31|
+Parallel Sentence |2021-05-25 12:36:31|
+Parallel Fragment |2021-05-25 12:36:33|
+Potential Interest |2021-05-25 12:36:33|
+Possible Measure |2021-05-25 12:36:35|
+General Scheme |2021-05-25 12:36:36|
+CDNNs |2021-05-25 12:36:37|
+Convolution And Pooling |2021-05-25 12:36:38|
+Increasing Demand |2021-05-25 12:36:39|
+Rapid Elasticity |2021-05-25 12:36:40|
+Benefits Of Cloud Computing |2021-05-25 12:36:40|
+Hardware And Software Resources |2021-05-25 12:36:41|
+Answerer |2021-05-25 12:36:42|
+Social Media Content |2021-05-25 12:36:43|
+Quality Content |2021-05-25 12:36:44|
+Usergenerated Content |2021-05-25 12:36:45|
+Genre Detection |2021-05-25 12:36:46|
+Scale Invariance |2021-05-25 12:36:47|
+Spatial Relation |2021-05-25 12:36:48|
+Extensive Data |2021-05-25 12:36:49|
+Information Spread |2021-05-25 12:36:50|
+Complete History |2021-05-25 12:36:52|
+Previous Measurement Study |2021-05-25 12:36:53|
+Smart Poster |2021-05-25 12:36:54|
+Payment |2021-05-25 12:36:55|
+Customer Base |2021-05-25 12:36:56|
+Mobile Network Operator |2021-05-25 12:36:57|
+Transducer |2021-05-25 12:37:30|
+Threshold Temperature |2021-05-25 12:37:46|
+Lot Of Progress |2021-05-25 12:37:58|
+Complex Domain |2021-05-25 12:37:59|
+Different Partition |2021-05-25 12:38:37|
+Emergence And Popularity |2021-05-25 12:38:38|
+VNS |2021-05-25 12:39:40|
+Storage Capacity |2021-05-25 12:39:41|
+Heterogeneous |2021-05-25 12:39:42|
+Spread Of Disease |2021-05-25 12:39:44|
+Surrounding Text |2021-05-25 12:40:04|
+Exact Answer |2021-05-25 12:40:06|
+Related Information |2021-05-25 12:40:07|
+Answer Extraction |2021-05-25 12:40:08|
+Encyclopedic Resource |2021-05-25 12:40:08|
+Knowledge Acquisition |2021-05-25 12:40:09|
+Targetside |2021-05-25 12:40:10|
+Simple Form |2021-05-25 12:40:23|
+Kneser Ney Smoothing |2021-05-25 12:40:24|
+Adaptive Weight |2021-05-25 12:40:25|
+Time Constraint |2021-05-25 12:40:38|
+Course Content |2021-05-25 12:40:39|
+Online Learning Environment |2021-05-25 12:40:40|
+Interface Design |2021-05-25 12:40:41|
+Visual Design |2021-05-25 12:40:41|
+Benchmark Dataset |2021-05-25 12:40:43|
+Adjacent Words |2021-05-25 12:40:44|
+Query Expansion |2021-05-25 12:40:45|
+Simulation Model |2021-05-25 12:40:46|
+Side Channel Attack |2021-05-25 12:40:47|
+Secret Key |2021-05-25 12:40:48|
+Belief Function |2021-05-25 12:41:06|
+Imprecise Probability |2021-05-25 12:41:36|
+Probability Theory |2021-05-25 12:41:37|
+Parafac |2021-05-25 12:41:38|
+Wireless Communication |2021-05-25 12:41:39|
+Numerous Application |2021-05-25 12:41:40|
+Psychometric |2021-05-25 12:41:41|
+Chemometrics |2021-05-25 12:41:42|
+Inference Network |2021-05-25 12:41:43|
+Reparameterization |2021-05-25 12:41:44|
+Variational Method |2021-05-25 12:41:45|
+Inference Model |2021-05-25 12:41:47|
+Posterior Distribution |2021-05-25 12:41:47|
+Agent Systems |2021-05-25 12:41:57|
+Unpredictable Environment |2021-05-25 12:41:58|
+PRSVM |2021-05-25 12:41:59|
+NLMenu |2021-05-25 12:42:15|
+Natural Language Systems |2021-05-25 12:42:17|
+Writing |2021-05-25 12:42:18|
+MENU |2021-05-25 12:42:18|
+Menubased |2021-05-25 12:42:20|
+Finite Limit |2021-05-25 12:42:43|
+Singlechannel |2021-05-25 12:43:00|
+Autozygosity |2021-05-25 12:43:01|
+Large Effect |2021-05-25 12:43:10|
+Association Signal |2021-05-25 12:43:11|
+Regular Mesh |2021-05-25 12:43:36|
+Compression Algorithm |2021-05-25 12:43:36|
+B Nabou |2021-05-25 12:43:44|
+Competitive Algorithm |2021-05-25 12:43:59|
+Unit Square |2021-05-25 12:44:00|
+Competitive Ratio |2021-05-25 12:44:01|
+Metric Space |2021-05-25 12:44:02|
+Online Manner |2021-05-25 12:44:03|
+Interactive Simulation |2021-05-25 12:44:15|
+Energy Minimization Technique |2021-05-25 12:45:05|
+Stereo Matching Method |2021-05-25 12:45:06|
+3D Reconstruction |2021-05-25 12:45:07|
+Graph Cut |2021-05-25 12:45:08|
+Turntaking |2021-05-25 12:45:09|
+Social Rapport |2021-05-25 12:45:10|
+Graph Cut Technique |2021-05-25 12:45:11|
+Saliency Map |2021-05-25 12:45:23|
+Denoising |2021-05-25 12:45:23|
+Weighted Graph |2021-05-25 12:45:24|
+AR Environment |2021-05-25 12:45:25|
+Software Framework |2021-05-25 12:45:27|
+Student Participation |2021-05-25 12:45:28|
+Social Interaction |2021-05-25 12:45:29|
+Interest In Transactional Memory |2021-05-25 12:45:30|
+Concurrency Issues |2021-05-25 12:45:31|
+Lockfree |2021-05-25 12:45:32|
+TM Systems |2021-05-25 12:45:33|
+Memory Module |2021-05-25 12:45:34|
+Motion Estimation |2021-05-25 12:45:35|
+Motion Prediction |2021-05-25 12:45:36|
+LSTM Cell |2021-05-25 12:45:37|
+Highlevel |2021-05-25 12:45:38|
+Eye Movement Data |2021-05-25 12:45:39|
+Image Patch |2021-05-25 12:45:39|
+Visual Saliency |2021-05-25 12:45:41|
+English Corpora |2021-05-25 12:45:42|
+UkWac Corpus |2021-05-25 12:45:43|
+Archive |2021-05-25 12:46:45|
+Relational Reinforcement Learning |2021-05-25 12:47:03|
+Regression Tree |2021-05-25 12:47:04|
+Blocks World |2021-05-25 12:47:04|
+Body Dynamics |2021-05-25 12:47:05|
+Interaction With The Environment |2021-05-25 12:47:06|
+Different Area |2021-05-25 12:47:07|
+Big Challenge |2021-05-25 12:47:08|
+Communication Graph G |2021-05-25 12:47:09|
+Real Number |2021-05-25 12:47:10|
+Convergence Analysis |2021-05-25 12:47:11|
+Traffic Control |2021-05-25 12:47:12|
+Search Range |2021-05-25 12:47:13|
+Matching Window |2021-05-25 12:47:14|
+Label Space |2021-05-25 12:47:15|
+Preliminary Experiment |2021-05-25 12:47:16|
+Stateoftheart Parser |2021-05-25 12:47:17|
+PSS |2021-05-25 12:48:19|
+Combinatory Categorial Grammar CCG |2021-05-25 12:48:20|
+Structuring Element |2021-05-25 12:48:21|
+Vessel Segmentation Method |2021-05-25 12:48:22|
+Code Length |2021-05-25 12:48:36|
+Hashing Method |2021-05-25 12:48:37|
+Binary Code |2021-05-25 12:48:51|
+Bayesian Reinforcement Learning |2021-05-25 12:49:11|
+Promising Strategy |2021-05-25 12:49:12|
+Research Effort |2021-05-25 12:49:13|
+Bilateral Filter |2021-05-25 12:49:25|
+State Transition Model |2021-05-25 12:49:26|
+Visual Tracking |2021-05-25 12:49:27|
+Particle Representation |2021-05-25 12:49:28|
+LSI Model |2021-05-25 12:49:29|
+Singular Value Decomposition |2021-05-25 12:49:40|
+PSVD |2021-05-25 12:49:40|
+Prototypical Implementation |2021-05-25 12:50:33|
+Nonparallel Corpora |2021-05-25 12:50:34|
+Quantum Principle |2021-05-25 12:50:47|
+Guppy Effect |2021-05-25 12:50:48|
+Interference Effect |2021-05-25 12:50:49|
+Cepstral Feature |2021-05-25 12:51:19|
+ASR Systems |2021-05-25 12:51:20|
+Thermostat |2021-05-25 12:51:28|
+Heating |2021-05-25 12:51:49|
+Energy Use |2021-05-25 12:51:50|
+Information Diffusion |2021-05-25 12:51:51|
+Different Group |2021-05-25 12:51:52|
+Online Social Network |2021-05-25 12:52:05|
+PreD |2021-05-25 12:52:05|
+Value Of The Attribute |2021-05-25 12:52:07|
+Queen |2021-05-25 12:53:22|
+Dynamic Analyses |2021-05-25 12:53:38|
+API Call |2021-05-25 12:53:39|
+Traditional Approach |2021-05-25 12:53:40|
+Malicious App |2021-05-25 12:53:42|
+FPGA Resources |2021-05-25 12:54:07|
+Permanent Fault |2021-05-25 12:54:08|
+Classification Trees |2021-05-25 12:54:34|
+Test Frame |2021-05-25 12:54:34|
+Partition Testing |2021-05-25 12:54:36|
+Testing Method |2021-05-25 12:54:36|
+KTH Action |2021-05-25 12:54:38|
+Video Understanding |2021-05-25 12:54:39|
+Probabilistic Generative Model |2021-05-25 12:54:39|
+Video Dataset |2021-05-25 12:54:40|
+Nonlinear Kernel |2021-05-25 12:54:41|
+Regression Case |2021-05-25 12:54:42|
+Regression And Function Approximation |2021-05-25 12:54:54|
+KKT Condition |2021-05-25 12:54:55|
+Correlation Analysis |2021-05-25 12:54:56|
+MEG Data |2021-05-25 12:54:57|
+Input Vector |2021-05-25 12:54:58|
+Contrast Function |2021-05-25 12:54:59|
+Independent Component Analysis ICA |2021-05-25 12:55:01|
+Occupancy Pattern |2021-05-25 12:55:02|
+Smart Meter Data |2021-05-25 12:55:03|
+Process Calculi |2021-05-25 12:55:04|
+Verification Tool |2021-05-25 12:55:05|
+Symbolic Method |2021-05-25 12:55:06|
+CANDECOMP/PARAFAC CP |2021-05-25 12:55:07|
+Tucker Decomposition |2021-05-25 12:55:08|
+Nonnegative |2021-05-25 12:55:21|
+Dialect Identification |2021-05-25 12:55:22|
+Gaussian Mixture Model |2021-05-25 12:55:24|
+Equal Error Rate |2021-05-25 12:55:24|
+Significant Portion |2021-05-25 12:55:26|
+Dynamic Composition |2021-05-25 12:55:39|
+Semantic Description |2021-05-25 12:55:40|
+E 1 Approximation |2021-05-25 12:55:41|
+Assignment Problems |2021-05-25 12:55:42|
+Combinatorial Auction |2021-05-25 12:55:43|
+Polynomialtime |2021-05-25 12:55:43|
+Data Sparsity |2021-05-25 12:55:45|
+Auxiliary Data |2021-05-25 12:56:11|
+Link Data |2021-05-25 12:56:12|
+Link Prediction |2021-05-25 12:56:14|
+Types Of Relation |2021-05-25 12:56:14|
+Tensor Product |2021-05-25 12:56:16|
+MultiRelational Data |2021-05-25 12:56:17|
+Linguistic Knowledge |2021-05-25 12:56:18|
+Source Syntax |2021-05-25 12:56:18|
+Syntax Trees |2021-05-25 12:56:20|
+Treetostring |2021-05-25 12:56:21|
+Genetic Mining |2021-05-25 12:56:22|
+Process Mining Algorithm |2021-05-25 12:56:23|
+Ambient Intelligence |2021-05-25 12:56:49|
+Informal Caregiver |2021-05-25 12:56:50|
+Coflow |2021-05-25 12:57:47|
+Heavy Hitter Detection |2021-05-25 12:57:47|
+Computing Application |2021-05-25 12:57:49|
+Maximum Point |2021-05-25 12:57:49|
+Energy Solution |2021-05-25 12:57:50|
+Analysis At This Level |2021-05-25 12:58:02|
+Multiple Types |2021-05-25 12:58:03|
+Model Checker |2021-05-25 12:58:04|
+Formal Method |2021-05-25 12:58:05|
+Partial Specification |2021-05-25 12:58:06|
+Geometric Model |2021-05-25 12:58:07|
+Reference Plane |2021-05-25 12:58:08|
+Large Number Of Input Images |2021-05-25 12:58:09|
+Computer Graphics And Computer Vision |2021-05-25 12:58:10|
+Re.ectance |2021-05-25 12:58:11|
+Complex Wavelet |2021-05-25 12:58:24|
+Vertex Component Analysis |2021-05-25 12:58:44|
+Endmember Signature |2021-05-25 12:58:45|
+Nfindr |2021-05-25 12:58:46|
+VCA Algorithm |2021-05-25 12:58:47|
+Kripke Model |2021-05-25 12:58:48|
+Classical Model Theory |2021-05-25 12:58:49|
+Eeectiveness |2021-05-25 12:58:49|
+Decidable Theory |2021-05-25 12:58:50|
+Completeness Results |2021-05-25 12:58:52|
+ChoiceNet |2021-05-25 12:59:16|
+Packet Processing |2021-05-25 12:59:27|
+Drug Design |2021-05-25 12:59:28|
+Hardware Component |2021-05-25 12:59:59|
+Teams |2021-05-25 13:01:02|
+Ada Tasks |2021-05-25 13:01:20|
+Variance Function |2021-05-25 13:01:38|
+Link Function |2021-05-25 13:01:39|
+Linear Model GLM |2021-05-25 13:01:40|
+Eye Tracking Data |2021-05-25 13:02:06|
+Performance Prediction |2021-05-25 13:02:08|
+Query Term |2021-05-25 13:02:09|
+Prediction Technique |2021-05-25 13:02:10|
+Retrouv |2021-05-25 13:02:11|
+Types Of Query |2021-05-25 13:02:12|
+Text Unit |2021-05-25 13:03:01|
+Sequence Model |2021-05-25 13:03:02|
+CameraIMU |2021-05-25 13:03:20|
+Kalman Filter |2021-05-25 13:03:21|
+IMUcamera |2021-05-25 13:03:22|
+Similarity Estimation |2021-05-25 13:03:23|
+Text Data |2021-05-25 13:03:24|
+Vector Space |2021-05-25 13:03:25|
+Bayesian Inference |2021-05-25 13:03:26|
+Speech Community |2021-05-25 13:03:27|
+Event Detection |2021-05-25 13:03:28|
+Few People |2021-05-25 13:03:30|
+Feature Detection |2021-05-25 13:03:31|
+BLoG |2021-05-25 13:03:53|
+Government Policy |2021-05-25 13:04:16|
+Public Education |2021-05-25 13:04:17|
+Behavior Profile |2021-05-25 13:04:18|
+OIL |2021-05-25 13:04:25|
+Statistical Information |2021-05-25 13:04:42|
+Deep Network |2021-05-25 13:04:43|
+Noise Condition |2021-05-25 13:04:44|
+System Level |2021-05-25 13:04:46|
+Objects Such |2021-05-25 13:04:46|
+Background Appearance |2021-05-25 13:04:47|
+Kernel Density Estimator |2021-05-25 13:04:48|
+Modeling Each Pixel |2021-05-25 13:05:01|
+LEFT |2021-05-25 13:05:02|
+Design Process |2021-05-25 13:05:03|
+Reflective Practitioner |2021-05-25 13:05:04|
+Design Practice |2021-05-25 13:05:05|
+Professional Practice |2021-05-25 13:05:06|
+Collision Avoidance |2021-05-25 13:05:07|
+Aerial Vehicle |2021-05-25 13:05:23|
+MRAC |2021-05-25 13:05:24|
+Maximum Benefit |2021-05-25 13:05:44|
+Low Completion Rate |2021-05-25 13:05:45|
+Raw Data Set |2021-05-25 13:05:46|
+REaL Data |2021-05-25 13:05:47|
+Data Generator |2021-05-25 13:05:48|
+Important Characteristic |2021-05-25 13:05:48|
+Mining Technique |2021-05-25 13:05:50|
+Structural Graph |2021-05-25 13:05:51|
+Detection And Pose Estimation |2021-05-25 13:05:52|
+3D SPACE |2021-05-25 13:05:53|
+Viewpoint Estimation |2021-05-25 13:05:54|
+Object Part |2021-05-25 13:06:12|
+Known Exploits |2021-05-25 13:06:13|
+STATL |2021-05-25 13:06:14|
+Protocol Analyzer |2021-05-25 13:06:15|
+Network Traffic |2021-05-25 13:06:16|
+Window Size |2021-05-25 13:06:17|
+TCP Flow |2021-05-25 13:06:18|
+Base Station |2021-05-25 13:06:19|
+Downlink |2021-05-25 13:06:20|
+Language Modeling |2021-05-25 13:06:21|
+RNNLM |2021-05-25 13:06:22|
+Representative Work |2021-05-25 13:07:45|
+Cooccurrence |2021-05-25 13:07:46|
+Automatic Annotation |2021-05-25 13:07:47|
+ConTaCT |2021-05-25 13:07:56|
+XML Data |2021-05-25 13:07:57|
+C Standard |2021-05-25 13:07:58|
+Data Model |2021-05-25 13:08:30|
+Body Area Sensor Network |2021-05-25 13:08:31|
+General Architecture |2021-05-25 13:08:32|
+Wireless Sensor |2021-05-25 13:08:55|
+Homooligomer |2021-05-25 13:08:56|
+Distal Residues |2021-05-25 13:08:57|
+Contacting Residues |2021-05-25 13:08:58|
+Zvalue |2021-05-25 13:08:59|
+Mutual Information |2021-05-25 13:09:00|
+Service Discovery |2021-05-25 13:09:02|
+Subservice |2021-05-25 13:09:03|
+Number Of Factors |2021-05-25 13:09:15|
+Factor Analysis |2021-05-25 13:09:16|
+BetaBernoulli Process |2021-05-25 13:09:44|
+Estimator |2021-05-25 13:09:44|
+HighDimensional Data |2021-05-25 13:09:59|
+Mapping Rule |2021-05-25 13:10:00|
+Software Reuse |2021-05-25 13:10:01|
+CommOn Tool |2021-05-25 13:10:02|
+Transmitter And Receiver |2021-05-25 13:10:03|
+Vector X |2021-05-25 13:10:04|
+Diagonal Matrix |2021-05-25 13:10:05|
+Filter Coefficient |2021-05-25 13:10:06|
+Datacenter |2021-05-25 13:10:33|
+Data Item |2021-05-25 13:10:34|
+Contact Prediction Method |2021-05-25 13:10:35|
+Tertiary Structure |2021-05-25 13:10:36|
+Adults And Infants |2021-05-25 13:10:37|
+Syllables Sequences |2021-05-25 13:10:38|
+Statistical Learning Mechanisms |2021-05-25 13:10:39|
+Nonsense Word |2021-05-25 13:10:40|
+Sentences And Documents |2021-05-25 13:10:47|
+Variable Length |2021-05-25 13:10:48|
+Unsupervised Manner |2021-05-25 13:10:48|
+Neural Language Model |2021-05-25 13:10:49|
+Strength Pareto Evolutionary Algorithm SPEA |2021-05-25 13:10:50|
+Objective Space |2021-05-25 13:10:51|
+Diversity Metric |2021-05-25 13:10:52|
+Crossover Probability |2021-05-25 13:11:00|
+Development Tool |2021-05-25 13:11:22|
+Semantic Web Application |2021-05-25 13:11:23|
+Deep Learning Model |2021-05-25 13:11:25|
+Hybrid Method |2021-05-25 13:11:26|
+Relational Data |2021-05-25 13:11:27|
+Different Domain |2021-05-25 13:11:48|
+Bagofwords BoW |2021-05-25 13:11:49|
+Local Binary Pattern |2021-05-25 13:11:50|
+DeCAF |2021-05-25 13:11:51|
+Semantic Similarity |2021-05-25 13:11:52|
+Leastsquare |2021-05-25 13:11:53|
+Elastic Net Regularization |2021-05-25 13:11:54|
+MRI Data |2021-05-25 13:11:55|
+Regimen |2021-05-25 13:11:56|
+Logistic Regression Classifier |2021-05-25 13:11:57|
+Authentication Property |2021-05-25 13:12:14|
+NLP Tasks |2021-05-25 13:14:05|
+Shared Memory |2021-05-25 13:14:24|
+Operating |2021-05-25 13:14:25|
+Vision Application |2021-05-25 13:14:39|
+Feature Classification |2021-05-25 13:14:40|
+Mobile Platform |2021-05-25 13:14:41|
+Scalefree SF Networks |2021-05-25 13:14:42|
+Potential Edge |2021-05-25 13:14:43|
+Permutation Matrix |2021-05-25 13:14:44|
+Smallworld SW |2021-05-25 13:14:45|
+Training Dataset |2021-05-25 13:14:46|
+Confidence Score |2021-05-25 13:14:47|
+Irregularity |2021-05-25 13:14:48|
+Irregular Meshes |2021-05-25 13:15:02|
+Seismic Wave Propagation |2021-05-25 13:15:03|
+Associated Problems |2021-05-25 13:15:04|
+Text Message |2021-05-25 13:15:06|
+Uniprot |2021-05-25 13:15:07|
+GO Annotation |2021-05-25 13:15:08|
+Protein Function |2021-05-25 13:15:09|
+Language Understanding |2021-05-25 13:15:10|
+NNLM |2021-05-25 13:15:10|
+LSTM Neural Network |2021-05-25 13:15:11|
+Locality Sensitive Hashing LSH |2021-05-25 13:15:12|
+Keypoint Extraction |2021-05-25 13:15:14|
+Image Patches |2021-05-25 13:15:15|
+Bags Of Words |2021-05-25 13:15:16|
+Web Service Composition |2021-05-25 13:15:32|
+Target Service |2021-05-25 13:15:33|
+Finite State |2021-05-25 13:15:34|
+Conversational Service |2021-05-25 13:15:35|
+Further Attention |2021-05-25 13:15:36|
+Traffic Speed |2021-05-25 13:15:37|
+Personal Characteristic |2021-05-25 13:15:39|
+Moderate Physical Activity |2021-05-25 13:15:40|
+Humancomputer Interaction |2021-05-25 13:15:41|
+Urban Public Space |2021-05-25 13:15:42|
+Mobile Social Network |2021-05-25 13:15:44|
+Time And Space |2021-05-25 13:15:45|
+Largescale Optimization Problems |2021-05-25 13:15:46|
+Interiorpoint Method |2021-05-25 13:15:46|
+Messagepassing Algorithm |2021-05-25 13:15:47|
+Class Of Methods |2021-05-25 13:15:48|
+Single View |2021-05-25 13:15:49|
+Relational Database |2021-05-25 13:15:50|
+RDF3x |2021-05-25 13:15:51|
+RDF Store |2021-05-25 13:16:29|
+Contact Map |2021-05-25 13:16:41|
+Markov Model |2021-05-25 13:16:42|
+Sequence Profile |2021-05-25 13:16:42|
+Workload Information |2021-05-25 13:16:43|
+Experimental Evaluation |2021-05-25 13:16:44|
+Logical Design |2021-05-25 13:16:45|
+Opinion Holder |2021-05-25 13:16:46|
+Local Search Method |2021-05-25 13:16:48|
+Capacity Constraint |2021-05-25 13:16:49|
+Scheduling Problems |2021-05-25 13:16:56|
+Important Class |2021-05-25 13:16:57|
+Camera Network |2021-05-25 13:16:58|
+Physical Environment |2021-05-25 13:17:37|
+Realworld Object |2021-05-25 13:17:39|
+Highresolution Image |2021-05-25 13:17:39|
+Magnitude Information |2021-05-25 13:17:40|
+Grid Point |2021-05-25 13:17:42|
+Feature Point Positions |2021-05-25 13:17:43|
+Active Appearance Models AAM |2021-05-25 13:17:44|
+Bayesian Algorithm |2021-05-25 13:17:45|
+Gradient Of The Objective Function |2021-05-25 13:17:46|
+Goal Of This Paper |2021-05-25 13:17:47|
+Ddimensional Linear Subspaces |2021-05-25 13:17:48|
+Participatory Sensing |2021-05-25 13:18:01|
+Crowding Counting |2021-05-25 13:18:03|
+Audio Tones |2021-05-25 13:18:03|
+Opening Book |2021-05-25 13:18:04|
+Parallelization |2021-05-25 13:18:05|
+Professional Games |2021-05-25 13:19:51|
+Game Tree |2021-05-25 13:22:24|
+Problem Instance |2021-05-25 13:24:00|
+Research Topic |2021-05-25 13:24:01|
+Energy Minimization |2021-05-25 13:24:02|
+DIVE |2021-05-25 13:24:04|
+Word Distribution |2021-05-25 13:24:19|
+Skipgram Model |2021-05-25 13:24:20|
+Relabeling |2021-05-25 13:24:45|
+Smote |2021-05-25 13:24:46|
+Recognition Tasks |2021-05-25 13:25:12|
+Neural Network Approaches |2021-05-25 13:25:13|
+Face Pattern |2021-05-25 13:25:15|
+Planning Approach |2021-05-25 13:25:16|
+Maintenance Strategy |2021-05-25 13:25:17|
+System Losses |2021-05-25 13:25:18|
+Production Plan |2021-05-25 13:25:43|
+Spectral Graph |2021-05-25 13:25:44|
+Distance Matrix |2021-05-25 13:26:03|
+Spectral Decomposition |2021-05-25 13:26:03|
+Right Image |2021-05-25 13:26:05|
+KITTI |2021-05-25 13:26:06|
+Recovery Strategy |2021-05-25 13:27:01|
+Recursive Structure |2021-05-25 13:28:26|
+Syntactic Structure |2021-05-25 13:28:28|
+Animal Communication Systems |2021-05-25 13:28:28|
+Language Faculty |2021-05-25 13:28:30|
+Cellular Network |2021-05-25 13:28:51|
+Mobile Data Offloading |2021-05-25 13:28:52|
+Mobile Offloading |2021-05-25 13:28:54|
+Cellular Traffic |2021-05-25 13:28:54|
+Aggregation Scheme |2021-05-25 13:29:11|
+Secure Data Aggregation |2021-05-25 13:29:12|
+Scientific Computing |2021-05-25 13:29:13|
+Connectivity Metrics |2021-05-25 13:29:14|
+Parallel Application |2021-05-25 13:29:15|
+Graph Model |2021-05-25 13:29:16|
+Hypergraph Model |2021-05-25 13:29:16|
+Hierarchical Structure |2021-05-25 13:29:17|
+DPS |2021-05-25 13:30:19|
+Clustering Problems |2021-05-25 13:30:20|
+Unsafe Execution |2021-05-25 13:30:21|
+Regular Expression Signature |2021-05-25 13:30:22|
+Vulnerability Condition |2021-05-25 13:30:23|
+Signature Generation |2021-05-25 13:30:24|
+Design Space |2021-05-25 13:30:26|
+Input SET |2021-05-25 13:30:27|
+Supervised Algorithm |2021-05-25 13:30:28|
+Cosegmentation |2021-05-25 13:30:30|
+Modeling Objects |2021-05-25 13:30:30|
+Discovery Mechanism |2021-05-25 13:30:44|
+WSMO |2021-05-25 13:30:45|
+CVSS |2021-05-25 13:30:46|
+Trial Point |2021-05-25 13:31:19|
+MMS |2021-05-25 13:32:28|
+Malware Propagation |2021-05-25 13:32:29|
+Smart Phone |2021-05-25 13:32:29|
+Messaging |2021-05-25 13:32:31|
+Mixed Behavior |2021-05-25 13:32:32|
+Document Structure Analysis |2021-05-25 13:32:32|
+Layout Structure |2021-05-25 13:32:34|
+Organisational Level |2021-05-25 13:32:44|
+Literature Review |2021-05-25 13:32:45|
+National Culture |2021-05-25 13:32:46|
+Elearning |2021-05-25 13:32:47|
+Cultural Difference |2021-05-25 13:32:48|
+Things IOT |2021-05-25 13:32:48|
+Wireless Communication Systems |2021-05-25 13:33:02|
+MTC |2021-05-25 13:34:03|
+Subspace Segmentation |2021-05-25 13:34:05|
+Mincut |2021-05-25 13:34:05|
+Data Instance |2021-05-25 13:34:18|
+Pyramidal Cell |2021-05-25 13:34:38|
+Freeenergy |2021-05-25 13:34:39|
+Hierarchical Model |2021-05-25 13:34:40|
+Predictive Coding |2021-05-25 13:34:41|
+IEC |2021-05-25 13:35:43|
+Neural Network Function Approximators |2021-05-25 13:35:44|
+Competitive Coevolution |2021-05-25 13:35:45|
+EANT |2021-05-25 13:35:46|
+Health Management |2021-05-25 13:36:14|
+Software Fault |2021-05-25 13:36:15|
+Diagnostic Message |2021-05-25 13:36:16|
+Fault Detection And Diagnosis |2021-05-25 13:36:17|
+Complex Machinery |2021-05-25 13:36:18|
+Memory Bandwidth |2021-05-25 13:36:34|
+Memory Access Scheduling |2021-05-25 13:36:35|
+Bandwidth Utilization |2021-05-25 13:36:36|
+Memory Request |2021-05-25 13:36:37|
+User Pro.le |2021-05-25 13:37:01|
+Bioontology |2021-05-25 13:37:19|
+OGSADAI |2021-05-25 13:37:20|
+Crossapplication |2021-05-25 13:37:21|
+Execution Tracing |2021-05-25 13:37:22|
+XTrace |2021-05-25 13:37:52|
+Abstraction Relation |2021-05-25 13:37:53|
+Fine Distinctions |2021-05-25 13:37:54|
+Questionanswering |2021-05-25 13:37:55|
+Sentiment Classification |2021-05-25 13:37:56|
+Feature Selection |2021-05-25 13:37:57|
+CAS |2021-05-25 13:39:00|
+Related Approach |2021-05-25 13:39:00|
+Global Distribution |2021-05-25 13:39:45|
+Population Density |2021-05-25 13:39:46|
+Endtoend Delay |2021-05-25 13:40:16|
+Delivery Ratio |2021-05-25 13:40:17|
+Frequency Regulation |2021-05-25 13:40:33|
+Theoretic Model |2021-05-25 13:40:34|
+Service Request |2021-05-25 13:40:35|
+Faulty |2021-05-25 13:40:36|
+Fault Recovery |2021-05-25 13:40:38|
+Controller Design |2021-05-25 13:41:01|
+Secret Sharing Scheme |2021-05-25 13:41:01|
+VCS |2021-05-25 13:42:17|
+Domain D |2021-05-25 13:42:35|
+Latent Factor |2021-05-25 13:42:36|
+MDA |2021-05-25 13:43:38|
+Game Design |2021-05-25 13:43:40|
+Game Element |2021-05-25 13:43:40|
+Twitter Message |2021-05-25 13:43:42|
+D Zeroski |2021-05-25 13:44:21|
+Negative Example |2021-05-25 13:44:22|
+Positive Example |2021-05-25 13:44:23|
+Background Knowledge |2021-05-25 13:44:31|
+Informatics Saarbr Cken |2021-05-25 13:44:31|
+Biomedical Literature |2021-05-25 13:44:59|
+National Center For Biotechnology Information |2021-05-25 13:45:00|
+Random Projection |2021-05-25 13:45:01|
+Bucket Order |2021-05-25 13:45:02|
+Query Point |2021-05-25 13:45:03|
+Economic Lot Sizing |2021-05-25 13:45:04|
+Ordering Cost |2021-05-25 13:45:05|
+Cooperative Game |2021-05-25 13:45:06|
+Integer Program |2021-05-25 13:45:07|
+NN Architecture |2021-05-25 13:45:08|
+Logical Element |2021-05-25 13:45:09|
+Document Structure |2021-05-25 13:45:10|
+Image Window |2021-05-25 13:45:11|
+Slidingwindow |2021-05-25 13:45:13|
+MKL Method |2021-05-25 13:45:14|
+Conjunct |2021-05-25 13:45:15|
+Subgoal |2021-05-25 13:45:16|
+Complement |2021-05-25 13:45:42|
+Training Phase |2021-05-25 13:45:43|
+Multimedia Search |2021-05-25 13:45:44|
+Implementation Of LDA |2021-05-25 13:45:45|
+Hidden Topics |2021-05-25 13:45:46|
+Execution Engine |2021-05-25 13:45:47|
+Control Flow |2021-05-25 13:45:47|
+LETOR |2021-05-25 13:45:48|
+Benchmark Data |2021-05-25 13:45:49|
+Ohsumed |2021-05-25 13:45:51|
+Main Text |2021-05-25 13:45:52|
+Insulin Sensitivity |2021-05-25 13:45:52|
+Adipose Tissue |2021-05-25 13:45:53|
+Separate Group |2021-05-25 13:46:20|
+Computational Results |2021-05-25 13:46:21|
+Pcenter |2021-05-25 13:46:22|
+Tabu Search Heuristic |2021-05-25 13:46:23|
+Interpolation Polynomial |2021-05-25 13:46:24|
+List Decoding |2021-05-25 13:46:25|
+ReedSolomon |2021-05-25 13:46:26|
+GuruswamiSudan |2021-05-25 13:46:27|
+Modelchecking |2021-05-25 13:46:51|
+Vulnerability Analysis |2021-05-25 13:46:52|
+Attack Trees |2021-05-25 13:46:54|
+Network Security |2021-05-25 13:46:54|
+Initial Population |2021-05-25 13:47:02|
+Adaptive Search Procedure GRASP |2021-05-25 13:47:03|
+Construction Phase |2021-05-25 13:47:04|
+BLOCKI |2021-05-25 13:47:05|
+BLOCKIN |2021-05-25 13:47:06|
+Development Effort |2021-05-25 13:47:07|
+Process Modeling |2021-05-25 13:47:08|
+Reordering Model |2021-05-25 13:47:09|
+Latent Semantic Indexing LSI |2021-05-25 13:47:11|
+Salient Feature |2021-05-25 13:47:11|
+TraV |2021-05-25 13:47:12|
+Fmeasure |2021-05-25 13:47:13|
+Artificial Immune Systems |2021-05-25 13:47:15|
+Fault Diagnosis |2021-05-25 13:47:23|
+Immune Systems |2021-05-25 13:47:23|
+Mobile Communication Network |2021-05-25 13:47:59|
+Profitable Business Model |2021-05-25 13:48:01|
+Payment Systems |2021-05-25 13:48:01|
+Function Word |2021-05-25 13:48:02|
+Cultural Background |2021-05-25 13:48:03|
+Morphological Analyzer |2021-05-25 13:48:04|
+European Language |2021-05-25 13:48:05|
+Adaptor Grammar |2021-05-25 13:48:25|
+Hierarchical PitmanYor |2021-05-25 13:48:26|
+Dirichlet Distribution |2021-05-25 13:48:27|
+Conditional Random Field |2021-05-25 13:48:27|
+Biomedical Relations |2021-05-25 13:48:29|
+Biomedicine |2021-05-25 13:48:30|
+Data Integration |2021-05-25 13:48:31|
+Data Management |2021-05-25 13:48:32|
+Heterogeneous Data |2021-05-25 13:48:33|
+Limited Memory |2021-05-25 13:48:34|
+Maximum Distance |2021-05-25 13:48:35|
+Kcenter |2021-05-25 13:48:36|
+Data Clustering |2021-05-25 13:48:37|
+Lineartime Algorithm |2021-05-25 13:48:58|
+Canonical Ordering |2021-05-25 13:48:59|
+Plane Graph |2021-05-25 13:49:01|
+Linear Time |2021-05-25 13:49:02|
+Texture And Depth Map |2021-05-25 13:49:03|
+Perpixel Distance |2021-05-25 13:49:03|
+Depth Information |2021-05-25 13:49:04|
+3D Scene |2021-05-25 13:49:05|
+Entropy Map |2021-05-25 13:49:06|
+Kernel Descriptor |2021-05-25 13:49:07|
+End Users |2021-05-25 13:49:35|
+Laboratory Study |2021-05-25 13:49:36|
+Host Application |2021-05-25 13:49:37|
+Graph SLAM |2021-05-25 13:49:38|
+Hierarchical Optimization |2021-05-25 13:49:39|
+Incremental Smoothing |2021-05-25 13:49:39|
+Animal Group |2021-05-25 13:49:55|
+FISh |2021-05-25 13:49:56|
+Collective Behavior |2021-05-25 13:49:57|
+Group Member |2021-05-25 13:49:58|
+Known Structure |2021-05-25 13:49:59|
+Comparative Modeling |2021-05-25 13:50:00|
+Sequence Homology |2021-05-25 13:50:02|
+OSGI |2021-05-25 13:50:34|
+Adaptation Mechanism |2021-05-25 13:50:35|
+Networkbased Approach |2021-05-25 13:50:36|
+Twitter Users |2021-05-25 13:50:37|
+Decision Tree |2021-05-25 13:50:38|
+Competencies And Capabilities |2021-05-25 13:50:54|
+Firm Success |2021-05-25 13:50:54|
+External Activity |2021-05-25 13:50:56|
+Performance Advantage |2021-05-25 13:50:57|
+Reputation Systems |2021-05-25 13:50:58|
+Unwanted Communication |2021-05-25 13:50:59|
+Trust Relationship |2021-05-25 13:50:59|
+Changing Environment |2021-05-25 13:51:00|
+State Vector |2021-05-25 13:51:02|
+Related Issue |2021-05-25 13:51:10|
+Encrypted Function |2021-05-25 13:51:12|
+Computing Base |2021-05-25 13:51:12|
+Software Protection |2021-05-25 13:51:13|
+Malicious Host |2021-05-25 13:51:15|
+Minimal Interaction |2021-05-25 13:51:15|
+Cultural Heritage |2021-05-25 13:51:17|
+Archaeological Site |2021-05-25 13:51:18|
+Virtual Reconstruction |2021-05-25 13:52:03|
+Bayesian Averaging |2021-05-25 13:52:03|
+Combiner |2021-05-25 13:52:11|
+Specific Aspect |2021-05-25 13:52:12|
+Stereo Algorithm |2021-05-25 13:52:13|
+SUPPORT |2021-05-25 13:52:14|
+Populationbased Method |2021-05-25 13:52:15|
+Solution Space |2021-05-25 13:52:16|
+Metaheuristic Method |2021-05-25 13:52:17|
+Highlevel Strategies |2021-05-25 13:52:17|
+Genetic Algorithms GA |2021-05-25 13:52:19|
+Subband |2021-05-25 13:52:20|
+Global Synchronization |2021-05-25 13:52:21|
+Orthogonal Frequency Division |2021-05-25 13:52:22|
+University Of Washington |2021-05-25 13:52:22|
+Virtual Image |2021-05-25 13:53:05|
+Related Research Topic |2021-05-25 13:53:06|
+Lossy |2021-05-25 13:53:07|
+Communication Complexity |2021-05-25 13:53:08|
+CPIR |2021-05-25 13:53:09|
+Portability |2021-05-25 13:53:10|
+Modularity |2021-05-25 13:53:34|
+General Construction |2021-05-25 13:53:35|
+Coding Theory |2021-05-25 13:53:36|
+Error Correction |2021-05-25 13:53:37|
+Nonvolatile Memory |2021-05-25 13:53:37|
+Rank Modulation |2021-05-25 13:53:38|
+Linear Combination |2021-05-25 13:53:59|
+Simple Approach |2021-05-25 13:54:00|
+Time And Place |2021-05-25 13:54:01|
+Personal Event |2021-05-25 13:54:02|
+Multifaceted |2021-05-25 13:54:03|
+Human Memory |2021-05-25 13:54:04|
+Volumetric Data |2021-05-25 13:54:25|
+Inventory Management |2021-05-25 13:54:26|
+Trademark Office |2021-05-25 13:54:27|
+Data Processing Technology |2021-05-25 13:54:28|
+Inventory Control |2021-05-25 13:54:29|
+Ontonotes |2021-05-25 13:54:30|
+Semantic Knowledge Graphs |2021-05-25 13:54:30|
+Largescale Knowledge Base |2021-05-25 13:54:31|
+Wikipedia Article |2021-05-25 13:54:32|
+Variational Posterior |2021-05-25 13:54:33|
+Dirichlet Process |2021-05-25 13:54:34|
+Variational Inference Methods |2021-05-25 13:54:35|
+Mixture Model |2021-05-25 13:54:36|
+DTAM |2021-05-25 13:54:37|
+Commodity Depth Camera |2021-05-25 13:54:38|
+Iterative Closest Point ICP |2021-05-25 13:54:39|
+Indoor Environment |2021-05-25 13:54:41|
+Domain Ontology |2021-05-25 13:54:42|
+Propositional Logic |2021-05-25 13:54:43|
+Early Stopping |2021-05-25 13:55:48|
+Lighting |2021-05-25 13:55:49|
+Generic Video |2021-05-25 13:55:50|
+Concept Detection |2021-05-25 13:55:51|
+Ontoknowledge |2021-05-25 13:55:52|
+Ontology Development |2021-05-25 13:55:53|
+Knowledge Representation |2021-05-25 13:55:54|
+Lowdimensional Representation |2021-05-25 13:55:55|
+Decoder G |2021-05-25 13:55:56|
+Dynamical |2021-05-25 13:55:57|
+Short Text |2021-05-25 13:55:58|
+Usability Study |2021-05-25 13:56:12|
+Usability Metric |2021-05-25 13:56:13|
+Usability Issue |2021-05-25 13:56:13|
+Text Messaging |2021-05-25 13:56:15|
+Phishing |2021-05-25 13:56:16|
+Different Infection Vectors |2021-05-25 13:56:17|
+Visual Information |2021-05-25 13:56:18|
+Surveillance Video |2021-05-25 13:56:19|
+Association Rule Mining |2021-05-25 13:56:20|
+Educational Data |2021-05-25 13:56:35|
+Subgraph Isomorphism Algorithm |2021-05-25 13:56:36|
+V Algorithm |2021-05-25 13:56:37|
+Matching Algorithm |2021-05-25 13:56:38|
+Previous Results |2021-05-25 13:56:39|
+Syntactic Feature |2021-05-25 13:56:40|
+Constituent Trees |2021-05-25 13:56:41|
+Questionanswer Pair |2021-05-25 13:56:42|
+FAQ Finder |2021-05-25 13:56:43|
+FAQFinder |2021-05-25 13:56:44|
+Retrieval Systems |2021-05-25 13:57:14|
+CSA |2021-05-25 13:58:17|
+Action Recognition |2021-05-25 13:58:18|
+Research Work |2021-05-25 13:58:19|
+Deep Learning Method |2021-05-25 13:58:20|
+Visual Similarity |2021-05-25 13:58:21|
+Common Benchmark |2021-05-25 13:58:22|
+Memory Hierarchy |2021-05-25 13:58:24|
+Spatial Locality |2021-05-25 13:58:24|
+Optical Center |2021-05-25 13:58:26|
+Mestimator |2021-05-25 13:58:28|
+Previous Method |2021-05-25 13:58:29|
+MAR Systems |2021-05-25 13:58:30|
+Environment Map |2021-05-25 13:58:30|
+Wrinkle |2021-05-25 13:58:31|
+Face Reconstruction |2021-05-25 13:58:44|
+Stereo Camera |2021-05-25 13:58:45|
+HAIR |2021-05-25 13:58:47|
+KinectFusion Algorithm |2021-05-25 13:58:48|
+Depth Data |2021-05-25 13:58:49|
+RGBD Sensor |2021-05-25 13:58:50|
+Social Annotation |2021-05-25 13:59:06|
+General Ontology |2021-05-25 13:59:20|
+Consensual Knowledge |2021-05-25 13:59:46|
+Random Sampling |2021-05-25 14:00:04|
+Robot Motion |2021-05-25 14:00:05|
+Welding Application |2021-05-25 14:00:06|
+Weld Line |2021-05-25 14:00:07|
+Question Answering QA |2021-05-25 14:00:08|
+Same Set |2021-05-25 14:00:09|
+Document Summarization |2021-05-25 14:00:10|
+Dependency Trees |2021-05-25 14:00:11|
+Bandwidth Sharing |2021-05-25 14:00:25|
+Multiple User |2021-05-25 14:00:35|
+Studierstube |2021-05-25 14:00:35|
+Compositional Method |2021-05-25 14:00:37|
+Linear Transformation |2021-05-25 14:00:38|
+Meaning Of Phrases |2021-05-25 14:00:39|
+Original Matrix |2021-05-25 14:00:40|
+Order Function |2021-05-25 14:00:40|
+Small Data Sample |2021-05-25 14:00:57|
+Rare Event |2021-05-25 14:00:58|
+Spatial Dependence Structure |2021-05-25 14:00:59|
+RSt |2021-05-25 14:01:17|
+Mobile Payment Services |2021-05-25 14:01:31|
+Key Issue |2021-05-25 14:01:32|
+Communication Rate |2021-05-25 14:01:33|
+Profound Influence |2021-05-25 14:01:34|
+Rulebased Approaches |2021-05-25 14:01:47|
+Input Weight |2021-05-25 14:01:48|
+Validation Set |2021-05-25 14:01:49|
+Formal Specification |2021-05-25 14:02:36|
+Textbased Passwords |2021-05-25 14:02:37|
+Foreseeable Future |2021-05-25 14:02:38|
+Dominant Mechanism |2021-05-25 14:02:39|
+Significant Effort |2021-05-25 14:02:41|
+Kucuktunc |2021-05-25 14:02:41|
+Polynomial Delay |2021-05-25 14:03:13|
+Multiple Workers |2021-05-25 14:03:14|
+Expert Level |2021-05-25 14:03:32|
+Expert Annotation |2021-05-25 14:03:33|
+CPU Cache |2021-05-25 14:03:34|
+Persistent Memory |2021-05-25 14:03:35|
+Formance |2021-05-25 14:03:36|
+Computer Systems |2021-05-25 14:03:37|
+Graph Partitioning |2021-05-25 14:03:38|
+Hypergraph Partitioning |2021-05-25 14:03:39|
+Fixed Vertices |2021-05-25 14:03:56|
+Multiple Constraints |2021-05-25 14:03:57|
+Switch S |2021-05-25 14:03:58|
+Chemical Reaction Mechanisms |2021-05-25 14:04:23|
+Categorization |2021-05-25 14:04:23|
+Discriminative |2021-05-25 14:04:25|
+Robotic Assembly |2021-05-25 14:04:26|
+Assembly Graph |2021-05-25 14:04:27|
+Large Structure |2021-05-25 14:04:28|
+Entity Resolution |2021-05-25 14:04:52|
+Graph Structure |2021-05-25 14:04:53|
+Similarity Function |2021-05-25 14:04:54|
+Locationbased Service |2021-05-25 14:04:55|
+Mobility Pattern |2021-05-25 14:05:06|
+Physical Distance |2021-05-25 14:05:06|
+Urban Planning |2021-05-25 14:05:07|
+Restricted Boltzmann Machines RBM |2021-05-25 14:05:08|
+Convergence Rate |2021-05-25 14:05:28|
+Finitetime Consensus |2021-05-25 14:05:29|
+Consensus Algorithm |2021-05-25 14:05:30|
+Secondorder |2021-05-25 14:05:31|
+Grasp Type |2021-05-25 14:05:32|
+Unstructured Environment |2021-05-25 14:05:33|
+Obvious Solution |2021-05-25 14:05:33|
+EASY |2021-05-25 14:05:51|
+Important Area Of Research |2021-05-25 14:05:52|
+Own Right |2021-05-25 14:05:53|
+NER |2021-05-25 14:07:09|
+Expected Loss |2021-05-25 14:07:10|
+Interpro |2021-05-25 14:07:11|
+Stateoftheart Approaches |2021-05-25 14:07:25|
+Polysemous Word |2021-05-25 14:07:26|
+Relatedness Measure |2021-05-25 14:07:27|
+Homotopy |2021-05-25 14:07:28|
+Recursive |2021-05-25 14:07:29|
+FOCUSS Algorithm |2021-05-25 14:07:30|
+Bidirectional LSTM |2021-05-25 14:07:32|
+LSTM Network |2021-05-25 14:07:32|
+Private Key Encryption |2021-05-25 14:07:58|
+Public Key |2021-05-25 14:07:59|
+Topics And Sentiment |2021-05-25 14:08:00|
+Lookup |2021-05-25 14:08:01|
+Query Processing Operators |2021-05-25 14:08:26|
+Digital Forensic |2021-05-25 14:08:27|
+Forensic Investigation |2021-05-25 14:08:28|
+Forensic Processes |2021-05-25 14:08:29|
+ThemeRiver |2021-05-25 14:08:30|
+Timeseries |2021-05-25 14:08:31|
+Mass Audience |2021-05-25 14:08:32|
+Recent |2021-05-25 14:08:33|
+Mobile Computing |2021-05-25 14:09:12|
+Intuitive Interface |2021-05-25 14:09:14|
+Markov Grammar |2021-05-25 14:09:14|
+Direct Object |2021-05-25 14:09:15|
+Rules Similar |2021-05-25 14:09:16|
+Query Space |2021-05-25 14:09:31|
+Label Embedding |2021-05-25 14:09:32|
+Semantic Word Vector |2021-05-25 14:10:14|
+Text Block |2021-05-25 14:10:15|
+Original Document |2021-05-25 14:11:06|
+Law And Economics |2021-05-25 14:11:47|
+Taxes |2021-05-25 14:12:02|
+Recording |2021-05-25 14:12:04|
+Emotion Recognition |2021-05-25 14:12:05|
+Linear Measurement |2021-05-25 14:12:13|
+Sparse Signal |2021-05-25 14:12:14|
+Computing Systems |2021-05-25 14:12:15|
+5G Network |2021-05-25 14:12:16|
+Closedloop |2021-05-25 14:13:13|
+Particle Swarm Optimization |2021-05-25 14:13:14|
+Intelligent Behavior |2021-05-25 14:13:15|
+ABC Algorithm |2021-05-25 14:13:16|
+Artificial Bee Colony ABC |2021-05-25 14:13:17|
+Cold Start |2021-05-25 14:13:18|
+Loss Term |2021-05-25 14:13:19|
+Kernel Matrices |2021-05-25 14:13:21|
+Number Of Components |2021-05-25 14:13:22|
+Large Data Set |2021-05-25 14:13:23|
+Variational Bayesian VB Inference |2021-05-25 14:13:24|
+Incremental EM |2021-05-25 14:13:25|
+Parameters Of Q |2021-05-25 14:13:26|
+Object Size |2021-05-25 14:13:27|
+Potential Object Locations |2021-05-25 14:13:28|
+3D Location |2021-05-25 14:13:30|
+Important Backgrounds |2021-05-25 14:13:31|
+Oslevel Virtualization |2021-05-25 14:13:50|
+Network Card |2021-05-25 14:13:52|
+Behaviorbased Malware Detection |2021-05-25 14:13:52|
+User Input |2021-05-25 14:13:54|
+Combined Data |2021-05-25 14:14:07|
+Unique View |2021-05-25 14:14:08|
+RDF Triple |2021-05-25 14:14:09|
+Web Of Data |2021-05-25 14:14:10|
+Dynamic Time Warping |2021-05-25 14:14:11|
+Hand Detection |2021-05-25 14:14:12|
+Proposed |2021-05-25 14:14:13|
+Controlled |2021-05-25 14:14:51|
+Formal Ontology BFO |2021-05-25 14:14:52|
+Ontological Relation |2021-05-25 14:14:53|
+Variational Bayes |2021-05-25 14:15:09|
+Text Simplification |2021-05-25 14:15:10|
+Sequence Alignment |2021-05-25 14:15:11|
+News Article |2021-05-25 14:15:13|
+Demand Uncertainty |2021-05-25 14:15:14|
+MINLP |2021-05-25 14:15:15|
+Computational Effort |2021-05-25 14:15:16|
+Supply Chain Optimization |2021-05-25 14:15:17|
+Saliency |2021-05-25 14:15:55|
+Visual Attention |2021-05-25 14:15:55|
+Dynamic Language |2021-05-25 14:15:56|
+Method Implementation |2021-05-25 14:15:57|
+Dynamic Replacement |2021-05-25 14:16:09|
+Visual Stimuli |2021-05-25 14:16:10|
+Human Visual Attention |2021-05-25 14:16:11|
+Extensive Review |2021-05-25 14:16:12|
+Bottomup |2021-05-25 14:16:13|
+Digital Signage |2021-05-25 14:16:14|
+Main Area |2021-05-25 14:16:40|
+Scalable |2021-05-25 14:16:41|
+Processing And Reasoning |2021-05-25 14:16:42|
+Representation Approach |2021-05-25 14:16:43|
+Semantic Richness |2021-05-25 14:16:44|
+Partofspeech Tagging |2021-05-25 14:16:45|
+Characterbased Representations |2021-05-25 14:16:46|
+Morphological Segmentation |2021-05-25 14:16:48|
+Contrastive Estimation |2021-05-25 14:16:48|
+MmoL |2021-05-25 14:16:49|
+Analytical Method |2021-05-25 14:17:04|
+Drinking Water |2021-05-25 14:17:05|
+Physicochemical Property |2021-05-25 14:17:06|
+Captioning |2021-05-25 14:17:07|
+Sentence Retrieval |2021-05-25 14:17:08|
+Query Answering |2021-05-25 14:17:09|
+Ontologybased Data |2021-05-25 14:17:10|
+Various Application |2021-05-25 14:17:11|
+Smart Thermostat |2021-05-25 14:17:33|
+Auxiliary Image |2021-05-25 14:18:05|
+Pricing Decision |2021-05-25 14:18:23|
+Lotsizing |2021-05-25 14:18:25|
+Low Computational Complexity |2021-05-25 14:19:36|
+Visual Analysis |2021-05-25 14:19:38|
+BLOB |2021-05-25 14:19:39|
+Accelerated Segment Test |2021-05-25 14:19:40|
+Interest Point |2021-05-25 14:19:40|
+Human Actions Recognition |2021-05-25 14:19:41|
+3D SIFT |2021-05-25 14:19:42|
+SIFT Descriptor |2021-05-25 14:19:43|
+3DSIFT |2021-05-25 14:20:10|
+Social Activity |2021-05-25 14:20:36|
+Twitter Use |2021-05-25 14:21:00|
+Temporal Sequence |2021-05-25 14:21:01|
+Time Scale |2021-05-25 14:21:03|
+Brain Area |2021-05-25 14:21:04|
+Different Observers |2021-05-25 14:21:05|
+Category Learning |2021-05-25 14:21:18|
+Word Frequency |2021-05-25 14:21:32|
+Vector Representation |2021-05-25 14:21:33|
+Strong Correlation |2021-05-25 14:21:34|
+Spatiotemporal Query |2021-05-25 14:21:35|
+SpatioTemporal Data |2021-05-25 14:21:36|
+Visual Representation |2021-05-25 14:21:37|
+Full Power |2021-05-25 14:22:15|
+Correct Analysis |2021-05-25 14:22:29|
+Arbitrary Programs |2021-05-25 14:22:30|
+Duality Approach |2021-05-25 14:22:31|
+Second Term |2021-05-25 14:22:32|
+Coherent Fading Channel |2021-05-25 14:22:33|
+Log Log |2021-05-25 14:22:33|
+Channel Output Y |2021-05-25 14:22:35|
+Unsupervised Approach |2021-05-25 14:22:35|
+Syntactic Pattern |2021-05-25 14:22:37|
+CaT |2021-05-25 14:22:38|
+Chronic Condition |2021-05-25 14:22:39|
+Specific Combination |2021-05-25 14:22:40|
+MCC |2021-05-25 14:23:42|
+Clinical Impact |2021-05-25 14:23:43|
+Disease Management Program |2021-05-25 14:23:44|
+Deterministic Parser |2021-05-25 14:23:45|
+Atree |2021-05-25 14:23:46|
+Secondorder Feature |2021-05-25 14:23:47|
+Nonprojective Parsing Algorithm |2021-05-25 14:23:48|
+MST Algorithm |2021-05-25 14:23:49|
+Upper Bounds |2021-05-25 14:24:03|
+Online Algorithm |2021-05-25 14:24:04|
+Minimax Theorem |2021-05-25 14:24:05|
+Abrupt Change |2021-05-25 14:24:30|
+Taxonomy |2021-05-25 14:24:31|
+Cognitive Limitation |2021-05-25 14:24:32|
+Major Dimensions |2021-05-25 14:24:33|
+Sequence Of Video Frames |2021-05-25 14:24:35|
+LSTM Model |2021-05-25 14:24:35|
+Video Classification |2021-05-25 14:24:36|
+Defect Density |2021-05-25 14:24:37|
+Regression Model |2021-05-25 14:24:38|
+Cyclomatic Complexity |2021-05-25 14:24:39|
+Software Defect |2021-05-25 14:24:40|
+Emotion Hashtags |2021-05-25 14:24:42|
+Emotion Category |2021-05-25 14:25:39|
+Word Representation |2021-05-25 14:25:40|
+Semantic Knowledge |2021-05-25 14:25:40|
+Transfer Learning TL |2021-05-25 14:26:57|
+Task Mapping |2021-05-25 14:26:59|
+Keepaway |2021-05-25 14:26:59|
+Structural Paths |2021-05-25 14:27:14|
+Javascript |2021-05-25 14:27:36|
+Neurocomputational Model |2021-05-25 14:27:37|
+Perception And Production |2021-05-25 14:27:38|
+STS |2021-05-25 14:28:48|
+Speech Production |2021-05-25 14:28:49|
+Complex Number |2021-05-25 14:28:51|
+Conditional Logic |2021-05-25 14:28:52|
+Search Process |2021-05-25 14:29:00|
+Edge Length |2021-05-25 14:29:01|
+Graph Drawing Algorithm |2021-05-25 14:29:02|
+Barycenter Heuristic |2021-05-25 14:29:03|
+Several Realworld Datasets |2021-05-25 14:29:04|
+Receptive Field |2021-05-25 14:29:05|
+Visual Processing |2021-05-25 14:29:06|
+Vision Systems |2021-05-25 14:29:07|
+Dictionarybased Approaches |2021-05-25 14:29:15|
+Coherency |2021-05-25 14:29:16|
+Loglikelihood |2021-05-25 14:29:16|
+Interest In This Work |2021-05-25 14:29:17|
+Fisher Score |2021-05-25 14:29:18|
+Fisher Kernel |2021-05-25 14:29:19|
+Theory Of Context |2021-05-25 14:29:20|
+Formal Object |2021-05-25 14:29:33|
+Microblogging |2021-05-25 14:29:47|
+Metaanalysis Of Neuroimaging Data |2021-05-25 14:29:47|
+Visuospatial |2021-05-25 14:30:07|
+Superior Frontal Sulcus |2021-05-25 14:30:09|
+Cortical Network |2021-05-25 14:30:10|
+Language Recognition |2021-05-25 14:30:11|
+Different Feature |2021-05-25 14:30:12|
+Mean Error Rate |2021-05-25 14:30:23|
+Reception Rate |2021-05-25 14:30:37|
+Likelihood Approximation |2021-05-25 14:31:00|
+Qui Onero |2021-05-25 14:31:01|
+Blood Vessel |2021-05-25 14:31:35|
+Lumen Segmentation |2021-05-25 14:31:37|
+Image Feature |2021-05-25 14:32:16|
+Subontology |2021-05-25 14:32:17|
+Environmental Pollutant |2021-05-25 14:32:18|
+Distinct Ontologies |2021-05-25 14:32:19|
+Formal Relation |2021-05-25 14:32:21|
+Ontology Building |2021-05-25 14:32:22|
+Individual User |2021-05-25 14:32:23|
+Information Item |2021-05-25 14:32:31|
+Language Modelling |2021-05-25 14:32:31|
+Energy Form |2021-05-25 14:32:32|
+Stereo Reconstruction |2021-05-25 14:32:45|
+2D Photographs |2021-05-25 14:32:47|
+Computer Vision And Graphics |2021-05-25 14:32:47|
+HUMAN BODY |2021-05-25 14:32:49|
+Active Appearance |2021-05-25 14:32:50|
+D Shape |2021-05-25 14:32:51|
+Input Text |2021-05-25 14:32:52|
+Datadriven Algorithm |2021-05-25 14:32:53|
+Entity Disambiguation |2021-05-25 14:32:54|
+Problem 4 |2021-05-25 14:33:07|
+LTS |2021-05-25 14:34:09|
+Compressive Sampling |2021-05-25 14:34:10|
+Incident Illumination |2021-05-25 14:34:11|
+Imagebased Relighting |2021-05-25 14:34:12|
+Light Field |2021-05-25 14:34:13|
+Light Source |2021-05-25 14:34:14|
+Light Transport |2021-05-25 14:34:15|
+Outlier Detection |2021-05-25 14:34:16|
+Struct |2021-05-25 14:34:17|
+Novelty Detection |2021-05-25 14:34:40|
+Hidden Layer |2021-05-25 14:34:42|
+Learning And Reasoning |2021-05-25 14:34:43|
+Active Area |2021-05-25 14:35:16|
+Variable Elimination |2021-05-25 14:35:17|
+Global Reward |2021-05-25 14:35:18|
+N Agent |2021-05-25 14:35:19|
+Lexical Information |2021-05-25 14:35:20|
+Crosslanguage |2021-05-25 14:35:21|
+Word Cluster |2021-05-25 14:35:23|
+Direct Transfer |2021-05-25 14:35:24|
+Plan Recognition |2021-05-25 14:36:42|
+Belief Network |2021-05-25 14:36:44|
+Requirement Specification |2021-05-25 14:36:45|

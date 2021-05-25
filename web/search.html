@@ -41,6 +41,10 @@ permalink: /search/
         width: 100%;
         max-height: 60vh;
         overflow-y: auto;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        background-color: var(--main-background-color);
+        opacity: 0.9;
     }
 
     .row-name {
@@ -95,6 +99,48 @@ permalink: /search/
                     res.push(result[i].name);
                 }
             }
+        })
+        return res;
+    }
+    function queryArticlesByAuthor(text) {
+        let i = 0;
+        $('#cb-search-content-fixed').blur();
+        $('#resultList').html('');
+        $("#noResult").hide();
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:5000/api/v1/query/articles/by/" + text,
+            headers: {
+                'Accept': 'application/json',
+            },
+            beforeSend: function () {
+                // setting a timeout
+                $('#loading').show();
+                $("#noResult").hide();
+                i++;
+            },
+            success: function (result) {
+                if (Array.isArray(result) && result.length === 0) {
+                    $("#noResult").show();
+                }
+                else {
+                    for (let i = 0; i < result.length; ++i) {
+                        $('#resultList').append(assembleArtilce(result[i]));
+                    }
+                    $("#noResult").hide();
+                }
+
+            },
+            error: function (xhr, state, errorThrown) {
+                console.log(state);
+                console.log(errorThrown);
+            },
+            complete: function () {
+                i--;
+                if (i <= 0) {
+                    $('#loading').hide();
+                }
+            },
         })
         return res;
     }
@@ -153,6 +199,21 @@ permalink: /search/
             cb(matches);
         };
     };
+    function assembleArtilce(articleProps) {
+        return `<section class="js-fadein js-fadein-anime">
+                <div class="home-message__ttl"><a href="/${articleProps.id}/">
+                    <h2> +${articleProps.title}</h2>
+                    <!--<div class="post-content-preview">
+                        <p class="u-txt__label"></p>'
+                    </div>-->
+                </a>
+                </div>
+                <p class="post-meta">
+                    Posted by ${articleProps.author} on ${articleProps.published_at}, reading times: ${articleProps.reading_time} min.
+                </p>
+            </section>`
+
+    }
     function generateTagButton(tagName) {
         return `<a href="/archive/?tag=${tagName}" data-sort="0008" data-encode="${tagName}" class="tag" title="${tagName}" rel="1">${tagName}</a>`
     }
@@ -216,6 +277,8 @@ permalink: /search/
         console.log('search');
         $Tags = getTags();
         $Authors = getAuthors();
+        $("#noResult").hide();
+        $('.tt-meanu').css('backdrop-filter', 'blur(9px)');
         $.ajax({
             type: "GET",
             url: "/search/cb-search.json",
@@ -229,7 +292,46 @@ permalink: /search/
         })
         $('#cb-search-content-fixed').bind('keypress', function (event) {
             if (event.keyCode == "13") {
+                let query = $('#cb-search-content-fixed').val();
+                let i = 0;
                 $('#cb-search-content-fixed').blur();
+                $('#resultList').html('');
+                $("#noResult").hide();
+                $('#loading').hide();
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:5000/api/v1/search/index_only/titleOrTag_name_contains/" + query,
+                    headers: {
+                        'Accept': 'application/json',
+                        'Authorization': 'Token ' + localStorage.getItem('token'),
+                    },
+                    beforeSend: function () {
+                        // setting a timeout
+                        $('#loading').show();
+                        i++;
+                    },
+                    success: function (result) {
+                        if (Array.isArray(result) && result.length === 0) {
+                            $("#noResult").show();
+                        }
+                        else {
+                            for (let i = 0; i < result.length; ++i) {
+                                $('#resultList').append(assembleArtilce(result[i]));
+                            }
+                            $("#noResult").hide();
+                        }
+                    },
+                    error: function (xhr, state, errorThrown) {
+                        console.log(state);
+                        console.log(errorThrown);
+                    },
+                    complete: function () {
+                        i--;
+                        if (i <= 0) {
+                            $('#loading').hide();
+                        }
+                    },
+                })
             }
         });
 
@@ -297,8 +399,9 @@ permalink: /search/
 
 
 </div>
-<section style="height: 80vh;">
-    <div>
-
+<section style="height: 80vh;overflow: auto;">
+    <div id="resultList">
+        <i id="loading" class="text">Loading...</i>
+        <i id="noResult" class="text">No Result</i>
     </div>
 </section>
