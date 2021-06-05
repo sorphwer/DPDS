@@ -97,16 +97,16 @@ An Embedded Query Engine for Text Retrieval
 
 - [ ] Read all files in `_posts`, save yaml info into csv file (P1)
 - [x] Translate csv from S1 into Nodes, while creating corresponding relation for tag and author info (P2)
-- [ ] **Convert file path into jekyll path(if using jekyll) when create nodes (P3)**
+- [x] **Convert file path into jekyll path(if using jekyll) when create nodes (P3)**
 - [x] Build knowledge graph based on given knowledge graph service (default: wikidata) (P4)
 
 #### API Script (Test)
 
 - [x] User Register/Login control (T0)
-- [ ] Single user : use index query (T1)
-- [ ] Single user: use full-text query (T2)
-- [ ] Multi user: use index query (T3)
-- [ ] Multi user: use full-text query (T4)
+- [x] Single user : use index query (T1)
+- [x] Single user: use full-text query (T2)
+- [x] Multi user: use index query (T3)
+- [x] Multi user: use full-text query (T4)
 
 ### API
 
@@ -149,12 +149,12 @@ An Embedded Query Engine for Text Retrieval
 ### Frontend (riinosite3 template engine)
 
 - [x] Home page for recommended articles UI
-- [ ] Home page for recommended articles API
-- [ ] Search Page(Main search page) UI
-- [ ] Search Page(Main search page) API
-- [X] Floating Search Plugin UI
-- [ ] Floating Search Plugin API
+- [x] Home page for recommended articles API
+- [x] Search Page(Main search page) UI
+- [x] Search Page(Main search page) API
+- [x] Floating Search Plugin UI
+- [x] Floating Search Plugin API
 - [x] Jekyll Archive Browser Page(Experimental)
-- [ ] Login/Register/Logout panel UI
-- [ ] Login/Register/Logout panel API
+- [x] Login/Register/Logout panel UI
+- [x] Login/Register/Logout panel API
 - [x] About page (static)
