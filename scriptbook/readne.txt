@@ -1,0 +1,1 @@
+To get S2 dataset, please visit http://boston.lti.cs.cmu.edu/appendices/WWW2016/

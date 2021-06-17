@@ -331,6 +331,40 @@ permalink: /search/
                             $('#loading').hide();
                         }
                     },
+                });
+                $.ajax({
+                    type: "GET",
+                    url: "http://localhost:5000/api/v1/query/articles/by/" + query,
+                    headers: {
+                        'Accept': 'application/json',
+                        'Authorization': 'Token ' + localStorage.getItem('token'),
+                    },
+                    beforeSend: function () {
+                        // setting a timeout
+                        $('#loading').show();
+                        i++;
+                    },
+                    success: function (result) {
+                        if (Array.isArray(result) && result.length === 0) {
+                            $("#noResult").show();
+                        }
+                        else {
+                            for (let i = 0; i < result.length; ++i) {
+                                $('#resultList').append(assembleArtilce(result[i]));
+                            }
+                            $("#noResult").hide();
+                        }
+                    },
+                    error: function (xhr, state, errorThrown) {
+                        console.log(state);
+                        console.log(errorThrown);
+                    },
+                    complete: function () {
+                        i--;
+                        if (i <= 0) {
+                            $('#loading').hide();
+                        }
+                    },
                 })
             }
         });
@@ -401,7 +435,7 @@ permalink: /search/
 </div>
 <section style="height: 80vh;overflow: auto;">
     <div id="resultList">
-        <i id="loading" class="text">Loading...</i>
+        <!-- <i id="loading" class="text">Loading...</i> -->
         <i id="noResult" class="text">No Result</i>
     </div>
 </section>
